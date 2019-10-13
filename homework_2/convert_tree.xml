@@ -1,0 +1,1525 @@
+<phyloxml xmlns="http://www.phyloxml.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.phyloxml.org http://www.phyloxml.org/1.10/phyloxml.xsd">
+  <phylogeny rooted="false">
+    <clade>
+      <clade>
+        <name>Bacteria</name>
+        <branch_length>1.34959</branch_length>
+        <clade>
+          <branch_length>0.02646</branch_length>
+          <confidence type="unknown">66</confidence>
+          <clade>
+            <branch_length>0.03471</branch_length>
+            <confidence type="unknown">74</confidence>
+            <clade>
+              <branch_length>0.05551</branch_length>
+              <confidence type="unknown">98</confidence>
+              <clade>
+                <branch_length>0.04428</branch_length>
+                <confidence type="unknown">82</confidence>
+                <clade>
+                  <branch_length>0.06301</branch_length>
+                  <confidence type="unknown">100</confidence>
+                  <clade>
+                    <branch_length>0.16913</branch_length>
+                    <confidence type="unknown">100</confidence>
+                    <clade>
+                      <branch_length>0.03328</branch_length>
+                      <confidence type="unknown">54</confidence>
+                      <clade>
+                        <branch_length>0.02475</branch_length>
+                        <confidence type="unknown">49</confidence>
+                        <clade>
+                          <branch_length>0.04492</branch_length>
+                          <confidence type="unknown">98</confidence>
+                          <clade>
+                            <branch_length>0.12234</branch_length>
+                            <confidence type="unknown">100</confidence>
+                            <clade>
+                              <branch_length>0.03492</branch_length>
+                              <confidence type="unknown">81</confidence>
+                              <clade>
+                                <branch_length>0.03759</branch_length>
+                                <confidence type="unknown">100</confidence>
+                                <clade>
+                                  <branch_length>0.02808</branch_length>
+                                  <confidence type="unknown">100</confidence>
+                                  <clade>
+                                    <branch_length>0.02183</branch_length>
+                                    <confidence type="unknown">98</confidence>
+                                    <clade>
+                                      <branch_length>0.03131</branch_length>
+                                      <confidence type="unknown">100</confidence>
+                                      <clade>
+                                        <branch_length>0.00813</branch_length>
+                                        <confidence type="unknown">100</confidence>
+                                        <clade>
+                                          <branch_length>0.00044</branch_length>
+                                          <confidence type="unknown">96</confidence>
+                                          <clade>
+                                            <name>Escherichia_coli_EDL933</name>
+                                            <branch_length>0.0</branch_length>
+                                          </clade>
+                                          <clade>
+                                            <name>Escherichia_coli_O157_H7</name>
+                                            <branch_length>0.0</branch_length>
+                                          </clade>
+                                        </clade>
+                                        <clade>
+                                          <branch_length>0.0</branch_length>
+                                          <confidence type="unknown">75</confidence>
+                                          <clade>
+                                            <branch_length>0.00022</branch_length>
+                                            <confidence type="unknown">76</confidence>
+                                            <clade>
+                                              <name>Escherichia_coli_O6</name>
+                                              <branch_length>0.0</branch_length>
+                                            </clade>
+                                            <clade>
+                                              <name>Escherichia_coli_K12</name>
+                                              <branch_length>0.00022</branch_length>
+                                            </clade>
+                                          </clade>
+                                          <clade>
+                                            <branch_length>0.00266</branch_length>
+                                            <confidence type="unknown">100</confidence>
+                                            <clade>
+                                              <name>Shigella_flexneri_2a_2457T</name>
+                                              <branch_length>0.0</branch_length>
+                                            </clade>
+                                            <clade>
+                                              <name>Shigella_flexneri_2a_301</name>
+                                              <branch_length>0.0</branch_length>
+                                            </clade>
+                                          </clade>
+                                        </clade>
+                                      </clade>
+                                      <clade>
+                                        <branch_length>0.00702</branch_length>
+                                        <confidence type="unknown">100</confidence>
+                                        <clade>
+                                          <branch_length>0.00146</branch_length>
+                                          <confidence type="unknown">100</confidence>
+                                          <clade>
+                                            <name>Salmonella_enterica</name>
+                                            <branch_length>0.0</branch_length>
+                                          </clade>
+                                          <clade>
+                                            <name>Salmonella_typhi</name>
+                                            <branch_length>0.0</branch_length>
+                                          </clade>
+                                        </clade>
+                                        <clade>
+                                          <name>Salmonella_typhimurium</name>
+                                          <branch_length>0.00075</branch_length>
+                                        </clade>
+                                      </clade>
+                                    </clade>
+                                    <clade>
+                                      <branch_length>0.01182</branch_length>
+                                      <confidence type="unknown">61</confidence>
+                                      <clade>
+                                        <branch_length>0.03398</branch_length>
+                                        <confidence type="unknown">100</confidence>
+                                        <clade>
+                                          <name>Yersinia_pestis_Medievalis</name>
+                                          <branch_length>0.0</branch_length>
+                                        </clade>
+                                        <clade>
+                                          <branch_length>0.0</branch_length>
+                                          <confidence type="unknown">31</confidence>
+                                          <clade>
+                                            <name>Yersinia_pestis_KIM</name>
+                                            <branch_length>0.0</branch_length>
+                                          </clade>
+                                          <clade>
+                                            <name>Yersinia_pestis_CO92</name>
+                                            <branch_length>0.0</branch_length>
+                                          </clade>
+                                        </clade>
+                                      </clade>
+                                      <clade>
+                                        <name>Photorhabdus_luminescens</name>
+                                        <branch_length>0.05076</branch_length>
+                                      </clade>
+                                    </clade>
+                                  </clade>
+                                  <clade>
+                                    <branch_length>0.1503</branch_length>
+                                    <confidence type="unknown">100</confidence>
+                                    <clade>
+                                      <branch_length>0.08332</branch_length>
+                                      <confidence type="unknown">100</confidence>
+                                      <clade>
+                                        <name>Blochmannia_floridanus</name>
+                                        <branch_length>0.32481</branch_length>
+                                      </clade>
+                                      <clade>
+                                        <name>Wigglesworthia_brevipalpis</name>
+                                        <branch_length>0.35452</branch_length>
+                                      </clade>
+                                    </clade>
+                                    <clade>
+                                      <branch_length>0.06497</branch_length>
+                                      <confidence type="unknown">100</confidence>
+                                      <clade>
+                                        <name>Buchnera_aphidicola_Bp</name>
+                                        <branch_length>0.27492</branch_length>
+                                      </clade>
+                                      <clade>
+                                        <branch_length>0.1014</branch_length>
+                                        <confidence type="unknown">100</confidence>
+                                        <clade>
+                                          <name>Buchnera_aphidicola_APS</name>
+                                          <branch_length>0.09535</branch_length>
+                                        </clade>
+                                        <clade>
+                                          <name>Buchnera_aphidicola_Sg</name>
+                                          <branch_length>0.10235</branch_length>
+                                        </clade>
+                                      </clade>
+                                    </clade>
+                                  </clade>
+                                </clade>
+                                <clade>
+                                  <branch_length>0.07365</branch_length>
+                                  <confidence type="unknown">100</confidence>
+                                  <clade>
+                                    <branch_length>0.01571</branch_length>
+                                    <confidence type="unknown">94</confidence>
+                                    <clade>
+                                      <name>Pasteurella_multocida</name>
+                                      <branch_length>0.03441</branch_length>
+                                    </clade>
+                                    <clade>
+                                      <name>Haemophilus_influenzae</name>
+                                      <branch_length>0.03754</branch_length>
+                                    </clade>
+                                  </clade>
+                                  <clade>
+                                    <name>Haemophilus_ducreyi</name>
+                                    <branch_length>0.05333</branch_length>
+                                  </clade>
+                                </clade>
+                              </clade>
+                              <clade>
+                                <branch_length>0.05597</branch_length>
+                                <confidence type="unknown">100</confidence>
+                                <clade>
+                                  <branch_length>0.02661</branch_length>
+                                  <confidence type="unknown">100</confidence>
+                                  <clade>
+                                    <branch_length>0.01536</branch_length>
+                                    <confidence type="unknown">100</confidence>
+                                    <clade>
+                                      <branch_length>0.01212</branch_length>
+                                      <confidence type="unknown">100</confidence>
+                                      <clade>
+                                        <name>Vibrio_vulnificus_YJ016</name>
+                                        <branch_length>0.00021</branch_length>
+                                      </clade>
+                                      <clade>
+                                        <name>Vibrio_vulnificus_CMCP6</name>
+                                        <branch_length>0.00291</branch_length>
+                                      </clade>
+                                    </clade>
+                                    <clade>
+                                      <name>Vibrio_parahaemolyticus</name>
+                                      <branch_length>0.01985</branch_length>
+                                    </clade>
+                                  </clade>
+                                  <clade>
+                                    <name>Vibrio_cholerae</name>
+                                    <branch_length>0.02995</branch_length>
+                                  </clade>
+                                </clade>
+                                <clade>
+                                  <name>Photobacterium_profundum</name>
+                                  <branch_length>0.06131</branch_length>
+                                </clade>
+                              </clade>
+                            </clade>
+                            <clade>
+                              <name>Shewanella_oneidensis</name>
+                              <branch_length>0.10577</branch_length>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <branch_length>0.14456</branch_length>
+                            <confidence type="unknown">100</confidence>
+                            <clade>
+                              <branch_length>0.02904</branch_length>
+                              <confidence type="unknown">100</confidence>
+                              <clade>
+                                <name>Pseudomonas_putida</name>
+                                <branch_length>0.02741</branch_length>
+                              </clade>
+                              <clade>
+                                <name>Pseudomonas_syringae</name>
+                                <branch_length>0.03162</branch_length>
+                              </clade>
+                            </clade>
+                            <clade>
+                              <name>Pseudomonas_aeruginosa</name>
+                              <branch_length>0.03202</branch_length>
+                            </clade>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <branch_length>0.24151</branch_length>
+                          <confidence type="unknown">100</confidence>
+                          <clade>
+                            <branch_length>0.10192</branch_length>
+                            <confidence type="unknown">100</confidence>
+                            <clade>
+                              <name>Xylella_fastidiosa_700964</name>
+                              <branch_length>0.01324</branch_length>
+                            </clade>
+                            <clade>
+                              <name>Xylella_fastidiosa_9a5c</name>
+                              <branch_length>0.00802</branch_length>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <branch_length>0.05037</branch_length>
+                            <confidence type="unknown">100</confidence>
+                            <clade>
+                              <name>Xanthomonas_axonopodis</name>
+                              <branch_length>0.01069</branch_length>
+                            </clade>
+                            <clade>
+                              <name>Xanthomonas_campestris</name>
+                              <branch_length>0.00934</branch_length>
+                            </clade>
+                          </clade>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>Coxiella_burnetii</name>
+                        <branch_length>0.33185</branch_length>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <branch_length>0.08761</branch_length>
+                      <confidence type="unknown">100</confidence>
+                      <clade>
+                        <branch_length>0.0384</branch_length>
+                        <confidence type="unknown">75</confidence>
+                        <clade>
+                          <branch_length>0.07131</branch_length>
+                          <confidence type="unknown">100</confidence>
+                          <clade>
+                            <branch_length>0.12615</branch_length>
+                            <confidence type="unknown">100</confidence>
+                            <clade>
+                              <name>Neisseria_meningitidis_A</name>
+                              <branch_length>0.004</branch_length>
+                            </clade>
+                            <clade>
+                              <name>Neisseria_meningitidis_B</name>
+                              <branch_length>0.00134</branch_length>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <name>Chromobacterium_violaceum</name>
+                            <branch_length>0.09623</branch_length>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <branch_length>0.08478</branch_length>
+                          <confidence type="unknown">100</confidence>
+                          <clade>
+                            <branch_length>0.14218</branch_length>
+                            <confidence type="unknown">100</confidence>
+                            <clade>
+                              <name>Bordetella_pertussis</name>
+                              <branch_length>0.00127</branch_length>
+                            </clade>
+                            <clade>
+                              <branch_length>6E-05</branch_length>
+                              <confidence type="unknown">67</confidence>
+                              <clade>
+                                <name>Bordetella_parapertussis</name>
+                                <branch_length>0.00199</branch_length>
+                              </clade>
+                              <clade>
+                                <name>Bordetella_bronchiseptica</name>
+                                <branch_length>0.00022</branch_length>
+                              </clade>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <name>Ralstonia_solanacearum</name>
+                            <branch_length>0.11464</branch_length>
+                          </clade>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>Nitrosomonas_europaea</name>
+                        <branch_length>0.22059</branch_length>
+                      </clade>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <branch_length>0.12365</branch_length>
+                    <confidence type="unknown">100</confidence>
+                    <clade>
+                      <branch_length>0.11257</branch_length>
+                      <confidence type="unknown">100</confidence>
+                      <clade>
+                        <branch_length>0.05767</branch_length>
+                        <confidence type="unknown">100</confidence>
+                        <clade>
+                          <branch_length>0.08637</branch_length>
+                          <confidence type="unknown">100</confidence>
+                          <clade>
+                            <branch_length>0.05575</branch_length>
+                            <confidence type="unknown">100</confidence>
+                            <clade>
+                              <branch_length>0.05735</branch_length>
+                              <confidence type="unknown">100</confidence>
+                              <clade>
+                                <name>Agrobacterium_tumefaciens_Cereon</name>
+                                <branch_length>0.0</branch_length>
+                              </clade>
+                              <clade>
+                                <name>Agrobacterium_tumefaciens_WashU</name>
+                                <branch_length>0.0</branch_length>
+                              </clade>
+                            </clade>
+                            <clade>
+                              <name>Rhizobium_meliloti</name>
+                              <branch_length>0.05114</branch_length>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <branch_length>0.02384</branch_length>
+                            <confidence type="unknown">51</confidence>
+                            <clade>
+                              <branch_length>0.0866</branch_length>
+                              <confidence type="unknown">100</confidence>
+                              <clade>
+                                <name>Brucella_suis</name>
+                                <branch_length>0.00102</branch_length>
+                              </clade>
+                              <clade>
+                                <name>Brucella_melitensis</name>
+                                <branch_length>0.00184</branch_length>
+                              </clade>
+                            </clade>
+                            <clade>
+                              <name>Rhizobium_loti</name>
+                              <branch_length>0.09308</branch_length>
+                            </clade>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <branch_length>0.14122</branch_length>
+                          <confidence type="unknown">100</confidence>
+                          <clade>
+                            <name>Rhodopseudomonas_palustris</name>
+                            <branch_length>0.04182</branch_length>
+                          </clade>
+                          <clade>
+                            <name>Bradyrhizobium_japonicum</name>
+                            <branch_length>0.06346</branch_length>
+                          </clade>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>Caulobacter_crescentus</name>
+                        <branch_length>0.23943</branch_length>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <branch_length>0.12058</branch_length>
+                      <confidence type="unknown">100</confidence>
+                      <clade>
+                        <name>Wolbachia_sp._wMel</name>
+                        <branch_length>0.51596</branch_length>
+                      </clade>
+                      <clade>
+                        <branch_length>0.38019</branch_length>
+                        <confidence type="unknown">100</confidence>
+                        <clade>
+                          <name>Rickettsia_prowazekii</name>
+                          <branch_length>0.04245</branch_length>
+                        </clade>
+                        <clade>
+                          <name>Rickettsia_conorii</name>
+                          <branch_length>0.02487</branch_length>
+                        </clade>
+                      </clade>
+                    </clade>
+                  </clade>
+                </clade>
+                <clade>
+                  <branch_length>0.4139</branch_length>
+                  <confidence type="unknown">100</confidence>
+                  <clade>
+                    <branch_length>0.09105</branch_length>
+                    <confidence type="unknown">100</confidence>
+                    <clade>
+                      <branch_length>0.0533</branch_length>
+                      <confidence type="unknown">100</confidence>
+                      <clade>
+                        <branch_length>0.19055</branch_length>
+                        <confidence type="unknown">100</confidence>
+                        <clade>
+                          <name>Helicobacter_pylori_J99</name>
+                          <branch_length>0.00897</branch_length>
+                        </clade>
+                        <clade>
+                          <name>Helicobacter_pylori_26695</name>
+                          <branch_length>0.00637</branch_length>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>Helicobacter_hepaticus</name>
+                        <branch_length>0.12643</branch_length>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>Wolinella_succinogenes</name>
+                      <branch_length>0.11644</branch_length>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Campylobacter_jejuni</name>
+                    <branch_length>0.20399</branch_length>
+                  </clade>
+                </clade>
+              </clade>
+              <clade>
+                <branch_length>0.04214</branch_length>
+                <confidence type="unknown">64</confidence>
+                <clade>
+                  <branch_length>0.041</branch_length>
+                  <confidence type="unknown">69</confidence>
+                  <clade>
+                    <name>Desulfovibrio_vulgaris</name>
+                    <branch_length>0.3832</branch_length>
+                  </clade>
+                  <clade>
+                    <branch_length>0.0487</branch_length>
+                    <confidence type="unknown">43</confidence>
+                    <clade>
+                      <name>Geobacter_sulfurreducens</name>
+                      <branch_length>0.22491</branch_length>
+                    </clade>
+                    <clade>
+                      <name>Bdellovibrio_bacteriovorus</name>
+                      <branch_length>0.45934</branch_length>
+                    </clade>
+                  </clade>
+                </clade>
+                <clade>
+                  <branch_length>0.20514</branch_length>
+                  <confidence type="unknown">100</confidence>
+                  <clade>
+                    <name>Acidobacterium_capsulatum</name>
+                    <branch_length>0.24572</branch_length>
+                  </clade>
+                  <clade>
+                    <name>Solibacter_usitatus</name>
+                    <branch_length>0.29086</branch_length>
+                  </clade>
+                </clade>
+              </clade>
+            </clade>
+            <clade>
+              <branch_length>0.0272</branch_length>
+              <confidence type="unknown">51</confidence>
+              <clade>
+                <branch_length>0.03606</branch_length>
+                <confidence type="unknown">35</confidence>
+                <clade>
+                  <name>Fusobacterium_nucleatum</name>
+                  <branch_length>0.45615</branch_length>
+                </clade>
+                <clade>
+                  <branch_length>0.07696</branch_length>
+                  <confidence type="unknown">100</confidence>
+                  <clade>
+                    <name>Aquifex_aeolicus</name>
+                    <branch_length>0.40986</branch_length>
+                  </clade>
+                  <clade>
+                    <name>Thermotoga_maritima</name>
+                    <branch_length>0.34182</branch_length>
+                  </clade>
+                </clade>
+              </clade>
+              <clade>
+                <branch_length>0.04332</branch_length>
+                <confidence type="unknown">39</confidence>
+                <clade>
+                  <branch_length>0.0437</branch_length>
+                  <confidence type="unknown">35</confidence>
+                  <clade>
+                    <branch_length>0.24776</branch_length>
+                    <confidence type="unknown">100</confidence>
+                    <clade>
+                      <name>Thermus_thermophilus</name>
+                      <branch_length>0.26583</branch_length>
+                    </clade>
+                    <clade>
+                      <name>Deinococcus_radiodurans</name>
+                      <branch_length>0.29763</branch_length>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Dehalococcoides_ethenogenes</name>
+                    <branch_length>0.53988</branch_length>
+                  </clade>
+                </clade>
+                <clade>
+                  <branch_length>0.24501</branch_length>
+                  <confidence type="unknown">100</confidence>
+                  <clade>
+                    <branch_length>0.07646</branch_length>
+                    <confidence type="unknown">100</confidence>
+                    <clade>
+                      <branch_length>0.0504</branch_length>
+                      <confidence type="unknown">100</confidence>
+                      <clade>
+                        <branch_length>0.04331</branch_length>
+                        <confidence type="unknown">98</confidence>
+                        <clade>
+                          <name>Nostoc_sp._PCC_7120</name>
+                          <branch_length>0.12014</branch_length>
+                        </clade>
+                        <clade>
+                          <name>Synechocystis_sp._PCC6803</name>
+                          <branch_length>0.15652</branch_length>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>Synechococcus_elongatus</name>
+                        <branch_length>0.13147</branch_length>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <branch_length>0.20442</branch_length>
+                      <confidence type="unknown">100</confidence>
+                      <clade>
+                        <branch_length>0.04238</branch_length>
+                        <confidence type="unknown">74</confidence>
+                        <clade>
+                          <branch_length>0.04879</branch_length>
+                          <confidence type="unknown">100</confidence>
+                          <clade>
+                            <name>Synechococcus_sp._WH8102</name>
+                            <branch_length>0.0678</branch_length>
+                          </clade>
+                          <clade>
+                            <name>Prochlorococcus_marinus_MIT9313</name>
+                            <branch_length>0.05434</branch_length>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>Prochlorococcus_marinus_SS120</name>
+                          <branch_length>0.10211</branch_length>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>Prochlorococcus_marinus_CCMP1378</name>
+                        <branch_length>0.1617</branch_length>
+                      </clade>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Gloeobacter_violaceus</name>
+                    <branch_length>0.23764</branch_length>
+                  </clade>
+                </clade>
+              </clade>
+            </clade>
+          </clade>
+          <clade>
+            <branch_length>0.04284</branch_length>
+            <confidence type="unknown">67</confidence>
+            <clade>
+              <branch_length>0.0348</branch_length>
+              <confidence type="unknown">23</confidence>
+              <clade>
+                <branch_length>0.04615</branch_length>
+                <confidence type="unknown">42</confidence>
+                <clade>
+                  <branch_length>0.24062</branch_length>
+                  <confidence type="unknown">100</confidence>
+                  <clade>
+                    <name>Gemmata_obscuriglobus</name>
+                    <branch_length>0.36751</branch_length>
+                  </clade>
+                  <clade>
+                    <name>Rhodopirellula_baltica</name>
+                    <branch_length>0.38017</branch_length>
+                  </clade>
+                </clade>
+                <clade>
+                  <branch_length>0.07248</branch_length>
+                  <confidence type="unknown">95</confidence>
+                  <clade>
+                    <branch_length>0.47573</branch_length>
+                    <confidence type="unknown">100</confidence>
+                    <clade>
+                      <name>Leptospira_interrogans_L1-130</name>
+                      <branch_length>0.0</branch_length>
+                    </clade>
+                    <clade>
+                      <name>Leptospira_interrogans_56601</name>
+                      <branch_length>0.00027</branch_length>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <branch_length>0.20278</branch_length>
+                    <confidence type="unknown">100</confidence>
+                    <clade>
+                      <branch_length>0.19057</branch_length>
+                      <confidence type="unknown">100</confidence>
+                      <clade>
+                        <name>Treponema_pallidum</name>
+                        <branch_length>0.25544</branch_length>
+                      </clade>
+                      <clade>
+                        <name>Treponema_denticola</name>
+                        <branch_length>0.16072</branch_length>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>Borrelia_burgdorferi</name>
+                      <branch_length>0.42323</branch_length>
+                    </clade>
+                  </clade>
+                </clade>
+              </clade>
+              <clade>
+                <branch_length>0.268</branch_length>
+                <confidence type="unknown">100</confidence>
+                <clade>
+                  <branch_length>0.14429</branch_length>
+                  <confidence type="unknown">100</confidence>
+                  <clade>
+                    <branch_length>0.44723</branch_length>
+                    <confidence type="unknown">100</confidence>
+                    <clade>
+                      <name>Tropheryma_whipplei_TW08/27</name>
+                      <branch_length>9E-05</branch_length>
+                    </clade>
+                    <clade>
+                      <name>Tropheryma_whipplei_Twist</name>
+                      <branch_length>0.00081</branch_length>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Bifidobacterium_longum</name>
+                    <branch_length>0.29283</branch_length>
+                  </clade>
+                </clade>
+                <clade>
+                  <branch_length>0.0611</branch_length>
+                  <confidence type="unknown">91</confidence>
+                  <clade>
+                    <branch_length>0.09883</branch_length>
+                    <confidence type="unknown">100</confidence>
+                    <clade>
+                      <branch_length>0.13907</branch_length>
+                      <confidence type="unknown">100</confidence>
+                      <clade>
+                        <branch_length>0.03682</branch_length>
+                        <confidence type="unknown">100</confidence>
+                        <clade>
+                          <branch_length>0.03415</branch_length>
+                          <confidence type="unknown">100</confidence>
+                          <clade>
+                            <name>Corynebacterium_glutamicum_13032</name>
+                            <branch_length>0.00022</branch_length>
+                          </clade>
+                          <clade>
+                            <name>Corynebacterium_glutamicum</name>
+                            <branch_length>0.0</branch_length>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>Corynebacterium_efficiens</name>
+                          <branch_length>0.02559</branch_length>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>Corynebacterium_diphtheriae</name>
+                        <branch_length>0.06479</branch_length>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <branch_length>0.11523</branch_length>
+                      <confidence type="unknown">100</confidence>
+                      <clade>
+                        <branch_length>0.01514</branch_length>
+                        <confidence type="unknown">97</confidence>
+                        <clade>
+                          <branch_length>0.03027</branch_length>
+                          <confidence type="unknown">100</confidence>
+                          <clade>
+                            <name>Mycobacterium_bovis</name>
+                            <branch_length>0.00067</branch_length>
+                          </clade>
+                          <clade>
+                            <branch_length>0.00022</branch_length>
+                            <confidence type="unknown">98</confidence>
+                            <clade>
+                              <name>Mycobacterium_tuberculosis_CDC1551</name>
+                              <branch_length>0.0</branch_length>
+                            </clade>
+                            <clade>
+                              <name>Mycobacterium_tuberculosis_H37Rv</name>
+                              <branch_length>0.0</branch_length>
+                            </clade>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>Mycobacterium_leprae</name>
+                          <branch_length>0.05135</branch_length>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>Mycobacterium_paratuberculosis</name>
+                        <branch_length>0.02091</branch_length>
+                      </clade>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <branch_length>0.16707</branch_length>
+                    <confidence type="unknown">100</confidence>
+                    <clade>
+                      <name>Streptomyces_avermitilis</name>
+                      <branch_length>0.0268</branch_length>
+                    </clade>
+                    <clade>
+                      <name>Streptomyces_coelicolor</name>
+                      <branch_length>0.02678</branch_length>
+                    </clade>
+                  </clade>
+                </clade>
+              </clade>
+            </clade>
+            <clade>
+              <branch_length>0.04443</branch_length>
+              <confidence type="unknown">32</confidence>
+              <clade>
+                <branch_length>0.04841</branch_length>
+                <confidence type="unknown">62</confidence>
+                <clade>
+                  <name>Fibrobacter_succinogenes</name>
+                  <branch_length>0.51984</branch_length>
+                </clade>
+                <clade>
+                  <branch_length>0.09237</branch_length>
+                  <confidence type="unknown">100</confidence>
+                  <clade>
+                    <name>Chlorobium_tepidum</name>
+                    <branch_length>0.37204</branch_length>
+                  </clade>
+                  <clade>
+                    <branch_length>0.34694</branch_length>
+                    <confidence type="unknown">100</confidence>
+                    <clade>
+                      <name>Porphyromonas_gingivalis</name>
+                      <branch_length>0.11304</branch_length>
+                    </clade>
+                    <clade>
+                      <name>Bacteroides_thetaiotaomicron</name>
+                      <branch_length>0.13145</branch_length>
+                    </clade>
+                  </clade>
+                </clade>
+              </clade>
+              <clade>
+                <branch_length>0.60169</branch_length>
+                <confidence type="unknown">100</confidence>
+                <clade>
+                  <branch_length>0.0417</branch_length>
+                  <confidence type="unknown">98</confidence>
+                  <clade>
+                    <branch_length>0.10482</branch_length>
+                    <confidence type="unknown">100</confidence>
+                    <clade>
+                      <name>Chlamydophila_pneumoniae_TW183</name>
+                      <branch_length>0.0</branch_length>
+                    </clade>
+                    <clade>
+                      <branch_length>0.0</branch_length>
+                      <confidence type="unknown">44</confidence>
+                      <clade>
+                        <name>Chlamydia_pneumoniae_J138</name>
+                        <branch_length>0.0</branch_length>
+                      </clade>
+                      <clade>
+                        <branch_length>0.0</branch_length>
+                        <confidence type="unknown">37</confidence>
+                        <clade>
+                          <name>Chlamydia_pneumoniae_CWL029</name>
+                          <branch_length>0.0</branch_length>
+                        </clade>
+                        <clade>
+                          <name>Chlamydia_pneumoniae_AR39</name>
+                          <branch_length>0.0</branch_length>
+                        </clade>
+                      </clade>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Chlamydophila_caviae</name>
+                    <branch_length>0.05903</branch_length>
+                  </clade>
+                </clade>
+                <clade>
+                  <branch_length>0.06809</branch_length>
+                  <confidence type="unknown">100</confidence>
+                  <clade>
+                    <name>Chlamydia_muridarum</name>
+                    <branch_length>0.01938</branch_length>
+                  </clade>
+                  <clade>
+                    <name>Chlamydia_trachomatis</name>
+                    <branch_length>0.02643</branch_length>
+                  </clade>
+                </clade>
+              </clade>
+            </clade>
+          </clade>
+        </clade>
+        <clade>
+          <branch_length>0.04315</branch_length>
+          <confidence type="unknown">54</confidence>
+          <clade>
+            <branch_length>0.11788</branch_length>
+            <confidence type="unknown">100</confidence>
+            <clade>
+              <name>Thermoanaerobacter_tengcongensis</name>
+              <branch_length>0.17512</branch_length>
+            </clade>
+            <clade>
+              <branch_length>0.15056</branch_length>
+              <confidence type="unknown">100</confidence>
+              <clade>
+                <branch_length>0.03238</branch_length>
+                <confidence type="unknown">78</confidence>
+                <clade>
+                  <name>Clostridium_tetani</name>
+                  <branch_length>0.10918</branch_length>
+                </clade>
+                <clade>
+                  <name>Clostridium_perfringens</name>
+                  <branch_length>0.11535</branch_length>
+                </clade>
+              </clade>
+              <clade>
+                <name>Clostridium_acetobutylicum</name>
+                <branch_length>0.11396</branch_length>
+              </clade>
+            </clade>
+          </clade>
+          <clade>
+            <branch_length>0.0954</branch_length>
+            <confidence type="unknown">92</confidence>
+            <clade>
+              <branch_length>0.09099</branch_length>
+              <confidence type="unknown">100</confidence>
+              <clade>
+                <branch_length>0.12541</branch_length>
+                <confidence type="unknown">100</confidence>
+                <clade>
+                  <branch_length>0.07341</branch_length>
+                  <confidence type="unknown">100</confidence>
+                  <clade>
+                    <branch_length>0.28466</branch_length>
+                    <confidence type="unknown">100</confidence>
+                    <clade>
+                      <name>Mycoplasma_mobile</name>
+                      <branch_length>0.27702</branch_length>
+                    </clade>
+                    <clade>
+                      <name>Mycoplasma_pulmonis</name>
+                      <branch_length>0.28761</branch_length>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <branch_length>0.19177</branch_length>
+                    <confidence type="unknown">100</confidence>
+                    <clade>
+                      <branch_length>0.06674</branch_length>
+                      <confidence type="unknown">94</confidence>
+                      <clade>
+                        <branch_length>0.1418</branch_length>
+                        <confidence type="unknown">100</confidence>
+                        <clade>
+                          <branch_length>0.31768</branch_length>
+                          <confidence type="unknown">100</confidence>
+                          <clade>
+                            <name>Mycoplasma_pneumoniae</name>
+                            <branch_length>0.10966</branch_length>
+                          </clade>
+                          <clade>
+                            <name>Mycoplasma_genitalium</name>
+                            <branch_length>0.11268</branch_length>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>Mycoplasma_gallisepticum</name>
+                          <branch_length>0.24373</branch_length>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>Mycoplasma_penetrans</name>
+                        <branch_length>0.3489</branch_length>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>Ureaplasma_parvum</name>
+                      <branch_length>0.33874</branch_length>
+                    </clade>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>Mycoplasma_mycoides</name>
+                  <branch_length>0.3768</branch_length>
+                </clade>
+              </clade>
+              <clade>
+                <name>Phytoplasma_Onion_yellows</name>
+                <branch_length>0.47843</branch_length>
+              </clade>
+            </clade>
+            <clade>
+              <branch_length>0.08905</branch_length>
+              <confidence type="unknown">100</confidence>
+              <clade>
+                <branch_length>0.02828</branch_length>
+                <confidence type="unknown">64</confidence>
+                <clade>
+                  <branch_length>0.02816</branch_length>
+                  <confidence type="unknown">69</confidence>
+                  <clade>
+                    <branch_length>0.13517</branch_length>
+                    <confidence type="unknown">100</confidence>
+                    <clade>
+                      <branch_length>0.00235</branch_length>
+                      <confidence type="unknown">90</confidence>
+                      <clade>
+                        <name>Listeria_monocytogenes_F2365</name>
+                        <branch_length>0.00063</branch_length>
+                      </clade>
+                      <clade>
+                        <name>Listeria_monocytogenes_EGD</name>
+                        <branch_length>0.00144</branch_length>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>Listeria_innocua</name>
+                      <branch_length>0.00248</branch_length>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <branch_length>0.03907</branch_length>
+                    <confidence type="unknown">100</confidence>
+                    <clade>
+                      <branch_length>0.02676</branch_length>
+                      <confidence type="unknown">91</confidence>
+                      <clade>
+                        <name>Oceanobacillus_iheyensis</name>
+                        <branch_length>0.13838</branch_length>
+                      </clade>
+                      <clade>
+                        <name>Bacillus_halodurans</name>
+                        <branch_length>0.0928</branch_length>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <branch_length>0.01984</branch_length>
+                      <confidence type="unknown">96</confidence>
+                      <clade>
+                        <branch_length>0.08924</branch_length>
+                        <confidence type="unknown">100</confidence>
+                        <clade>
+                          <branch_length>0.00573</branch_length>
+                          <confidence type="unknown">100</confidence>
+                          <clade>
+                            <name>Bacillus_cereus_ATCC_14579</name>
+                            <branch_length>0.00342</branch_length>
+                          </clade>
+                          <clade>
+                            <name>Bacillus_cereus_ATCC_10987</name>
+                            <branch_length>0.00123</branch_length>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>Bacillus_anthracis</name>
+                          <branch_length>0.00331</branch_length>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>Bacillus_subtilis</name>
+                        <branch_length>0.07876</branch_length>
+                      </clade>
+                    </clade>
+                  </clade>
+                </clade>
+                <clade>
+                  <branch_length>0.17366</branch_length>
+                  <confidence type="unknown">100</confidence>
+                  <clade>
+                    <branch_length>0.02479</branch_length>
+                    <confidence type="unknown">100</confidence>
+                    <clade>
+                      <name>Staphylococcus_aureus_MW2</name>
+                      <branch_length>0.0</branch_length>
+                    </clade>
+                    <clade>
+                      <branch_length>0.00022</branch_length>
+                      <confidence type="unknown">61</confidence>
+                      <clade>
+                        <name>Staphylococcus_aureus_N315</name>
+                        <branch_length>0.00022</branch_length>
+                      </clade>
+                      <clade>
+                        <name>Staphylococcus_aureus_Mu50</name>
+                        <branch_length>0.00022</branch_length>
+                      </clade>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Staphylococcus_epidermidis</name>
+                    <branch_length>0.03246</branch_length>
+                  </clade>
+                </clade>
+              </clade>
+              <clade>
+                <branch_length>0.08989</branch_length>
+                <confidence type="unknown">100</confidence>
+                <clade>
+                  <branch_length>0.03958</branch_length>
+                  <confidence type="unknown">100</confidence>
+                  <clade>
+                    <branch_length>0.08901</branch_length>
+                    <confidence type="unknown">100</confidence>
+                    <clade>
+                      <branch_length>0.04983</branch_length>
+                      <confidence type="unknown">100</confidence>
+                      <clade>
+                        <branch_length>0.0192</branch_length>
+                        <confidence type="unknown">99</confidence>
+                        <clade>
+                          <branch_length>0.0136</branch_length>
+                          <confidence type="unknown">100</confidence>
+                          <clade>
+                            <branch_length>0.01637</branch_length>
+                            <confidence type="unknown">100</confidence>
+                            <clade>
+                              <name>Streptococcus_agalactiae_III</name>
+                              <branch_length>0.0011</branch_length>
+                            </clade>
+                            <clade>
+                              <name>Streptococcus_agalactiae_V</name>
+                              <branch_length>0.00155</branch_length>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <branch_length>0.0225</branch_length>
+                            <confidence type="unknown">100</confidence>
+                            <clade>
+                              <name>Streptococcus_pyogenes_M1</name>
+                              <branch_length>0.00134</branch_length>
+                            </clade>
+                            <clade>
+                              <branch_length>0.00066</branch_length>
+                              <confidence type="unknown">87</confidence>
+                              <clade>
+                                <name>Streptococcus_pyogenes_MGAS8232</name>
+                                <branch_length>0.00045</branch_length>
+                              </clade>
+                              <clade>
+                                <branch_length>0.0011</branch_length>
+                                <confidence type="unknown">100</confidence>
+                                <clade>
+                                  <name>Streptococcus_pyogenes_MGAS315</name>
+                                  <branch_length>0.0</branch_length>
+                                </clade>
+                                <clade>
+                                  <name>Streptococcus_pyogenes_SSI-1</name>
+                                  <branch_length>0.00022</branch_length>
+                                </clade>
+                              </clade>
+                            </clade>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>Streptococcus_mutans</name>
+                          <branch_length>0.04319</branch_length>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <branch_length>0.03607</branch_length>
+                        <confidence type="unknown">100</confidence>
+                        <clade>
+                          <name>Streptococcus_pneumoniae_R6</name>
+                          <branch_length>0.00119</branch_length>
+                        </clade>
+                        <clade>
+                          <name>Streptococcus_pneumoniae_TIGR4</name>
+                          <branch_length>0.00124</branch_length>
+                        </clade>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>Lactococcus_lactis</name>
+                      <branch_length>0.11214</branch_length>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Enterococcus_faecalis</name>
+                    <branch_length>0.07946</branch_length>
+                  </clade>
+                </clade>
+                <clade>
+                  <branch_length>0.06763</branch_length>
+                  <confidence type="unknown">100</confidence>
+                  <clade>
+                    <name>Lactobacillus_johnsonii</name>
+                    <branch_length>0.20999</branch_length>
+                  </clade>
+                  <clade>
+                    <name>Lactobacillus_plantarum</name>
+                    <branch_length>0.14371</branch_length>
+                  </clade>
+                </clade>
+              </clade>
+            </clade>
+          </clade>
+        </clade>
+      </clade>
+      <clade>
+        <branch_length>0.88776</branch_length>
+        <clade>
+          <branch_length>0.57543</branch_length>
+          <confidence type="unknown">100</confidence>
+          <clade>
+            <branch_length>0.10129</branch_length>
+            <confidence type="unknown">100</confidence>
+            <clade>
+              <branch_length>0.06455</branch_length>
+              <confidence type="unknown">87</confidence>
+              <clade>
+                <branch_length>0.03495</branch_length>
+                <confidence type="unknown">42</confidence>
+                <clade>
+                  <name>Thalassiosira_pseudonana</name>
+                  <branch_length>0.33483</branch_length>
+                </clade>
+                <clade>
+                  <branch_length>0.14359</branch_length>
+                  <confidence type="unknown">100</confidence>
+                  <clade>
+                    <name>Cryptosporidium_hominis</name>
+                    <branch_length>0.25048</branch_length>
+                  </clade>
+                  <clade>
+                    <name>Plasmodium_falciparum</name>
+                    <branch_length>0.28267</branch_length>
+                  </clade>
+                </clade>
+              </clade>
+              <clade>
+                <branch_length>0.02636</branch_length>
+                <confidence type="unknown">44</confidence>
+                <clade>
+                  <branch_length>0.08133</branch_length>
+                  <confidence type="unknown">96</confidence>
+                  <clade>
+                    <branch_length>0.1577</branch_length>
+                    <confidence type="unknown">100</confidence>
+                    <clade>
+                      <name>Oryza_sativa</name>
+                      <branch_length>0.07623</branch_length>
+                    </clade>
+                    <clade>
+                      <name>Arabidopsis_thaliana</name>
+                      <branch_length>0.09366</branch_length>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Cyanidioschyzon_merolae</name>
+                    <branch_length>0.38319</branch_length>
+                  </clade>
+                </clade>
+                <clade>
+                  <branch_length>0.02708</branch_length>
+                  <confidence type="unknown">41</confidence>
+                  <clade>
+                    <name>Dictyostelium_discoideum</name>
+                    <branch_length>0.34685</branch_length>
+                  </clade>
+                  <clade>
+                    <branch_length>0.04004</branch_length>
+                    <confidence type="unknown">85</confidence>
+                    <clade>
+                      <branch_length>0.1537</branch_length>
+                      <confidence type="unknown">100</confidence>
+                      <clade>
+                        <branch_length>0.2117</branch_length>
+                        <confidence type="unknown">100</confidence>
+                        <clade>
+                          <name>Eremothecium_gossypii</name>
+                          <branch_length>0.07298</branch_length>
+                        </clade>
+                        <clade>
+                          <name>Saccharomyces_cerevisiae</name>
+                          <branch_length>0.07619</branch_length>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>Schizosaccharomyces_pombe</name>
+                        <branch_length>0.24665</branch_length>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <branch_length>0.09911</branch_length>
+                      <confidence type="unknown">100</confidence>
+                      <clade>
+                        <branch_length>0.03693</branch_length>
+                        <confidence type="unknown">95</confidence>
+                        <clade>
+                          <branch_length>0.0987</branch_length>
+                          <confidence type="unknown">100</confidence>
+                          <clade>
+                            <name>Anopheles_gambiae</name>
+                            <branch_length>0.10724</branch_length>
+                          </clade>
+                          <clade>
+                            <name>Drosophila_melanogaster</name>
+                            <branch_length>0.10233</branch_length>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <branch_length>0.09688</branch_length>
+                          <confidence type="unknown">100</confidence>
+                          <clade>
+                            <branch_length>0.04335</branch_length>
+                            <confidence type="unknown">100</confidence>
+                            <clade>
+                              <name>Takifugu_rubripes</name>
+                              <branch_length>0.03142</branch_length>
+                            </clade>
+                            <clade>
+                              <name>Danio_rerio</name>
+                              <branch_length>0.0523</branch_length>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <branch_length>0.01859</branch_length>
+                            <confidence type="unknown">100</confidence>
+                            <clade>
+                              <branch_length>0.01629</branch_length>
+                              <confidence type="unknown">99</confidence>
+                              <clade>
+                                <branch_length>0.00398</branch_length>
+                                <confidence type="unknown">91</confidence>
+                                <clade>
+                                  <name>Rattus_norvegicus</name>
+                                  <branch_length>0.03107</branch_length>
+                                </clade>
+                                <clade>
+                                  <name>Mus_musculus</name>
+                                  <branch_length>0.01651</branch_length>
+                                </clade>
+                              </clade>
+                              <clade>
+                                <branch_length>0.01549</branch_length>
+                                <confidence type="unknown">100</confidence>
+                                <clade>
+                                  <name>Homo_sapiens</name>
+                                  <branch_length>0.00957</branch_length>
+                                </clade>
+                                <clade>
+                                  <name>Pan_troglodytes</name>
+                                  <branch_length>0.03864</branch_length>
+                                </clade>
+                              </clade>
+                            </clade>
+                            <clade>
+                              <name>Gallus_gallus</name>
+                              <branch_length>0.04596</branch_length>
+                            </clade>
+                          </clade>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <branch_length>0.24324</branch_length>
+                        <confidence type="unknown">100</confidence>
+                        <clade>
+                          <name>Caenorhabditis_elegans</name>
+                          <branch_length>0.01843</branch_length>
+                        </clade>
+                        <clade>
+                          <name>Caenorhabditis_briggsae</name>
+                          <branch_length>0.01896</branch_length>
+                        </clade>
+                      </clade>
+                    </clade>
+                  </clade>
+                </clade>
+              </clade>
+            </clade>
+            <clade>
+              <name>Leishmania_major</name>
+              <branch_length>0.45664</branch_length>
+            </clade>
+          </clade>
+          <clade>
+            <name>Giardia_lamblia</name>
+            <branch_length>0.55482</branch_length>
+          </clade>
+        </clade>
+        <clade>
+          <branch_length>0.43325</branch_length>
+          <confidence type="unknown">100</confidence>
+          <clade>
+            <branch_length>0.15444</branch_length>
+            <confidence type="unknown">100</confidence>
+            <clade>
+              <name>Nanoarchaeum_equitans</name>
+              <branch_length>0.81078</branch_length>
+            </clade>
+            <clade>
+              <branch_length>0.12018</branch_length>
+              <confidence type="unknown">100</confidence>
+              <clade>
+                <branch_length>0.09462</branch_length>
+                <confidence type="unknown">94</confidence>
+                <clade>
+                  <branch_length>0.3372</branch_length>
+                  <confidence type="unknown">100</confidence>
+                  <clade>
+                    <name>Sulfolobus_tokodaii</name>
+                    <branch_length>0.17389</branch_length>
+                  </clade>
+                  <clade>
+                    <name>Sulfolobus_solfataricus</name>
+                    <branch_length>0.18962</branch_length>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>Aeropyrum_pernix</name>
+                  <branch_length>0.4338</branch_length>
+                </clade>
+              </clade>
+              <clade>
+                <name>Pyrobaculum_aerophilum</name>
+                <branch_length>0.55514</branch_length>
+              </clade>
+            </clade>
+          </clade>
+          <clade>
+            <branch_length>0.11833</branch_length>
+            <confidence type="unknown">99</confidence>
+            <clade>
+              <branch_length>0.66151</branch_length>
+              <confidence type="unknown">100</confidence>
+              <clade>
+                <name>Thermoplasma_volcanium</name>
+                <branch_length>0.10412</branch_length>
+              </clade>
+              <clade>
+                <name>Thermoplasma_acidophilum</name>
+                <branch_length>0.09785</branch_length>
+              </clade>
+            </clade>
+            <clade>
+              <branch_length>0.06815</branch_length>
+              <confidence type="unknown">62</confidence>
+              <clade>
+                <branch_length>0.04469</branch_length>
+                <confidence type="unknown">51</confidence>
+                <clade>
+                  <branch_length>0.06284</branch_length>
+                  <confidence type="unknown">100</confidence>
+                  <clade>
+                    <branch_length>0.07446</branch_length>
+                    <confidence type="unknown">99</confidence>
+                    <clade>
+                      <name>Methanobacterium_thermautotrophicum</name>
+                      <branch_length>0.36583</branch_length>
+                    </clade>
+                    <clade>
+                      <name>Methanopyrus_kandleri</name>
+                      <branch_length>0.35331</branch_length>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <branch_length>0.23828</branch_length>
+                    <confidence type="unknown">100</confidence>
+                    <clade>
+                      <name>Methanococcus_maripaludis</name>
+                      <branch_length>0.28592</branch_length>
+                    </clade>
+                    <clade>
+                      <name>Methanococcus_jannaschii</name>
+                      <branch_length>0.13226</branch_length>
+                    </clade>
+                  </clade>
+                </clade>
+                <clade>
+                  <branch_length>0.3622</branch_length>
+                  <confidence type="unknown">100</confidence>
+                  <clade>
+                    <branch_length>0.02239</branch_length>
+                    <confidence type="unknown">100</confidence>
+                    <clade>
+                      <name>Pyrococcus_horikoshii</name>
+                      <branch_length>0.02786</branch_length>
+                    </clade>
+                    <clade>
+                      <name>Pyrococcus_abyssi</name>
+                      <branch_length>0.02179</branch_length>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Pyrococcus_furiosus</name>
+                    <branch_length>0.02366</branch_length>
+                  </clade>
+                </clade>
+              </clade>
+              <clade>
+                <branch_length>0.10395</branch_length>
+                <confidence type="unknown">100</confidence>
+                <clade>
+                  <name>Archaeoglobus_fulgidus</name>
+                  <branch_length>0.3466</branch_length>
+                </clade>
+                <clade>
+                  <branch_length>0.12801</branch_length>
+                  <confidence type="unknown">100</confidence>
+                  <clade>
+                    <name>Halobacterium_sp._NRC-1</name>
+                    <branch_length>0.61597</branch_length>
+                  </clade>
+                  <clade>
+                    <branch_length>0.30588</branch_length>
+                    <confidence type="unknown">100</confidence>
+                    <clade>
+                      <name>Methanosarcina_acetivorans</name>
+                      <branch_length>0.02602</branch_length>
+                    </clade>
+                    <clade>
+                      <name>Methanosarcina_mazei</name>
+                      <branch_length>0.03087</branch_length>
+                    </clade>
+                  </clade>
+                </clade>
+              </clade>
+            </clade>
+          </clade>
+        </clade>
+      </clade>
+    </clade>
+  </phylogeny>
+</phyloxml>
