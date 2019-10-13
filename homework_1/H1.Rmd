@@ -1,0 +1,136 @@
+---
+title: "Phylogenetic_H1"
+author: "Sedreh"
+date: "9/15/2019"
+output: html_document
+---
+```{r,warning=FALSE,message=FALSE}
+library(ape)
+library(ggplot2)
+library(ggtree)
+```
+
+```{r}
+#1-reads the file https://www.jasondavies.com/tree-of-life/life.txt to the “tree1” object 
+tree1 = read.tree(file = "/home/sedreh/Desktop/life.txt", text = NULL, tree.names = NULL, skip = 0,
+    comment.char = "", keep.multi = FALSE)
+tree1
+```
+```{r}
+str(tree1)
+```
+
+```{r}
+#2-draws this tree using the standard function from the ape package;
+plot(tree1, main="Phylogenetic Tree of life")
+```
+
+```{r}
+#3-saves this tree in raster format (png)
+png(filename="tree1.png")
+plot(tree1)
+dev.off()
+```
+```{r}
+#3- save the tree in vector (svg or pdf) format
+svg(filename="tree1.svg")
+plot(tree1)
+dev.off()
+```
+```{r}
+#4-draws the tree unrooted or circular 
+# plot(unroot(tree1),type="unrooted",no.margin=TRUE,lab4ut="axial",
+#     edge.width=2)
+
+plot(tree1,               # object with the tree information
+     "u",              # unrooted - draws from the centre
+     font = 1,         # makes font bold  
+     edge.width = 0.5,   # makes thicker lines
+     cex = 0.3,       # increase font size a little
+     main = "Phylogenetic Tree_of_life")  
+```
+
+```{r}
+#5-To get at the core of how an object of class "phylo" encodes phylogenetic, reads a tree from the text (((A, B), (C, D)), E); to “tree2” object (a tree with 5 tips)
+
+tree2 <- read.tree(text = "(((A,B),(C,D)),E);")
+tree2
+
+```
+```{r}
+#6-draws this second tree using the standard function from the ape package and saves 	in raster (png) and vector formats (svg or pdf);	
+
+plot(tree2, type = "cladogram", edge.width = 2)
+```
+```{r}
+#saves tree2 in raster format (png)
+png(filename="tree2.png")
+plot(tree2)
+dev.off()
+```
+```{r}
+# save tree2 in vector (svg or pdf) format
+svg(filename="tree2.svg")
+plot(tree2)
+dev.off()
+```
+```{r}
+#7-draws “tree2” unrooted or circular ;
+plot(unroot(tree2),type="unrooted", no.margin=TRUE,lab4ut="axial",
+    edge.width=2)
+```
+```{r}
+#8-draws “tree1” so that the labels can be read (at least reduce the font);
+label <- plot(tree1,               # object with the tree information
+     font = 0.1,         # makes font bold
+     edge.width = 0.5,   # makes thicker lines
+     cex = 0.5,       # increase font size a little
+     main = "Phylogenetic Tree_of_life")
+label
+#png(filename="tree_label.png")
+
+png(filename = "tree_label.png", res = 300,
+    width = 8000, height = 8000)
+plot(tree1)
+dev.off()
+
+```
+```{r}
+#9- draws “tree1” with ggtree with minimal settings;
+#ggtree(tree1) + geom_treescale()
+p <- ggtree(tree1, layout='slanted') 
+p
+```
+
+
+```{r}
+#some practice
+label <- p+ geom_text2(aes(label = node, subset = !isTip), col = "red", size = 0.5,
+    hjust = -0.3) + geom_tiplab(size=3, color="purple")
+label
+png(filename = "tree_label.png", res = 300,
+    width = 8000, height = 8000)
+plot(tree1)
+dev.off()
+
+```
+```{r}
+#some practice
+#geom_treescale automatically add a scale bar for evolutionary distance
+#Showing all the internal nodes and tips in the tree can be done by adding a layer of points using geom_nodepoint, geom_tippoint or geom_point
+p <- ggtree(tree1, color="firebrick", size=0.2)+ geom_treescale(fontsize=3, linesize=1)
+p + geom_point(aes(shape=isTip, color=isTip), size=1)
+```
+
+
+```{r}
+# draws the “tree1” unrooted or circular with ggtree
+tree1_circular <- ggtree(tree1, layout="circular") + ggtitle("(Phylogram) circular layout")
+tree1_circular
+
+svg(filename = "tree1_circular")
+plot(tree1_circular)
+dev.off()
+```
+
+
