@@ -1,0 +1,163 @@
+IQ-TREE multicore version 1.6.11 for Linux 64-bit built Jun  6 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    rabi (SSE4.2, 15 GB RAM)
+Command: ../../iqtree -s SUP35_aln.best.fas -m TESTONLY
+Seed:    388991 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Oct 23 06:58:21 2019
+Kernel:  SSE2 - 1 threads (24 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 24 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file SUP35_aln.best.fas ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 10 sequences with 2460 columns, 614 distinct patterns
+509 parsimony-informative, 407 singleton sites, 1544 constant sites
+                                        Gap/Ambiguity  Composition  p-value
+   1  SUP35_Kla_AB039749                       14.63%    passed     88.37%
+   2  SUP35_Agos_ATCC_10895_NM_211584          15.73%    failed      0.00%
+   3  SUP35_Scer_74-D694_GCA_001578265.1       16.46%    passed     93.86%
+   4  SUP35_Sbou_unique28_CM003560             16.46%    passed     92.56%
+   5  SUP35_Scer_beer078_CM005938              18.78%    passed     89.70%
+   6  SUP35_Spar_A12_Liti                      16.95%    passed     57.73%
+   7  SUP35_Smik_IFO1815T_30                   16.95%    passed     61.92%
+   8  SUP35_Sarb_H-6_chrXIII_CM001575          17.07%    passed     58.58%
+   9  SUP35_Skud_IFO1802T_36                   17.32%    passed     98.38%
+  10  SUP35_Seub_CBS12357_chr_II_IV_DF968535   17.80%    passed     64.34%
+****  TOTAL                                    16.82%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+NOTE: ModelFinder requires 0 MB RAM!
+ModelFinder will test 88 DNA models (sample size: 2460) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            10532.036    17  21098.073    21098.324    21196.807
+  2  JC+I          10287.995    18  20611.990    20612.270    20716.532
+  3  JC+G4         10288.836    18  20613.671    20613.951    20718.214
+  4  JC+I+G4       10286.126    19  20610.251    20610.563    20720.602
+  5  F81+F         10495.783    20  21031.566    21031.910    21147.724
+  6  F81+F+I       10258.978    21  20559.956    20560.335    20681.922
+  7  F81+F+G4      10262.974    21  20567.949    20568.328    20689.915
+  8  F81+F+I+G4    10258.947    22  20561.894    20562.310    20689.669
+  9  K2P           10147.711    18  20331.423    20331.703    20435.965
+ 10  K2P+I         9850.088     19  19738.176    19738.488    19848.527
+ 11  K2P+G4        9841.804     19  19721.609    19721.920    19831.959
+ 12  K2P+I+G4      9839.861     20  19719.722    19720.066    19835.880
+ 13  HKY+F         10115.238    21  20272.476    20272.855    20394.443
+ 14  HKY+F+I       9799.589     22  19643.178    19643.594    19770.953
+ 15  HKY+F+G4      9792.781     22  19629.561    19629.976    19757.335
+ 16  HKY+F+I+G4    9790.259     23  19626.519    19626.972    19760.101
+ 17  TNe           10104.435    19  20246.871    20247.182    20357.221
+ 18  TNe+I         9826.389     20  19692.778    19693.123    19808.937
+ 19  TNe+G4        9820.648     20  19681.295    19681.639    19797.453
+ 20  TNe+I+G4      9816.830     21  19675.660    19676.039    19797.627
+ 21  TN+F          10030.521    22  20105.043    20105.458    20232.817
+ 22  TN+F+I        9753.831     23  19553.662    19554.116    19687.244
+ 23  TN+F+G4       9748.056     23  19542.113    19542.566    19675.695
+ 24  TN+F+I+G4     9743.350     24  19534.700    19535.193    19674.090
+ 25  K3P           10147.043    19  20332.086    20332.397    20442.436
+ 26  K3P+I         9849.093     20  19738.187    19738.531    19854.345
+ 27  K3P+G4        9841.178     20  19722.356    19722.700    19838.514
+ 28  K3P+I+G4      9838.908     21  19719.816    19720.195    19841.782
+ 29  K3Pu+F        10115.130    22  20274.260    20274.676    20402.035
+ 30  K3Pu+F+I      9799.392     23  19644.785    19645.238    19778.367
+ 31  K3Pu+F+G4     9792.663     23  19631.326    19631.779    19764.908
+ 32  K3Pu+F+I+G4   9789.766     24  19627.532    19628.024    19766.922
+ 33  TPM2+F        10112.564    22  20269.129    20269.544    20396.903
+ 34  TPM2+F+I      9798.156     23  19642.313    19642.766    19775.895
+ 35  TPM2+F+G4     9791.705     23  19629.411    19629.864    19762.993
+ 36  TPM2+F+I+G4   9788.762     24  19625.524    19626.017    19764.914
+ 37  TPM2u+F       10112.564    22  20269.129    20269.544    20396.903
+ 38  TPM2u+F+I     9798.156     23  19642.312    19642.766    19775.894
+ 39  TPM2u+F+G4    9791.705     23  19629.411    19629.864    19762.993
+ 40  TPM2u+F+I+G4  9788.658     24  19625.316    19625.809    19764.706
+ 41  TPM3+F        10108.599    22  20261.199    20261.614    20388.973
+ 42  TPM3+F+I      9795.058     23  19636.116    19636.569    19769.698
+ 43  TPM3+F+G4     9786.006     23  19618.013    19618.466    19751.595
+ 44  TPM3+F+I+G4   9783.234     24  19614.469    19614.961    19753.859
+ 45  TPM3u+F       10108.599    22  20261.198    20261.613    20388.972
+ 46  TPM3u+F+I     9795.058     23  19636.117    19636.570    19769.699
+ 47  TPM3u+F+G4    9786.006     23  19618.013    19618.466    19751.595
+ 48  TPM3u+F+I+G4  9783.175     24  19614.351    19614.844    19753.741
+ 49  TIMe          10103.756    20  20247.513    20247.857    20363.671
+ 50  TIMe+I        9825.367     21  19692.734    19693.113    19814.700
+ 51  TIMe+G4       9819.958     21  19681.916    19682.295    19803.883
+ 52  TIMe+I+G4     9815.446     22  19674.893    19675.308    19802.667
+ 53  TIM+F         10030.391    23  20106.782    20107.235    20240.364
+ 54  TIM+F+I       9753.510     24  19555.020    19555.513    19694.410
+ 55  TIM+F+G4      9747.862     24  19543.724    19544.217    19683.114
+ 56  TIM+F+I+G4    9742.532     25  19535.065    19535.599    19680.263
+ 57  TIM2e         10095.516    20  20231.032    20231.377    20347.191
+ 58  TIM2e+I       9817.214     21  19676.428    19676.807    19798.394
+ 59  TIM2e+G4      9810.895     21  19663.791    19664.170    19785.757
+ 60  TIM2e+I+G4    9806.647     22  19657.294    19657.710    19785.068
+ 61  TIM2+F        10028.096    23  20102.192    20102.645    20235.774
+ 62  TIM2+F+I      9752.292     24  19552.584    19553.077    19691.974
+ 63  TIM2+F+G4     9746.677     24  19541.353    19541.846    19680.743
+ 64  TIM2+F+I+G4   9741.318     25  19532.636    19533.170    19677.834
+ 65  TIM3e         10101.695    20  20243.389    20243.733    20359.547
+ 66  TIM3e+I       9824.456     21  19690.911    19691.290    19812.878
+ 67  TIM3e+G4      9817.831     21  19677.661    19678.040    19799.628
+ 68  TIM3e+I+G4    9813.600     22  19671.200    19671.616    19798.974
+ 69  TIM3+F        10023.798    23  20093.595    20094.048    20227.177
+ 70  TIM3+F+I      9749.625     24  19547.250    19547.743    19686.640
+ 71  TIM3+F+G4     9740.523     24  19529.045    19529.538    19668.435
+ 72  TIM3+F+I+G4   9736.149     25  19522.298    19522.832    19667.496
+ 73  TVMe          10134.603    21  20311.206    20311.585    20433.172
+ 74  TVMe+I        9837.387     22  19718.773    19719.189    19846.548
+ 75  TVMe+G4       9826.435     22  19696.870    19697.285    19824.644
+ 76  TVMe+I+G4     9824.450     23  19694.900    19695.353    19828.482
+ 77  TVM+F         10104.721    24  20257.442    20257.934    20396.832
+ 78  TVM+F+I       9792.003     25  19634.007    19634.541    19779.205
+ 79  TVM+F+G4      9783.358     25  19616.715    19617.249    19761.913
+ 80  TVM+F+I+G4    9780.179     26  19612.358    19612.935    19763.363
+ 81  SYM           10091.133    22  20226.265    20226.681    20354.040
+ 82  SYM+I         9813.056     23  19672.111    19672.565    19805.694
+ 83  SYM+G4        9806.047     23  19658.094    19658.548    19791.676
+ 84  SYM+I+G4      9801.969     24  19651.938    19652.430    19791.328
+ 85  GTR+F         10020.121    25  20090.241    20090.775    20235.439
+ 86  GTR+F+I       9746.498     26  19544.995    19545.572    19696.001
+ 87  GTR+F+G4      9737.473     26  19526.945    19527.522    19677.951
+ 88  GTR+F+I+G4    9733.052     27  19520.104    19520.726    19676.918
+Akaike Information Criterion:           GTR+F+I+G4
+Corrected Akaike Information Criterion: GTR+F+I+G4
+Bayesian Information Criterion:         TIM3+F+I+G4
+Best-fit model: TIM3+F+I+G4 chosen according to BIC
+
+All model information printed to SUP35_aln.best.fas.model.gz
+CPU time for ModelFinder: 2.225 seconds (0h:0m:2s)
+Wall-clock time for ModelFinder: 2.357 seconds (0h:0m:2s)
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 0.400 / LogL: -9740.528
+Init pinv, alpha: 0.070, 1.000 / Estimate: 0.069, 0.466 / LogL: -9740.270
+Init pinv, alpha: 0.139, 1.000 / Estimate: 0.141, 0.560 / LogL: -9739.699
+Init pinv, alpha: 0.209, 1.000 / Estimate: 0.339, 1.197 / LogL: -9736.603
+Init pinv, alpha: 0.279, 1.000 / Estimate: 0.364, 1.396 / LogL: -9736.270
+Init pinv, alpha: 0.349, 1.000 / Estimate: 0.364, 1.397 / LogL: -9736.269
+Init pinv, alpha: 0.418, 1.000 / Estimate: 0.398, 1.801 / LogL: -9736.196
+Init pinv, alpha: 0.488, 1.000 / Estimate: 0.397, 1.803 / LogL: -9736.196
+Init pinv, alpha: 0.558, 1.000 / Estimate: 0.398, 1.826 / LogL: -9736.212
+Init pinv, alpha: 0.628, 1.000 / Estimate: 0.397, 1.800 / LogL: -9736.195
+Optimal pinv,alpha: 0.397, 1.800 / LogL: -9736.195
+
+Parameters optimization took 2.947 sec
+BEST SCORE FOUND : -9736.195
+Total tree length: 1.461
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 2.948 sec (0h:0m:2s)
+Total wall-clock time used: 3.062 sec (0h:0m:3s)
+
+Analysis results written to: 
+  IQ-TREE report:                SUP35_aln.best.fas.iqtree
+  Tree used for ModelFinder:     SUP35_aln.best.fas.treefile
+  Screen log file:               SUP35_aln.best.fas.log
+
+Date and Time: Wed Oct 23 06:58:27 2019
