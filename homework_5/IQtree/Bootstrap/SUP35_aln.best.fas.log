@@ -1,0 +1,123 @@
+IQ-TREE multicore version 1.6.11 for Linux 64-bit built Jun  6 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    rabi (SSE4.2, 15 GB RAM)
+Command: ../../iqtree -s SUP35_aln.best.fas -st DNA -m GTR+F -bb 1000 -alrt 1000
+Seed:    735475 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Oct 18 06:57:01 2019
+Kernel:  SSE2 - 1 threads (24 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 24 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file SUP35_aln.best.fas ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 10 sequences with 2460 columns, 614 distinct patterns
+509 parsimony-informative, 407 singleton sites, 1544 constant sites
+                                        Gap/Ambiguity  Composition  p-value
+   1  SUP35_Kla_AB039749                       14.63%    passed     88.37%
+   2  SUP35_Agos_ATCC_10895_NM_211584          15.73%    failed      0.00%
+   3  SUP35_Scer_74-D694_GCA_001578265.1       16.46%    passed     93.86%
+   4  SUP35_Sbou_unique28_CM003560             16.46%    passed     92.56%
+   5  SUP35_Scer_beer078_CM005938              18.78%    passed     89.70%
+   6  SUP35_Spar_A12_Liti                      16.95%    passed     57.73%
+   7  SUP35_Smik_IFO1815T_30                   16.95%    passed     61.92%
+   8  SUP35_Sarb_H-6_chrXIII_CM001575          17.07%    passed     58.58%
+   9  SUP35_Skud_IFO1802T_36                   17.32%    passed     98.38%
+  10  SUP35_Seub_CBS12357_chr_II_IV_DF968535   17.80%    passed     64.34%
+****  TOTAL                                    16.82%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 735475)...
+
+NOTE: 2 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -10519.434
+2. Current log-likelihood: -10022.513
+3. Current log-likelihood: -10020.125
+Optimal log-likelihood: -10020.121
+Rate parameters:  A-C: 2.06088  A-G: 5.06247  A-T: 1.58003  C-G: 1.95380  C-T: 11.85802  G-T: 1.00000
+Base frequencies:  A: 0.342  C: 0.194  G: 0.225  T: 0.239
+Parameters optimization took 3 rounds (0.030 sec)
+Computing ML distances based on estimated model parameters... 0.002 sec
+Computing BIONJ tree...
+0.033 seconds
+Log-likelihood of BIONJ tree: -10018.648
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.078 second
+Computing log-likelihood of 89 initial trees ... 0.170 seconds
+Current best score: -10018.648
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -10018.529
+Iteration 10 / LogL: -10020.266 / Time: 0h:0m:0s
+Iteration 20 / LogL: -10020.298 / Time: 0h:0m:0s
+Finish initializing candidate tree set (2)
+Current best tree score: -10018.529 / CPU time: 0.670
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+UPDATE BEST LOG-LIKELIHOOD: -10018.529
+UPDATE BEST LOG-LIKELIHOOD: -10018.529
+Iteration 30 / LogL: -10018.529 / Time: 0h:0m:1s (0h:0m:2s left)
+Iteration 40 / LogL: -10018.531 / Time: 0h:0m:1s (0h:0m:2s left)
+Iteration 50 / LogL: -10020.287 / Time: 0h:0m:1s (0h:0m:1s left)
+Log-likelihood cutoff on original alignment: -10068.382
+Iteration 60 / LogL: -10018.809 / Time: 0h:0m:1s (0h:0m:1s left)
+UPDATE BEST LOG-LIKELIHOOD: -10018.528
+Iteration 70 / LogL: -10018.533 / Time: 0h:0m:2s (0h:0m:0s left)
+Iteration 80 / LogL: -10018.529 / Time: 0h:0m:2s (0h:0m:0s left)
+UPDATE BEST LOG-LIKELIHOOD: -10018.528
+Iteration 90 / LogL: -10018.552 / Time: 0h:0m:2s (0h:0m:0s left)
+Iteration 100 / LogL: -10020.296 / Time: 0h:0m:2s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -10068.382
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:2s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -10018.528
+Optimal log-likelihood: -10018.528
+Rate parameters:  A-C: 1.90803  A-G: 4.81264  A-T: 1.49145  C-G: 1.86511  C-T: 11.34752  G-T: 1.00000
+Base frequencies:  A: 0.342  C: 0.194  G: 0.225  T: 0.239
+Parameters optimization took 1 rounds (0.004 sec)
+BEST SCORE FOUND : -10018.528
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.345 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file SUP35_aln.best.fas.splits.nex
+Total tree length: 0.947
+
+Total number of iterations: 102
+CPU time used for tree search: 2.247 sec (0h:0m:2s)
+Wall-clock time used for tree search: 2.614 sec (0h:0m:2s)
+Total CPU time used: 2.720 sec (0h:0m:2s)
+Total wall-clock time used: 3.336 sec (0h:0m:3s)
+
+Computing bootstrap consensus tree...
+Reading input file SUP35_aln.best.fas.splits.nex...
+10 taxa and 30 splits.
+Consensus tree written to SUP35_aln.best.fas.contree
+Reading input trees file SUP35_aln.best.fas.contree
+Log-likelihood of consensus tree: -10018.529
+
+Analysis results written to: 
+  IQ-TREE report:                SUP35_aln.best.fas.iqtree
+  Maximum-likelihood tree:       SUP35_aln.best.fas.treefile
+  Likelihood distances:          SUP35_aln.best.fas.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          SUP35_aln.best.fas.splits.nex
+  Consensus tree:                SUP35_aln.best.fas.contree
+  Screen log file:               SUP35_aln.best.fas.log
+
+Date and Time: Fri Oct 18 06:57:05 2019
