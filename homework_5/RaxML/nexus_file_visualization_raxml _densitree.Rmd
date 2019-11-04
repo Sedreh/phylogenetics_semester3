@@ -1,0 +1,62 @@
+---
+title: "nexus_fie"
+author: "Sedreh"
+date: "10/22/2019"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+
+```{r}
+library(seqinr)
+library(ape)
+```
+We will save Raxml results as nexus trees because DensiTree supports nexus format.
+
+A new list for final result was created. This list will contain every single bootstrap tree but rooted for 'SUP35_Kla_AB039749' for cleaner visualistaion.
+
+then trees plotted beautifuly using DensiTree (As Mrinal advised it to me!) 
+Both trees after rooting are almost the same(with partition, without parttion)
+
+```{r}
+
+tree_raxml <- read.tree('/home/sedreh/ITMO/semester3/Molecular_phylogenetic/homework_5/homework_5/RAXML/BOOTSTRAP/RAxML_bootstrap.raxmltree_500')
+
+# Take each tree from trees, root them and supply as a nexus writable object
+rooted_raxml_partitions_trees <- list()
+
+for (i in seq(1,500,by=1)){
+root_item <- root.phylo(tree_raxml[[i]], outgroup = c('SUP35_Kla_AB039749'))
+rooted_raxml_partitions_trees <- c(rooted_raxml_partitions_trees, list(root_item))
+}
+
+name_raxml_500 <- "/home/sedreh/ITMO/semester3/Molecular_phylogenetic/homework_5/homework_5/RAXML/BOOTSTRAP/raxml_tree_partitions_NEXUS.nex"
+
+# write.nexus(rooted_raxml_partitions_trees, file = name_raxml_500)
+
+```
+
+![](/home/sedreh/ITMO/semester3/Molecular_phylogenetic/homework_5/homework_5/RAXML/BOOTSTRAP/bootsrap_trees.jpg)
+
+```{r}
+
+tree_raxml <- read.tree('/home/sedreh/ITMO/semester3/Molecular_phylogenetic/homework_5/homework_5/RAXML/PARTITION/RAxML_bootstrap.raxmltree_partition')
+
+# Take each tree from trees, root them and supply as a nexus writable object
+rooted_raxml_partitions_trees <- list()
+
+for (i in seq(1,500,by=1)){
+root_item <- root.phylo(tree_raxml[[i]], outgroup = c('SUP35_Kla_AB039749'))
+rooted_raxml_partitions_trees <- c(rooted_raxml_partitions_trees, list(root_item))
+}
+
+name_raxml <- "/home/sedreh/ITMO/semester3/Molecular_phylogenetic/homework_5/homework_5/RAXML/PARTITION/raxml_tree_NEXUS.nex"
+
+# write.nexus(rooted_raxml_partitions_trees, file = name_raxml)
+
+```
+
+
+![](/home/sedreh/ITMO/semester3/Molecular_phylogenetic/homework_5/homework_5/RAXML/PARTITION/consensus.jpg)
+
