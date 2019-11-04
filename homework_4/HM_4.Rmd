@@ -1,0 +1,40 @@
+---
+title: "HM_4"
+author: "Sedreh"
+date: "10/4/2019"
+output:
+  word_document: default
+  pdf_document: default
+  html_document: default
+---
+
+```{r}
+library(seqinr)
+library(phangorn)
+```
+
+
+```{r}
+myseqs <- read.alignment("/home/sedreh/ITMO/semester3/Molecular_phylogenetic/homework_4/data/SUP35_aln.best.fas", format = "fasta")
+```
+
+
+```{r}
+distance_matrix <- dist.alignment(myseqs, matrix = "identity" )
+distance_matrix
+```
+```{r}
+SUP35_aln_UPGMA <- upgma(distance_matrix)
+SUP35_aln_NJ  <- NJ(distance_matrix)
+plot(SUP35_aln_UPGMA, main="UPGMA")
+```
+```{r}
+plot(SUP35_aln_NJ, main="NJ")
+```
+I used jmodeltest and Found Best-fit model TIM3+F+I+G4. 
+
+```{r}
+#fasta to Phylip conversion code
+fastaobject<-seqinr::read.fasta("/home/sedreh/ITMO/semester3/Molecular_phylogenetic/homework_4/data/SUP35_aln.best.fas")
+ape::write.dna(fastaobject, "phyfile.phy", nbcol=1,colsep="", colw=1000000)
+```
