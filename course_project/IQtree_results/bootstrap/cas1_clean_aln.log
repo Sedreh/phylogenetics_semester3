@@ -1,0 +1,774 @@
+IQ-TREE multicore version 1.6.11 for Linux 64-bit built Jun  6 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    kronig (SSE4.2, 31 GB RAM)
+Command: ../../iqtree -s cas1_clean_aln -m VT+G4+F -bb 1000 -alrt 1000
+Seed:    103416 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Oct 27 16:55:33 2019
+Kernel:  SSE2 - 1 threads (24 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 24 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file cas1_clean_aln ... Fasta format detected
+NOTE: Change sequence name 'Bacillus BSA' -> Bacillus_BSA
+NOTE: Change sequence name 'Bacillus Pc' -> Bacillus_Pc
+NOTE: Change sequence name 'Bacillus SDLI' -> Bacillus_SDLI
+NOTE: Change sequence name 'Bifidobacterium actinocoloniiforme' -> Bifidobacterium_actinocoloniiforme
+NOTE: Change sequence name 'Bacillus YP' -> Bacillus_YP
+NOTE: Change sequence name 'Bifidobacterium adolescentis' -> Bifidobacterium_adolescentis
+NOTE: Change sequence name 'Bacillus atrophaeus' -> Bacillus_atrophaeus
+NOTE: Change sequence name 'Bacillus coagulans' -> Bacillus_coagulans
+NOTE: Change sequence name 'Bacillus anthracis' -> Bacillus_anthracis
+NOTE: Change sequence name 'Bacillus cereus' -> Bacillus_cereus
+NOTE: Change sequence name 'Bacillus LM' -> Bacillus_LM
+NOTE: Change sequence name 'Bacillus velezensis' -> Bacillus_velezensis
+NOTE: Change sequence name 'Bacillus amyloliquefaciens' -> Bacillus_amyloliquefaciens
+NOTE: Change sequence name 'Bifidobacterium angulatum' -> Bifidobacterium_angulatum
+NOTE: Change sequence name 'Bifidobacterium animalis' -> Bifidobacterium_animalis
+NOTE: Change sequence name 'Candidatus Bathyarchaeota' -> Candidatus_Bathyarchaeota
+NOTE: Change sequence name 'Bifidobacterium asteroides' -> Bifidobacterium_asteroides
+NOTE: Change sequence name 'Bacillus beveridgei' -> Bacillus_beveridgei
+NOTE: Change sequence name 'Bifidobacterium bifidum' -> Bifidobacterium_bifidum
+NOTE: Change sequence name 'Bifidobacterium breve' -> Bifidobacterium_breve
+NOTE: Change sequence name 'Bifidobacterium catenulatum' -> Bifidobacterium_catenulatum
+NOTE: Change sequence name 'Burkholderia cenocepacia' -> Burkholderia_cenocepacia
+NOTE: Change sequence name 'Bifidobacterium choerinum' -> Bifidobacterium_choerinum
+NOTE: Change sequence name 'Bacillus clausii' -> Bacillus_clausii
+NOTE: Change sequence name 'Bifidobacterium dentium' -> Bifidobacterium_dentium
+NOTE: Change sequence name 'Bacteroides dorei' -> Bacteroides_dorei
+NOTE: Change sequence name 'Burkholderia dolosa' -> Burkholderia_dolosa
+NOTE: Change sequence name 'Bacillus filamentosus' -> Bacillus_filamentosus
+NOTE: Change sequence name 'Bacteroides fragilis' -> Bacteroides_fragilis
+NOTE: Change sequence name 'Burkholderia plantarii' -> Burkholderia_plantarii
+NOTE: Change sequence name 'Bacillus glycinifermentans' -> Bacillus_glycinifermentans
+NOTE: Change sequence name 'Bacillus halodurans' -> Bacillus_halodurans
+NOTE: Change sequence name 'Bacteroides heparinolyticus' -> Bacteroides_heparinolyticus
+NOTE: Change sequence name 'Bacillus horikoshii' -> Bacillus_horikoshii
+NOTE: Change sequence name 'Bacteroides helcogenes' -> Bacteroides_helcogenes
+NOTE: Change sequence name 'Candidatus Bipolaricaulis' -> Candidatus_Bipolaricaulis
+NOTE: Change sequence name 'Bacillus intestinalis' -> Bacillus_intestinalis
+NOTE: Change sequence name 'Bacillus JS' -> Bacillus_JS
+NOTE: Change sequence name 'Bifidobacterium kashiwanohense' -> Bifidobacterium_kashiwanohense
+NOTE: Change sequence name 'Bacillus krulwichiae' -> Bacillus_krulwichiae
+NOTE: Change sequence name 'Burkholderia latens' -> Burkholderia_latens
+NOTE: Change sequence name 'Bifidobacterium longum' -> Bifidobacterium_longum
+NOTE: Change sequence name 'Bacillus paralicheniformis' -> Bacillus_paralicheniformis
+NOTE: Change sequence name 'Burkholderia metallica' -> Burkholderia_metallica
+NOTE: Change sequence name 'Burkholderia pseudomallei' -> Burkholderia_pseudomallei
+NOTE: Change sequence name 'Bifidobacterium pseudocatenulatum' -> Bifidobacterium_pseudocatenulatum
+NOTE: Change sequence name 'Burkholderia pyrrocinia' -> Burkholderia_pyrrocinia
+NOTE: Change sequence name 'Bacteroides salanitronis' -> Bacteroides_salanitronis
+NOTE: Change sequence name 'Bifidobacterium scardovii' -> Bifidobacterium_scardovii
+NOTE: Change sequence name 'Bacillus subtilis' -> Bacillus_subtilis
+NOTE: Change sequence name 'Bacillus smithii' -> Bacillus_smithii
+NOTE: Change sequence name 'Burkholderia stabilis' -> Burkholderia_stabilis
+NOTE: Change sequence name 'Bacillus thuringiensis' -> Bacillus_thuringiensis
+NOTE: Change sequence name 'Burkholderia thailandensis' -> Burkholderia_thailandensis
+NOTE: Change sequence name 'Bifidobacterium thermophilum' -> Bifidobacterium_thermophilum
+NOTE: Change sequence name 'Burkholderia RPE' -> Burkholderia_RPE
+NOTE: Change sequence name 'Burkholderia PAMC' -> Burkholderia_PAMC
+NOTE: Change sequence name 'Bacillus vallismortis' -> Bacillus_vallismortis
+NOTE: Change sequence name 'Bacillus xiamenensis' -> Bacillus_xiamenensis
+NOTE: Change sequence name 'Burkholderia YI' -> Burkholderia_YI
+NOTE: Change sequence name 'Bacteroides zoogleoformans' -> Bacteroides_zoogleoformans
+NOTE: Change sequence name 'Clostridium acetobutylicum' -> Clostridium_acetobutylicum
+NOTE: Change sequence name 'Clostridium aceticum' -> Clostridium_aceticum
+NOTE: Change sequence name 'Candidatus Cloacimonas' -> Candidatus_Cloacimonas
+NOTE: Change sequence name 'Citrobacter amalonaticus' -> Citrobacter_amalonaticus
+NOTE: Change sequence name 'Clostridium autoethanogenum' -> Clostridium_autoethanogenum
+NOTE: Change sequence name 'Campylobacter iguaniorum' -> Campylobacter_iguaniorum
+NOTE: Change sequence name 'Campylobacter fetus' -> Campylobacter_fetus
+NOTE: Change sequence name 'Campylobacter RM' -> Campylobacter_RM
+NOTE: Change sequence name 'Capnocytophaga H' -> Capnocytophaga_H
+NOTE: Change sequence name 'Capnocytophaga ChDC' -> Capnocytophaga_ChDC
+NOTE: Change sequence name 'Candidatus Paracaedimonas' -> Candidatus_Paracaedimonas
+NOTE: Change sequence name 'Corynebacterium aurimucosum' -> Corynebacterium_aurimucosum
+NOTE: Change sequence name 'Clostridium argentinense' -> Clostridium_argentinense
+NOTE: Change sequence name 'Chryseobacterium arthrosphaerae' -> Chryseobacterium_arthrosphaerae
+NOTE: Change sequence name 'Clostridium bolteae' -> Clostridium_bolteae
+NOTE: Change sequence name 'Citrobacter braakii' -> Citrobacter_braakii
+NOTE: Change sequence name 'Clostridium butyricum' -> Clostridium_butyricum
+NOTE: Change sequence name 'Clostridium baratii' -> Clostridium_baratii
+NOTE: Change sequence name 'Candidatus Symbiobacter' -> Candidatus_Symbiobacter
+NOTE: Change sequence name 'Clostridium cellulosi' -> Clostridium_cellulosi
+NOTE: Change sequence name 'Corynebacterium casei' -> Corynebacterium_casei
+NOTE: Change sequence name 'Caldicellulosiruptor changbaiensis' -> Caldicellulosiruptor_changbaiensis
+NOTE: Change sequence name 'Clostridium chauvoei' -> Clostridium_chauvoei
+NOTE: Change sequence name 'Corynebacterium camporealensis' -> Corynebacterium_camporealensis
+NOTE: Change sequence name 'Capnocytophaga canimorsus' -> Capnocytophaga_canimorsus
+NOTE: Change sequence name 'Campylobacter concisus' -> Campylobacter_concisus
+NOTE: Change sequence name 'Campylobacter cuniculorum' -> Campylobacter_cuniculorum
+NOTE: Change sequence name 'Campylobacter curvus' -> Campylobacter_curvus
+NOTE: Change sequence name 'Campylobacter coli' -> Campylobacter_coli
+NOTE: Change sequence name 'Capnocytophaga cynodegmi' -> Capnocytophaga_cynodegmi
+NOTE: Change sequence name 'Corynebacterium diphtheriae' -> Corynebacterium_diphtheriae
+NOTE: Change sequence name 'Cronobacter dublinensis' -> Cronobacter_dublinensis
+NOTE: Change sequence name 'Corynebacterium deserti' -> Corynebacterium_deserti
+NOTE: Change sequence name 'Dickeya fangzhongdai' -> Dickeya_fangzhongdai
+NOTE: Change sequence name 'Corynebacterium epidermidicanis' -> Corynebacterium_epidermidicanis
+NOTE: Change sequence name 'Citrobacter farmeri' -> Citrobacter_farmeri
+NOTE: Change sequence name 'Corynebacterium flavescens' -> Corynebacterium_flavescens
+NOTE: Change sequence name 'Citrobacter freundii' -> Citrobacter_freundii
+NOTE: Change sequence name 'Corynebacterium frankenforstense' -> Corynebacterium_frankenforstense
+NOTE: Change sequence name 'Clostridium formicaceticum' -> Clostridium_formicaceticum
+NOTE: Change sequence name 'Corynebacterium falsenii' -> Corynebacterium_falsenii
+NOTE: Change sequence name 'Capnocytophaga gingivalis' -> Capnocytophaga_gingivalis
+NOTE: Change sequence name 'Chryseobacterium gallinarum' -> Chryseobacterium_gallinarum
+NOTE: Change sequence name 'Campylobacter gracilis' -> Campylobacter_gracilis
+NOTE: Change sequence name 'Corynebacterium glutamicum' -> Corynebacterium_glutamicum
+NOTE: Change sequence name 'Corynebacterium glyciniphilum' -> Corynebacterium_glyciniphilum
+NOTE: Change sequence name 'Campylobacter hominis' -> Campylobacter_hominis
+NOTE: Change sequence name 'Caldicellulosiruptor hydrothermalis' -> Caldicellulosiruptor_hydrothermalis
+NOTE: Change sequence name 'Corynebacterium humireducens' -> Corynebacterium_humireducens
+NOTE: Change sequence name 'Campylobacter hepaticus' -> Campylobacter_hepaticus
+NOTE: Change sequence name 'Campylobacter hyointestinalis' -> Campylobacter_hyointestinalis
+NOTE: Change sequence name 'Chryseobacterium StRB' -> Chryseobacterium_StRB
+NOTE: Change sequence name 'Clostridium isatidis' -> Clostridium_isatidis
+NOTE: Change sequence name 'Citrobacter CRE' -> Citrobacter_CRE
+NOTE: Change sequence name 'Corynebacterium imitans' -> Corynebacterium_imitans
+NOTE: Change sequence name 'Chryseobacterium indologenes' -> Chryseobacterium_indologenes
+NOTE: Change sequence name 'Citrobacter CFNIH' -> Citrobacter_CFNIH
+NOTE: Change sequence name 'Campylobacter jejuni' -> Campylobacter_jejuni
+NOTE: Change sequence name 'Corynebacterium jeikeium' -> Corynebacterium_jeikeium
+NOTE: Change sequence name 'Caldicellulosiruptor kristjanssonii' -> Caldicellulosiruptor_kristjanssonii
+NOTE: Change sequence name 'Clostridium kluyveri' -> Clostridium_kluyveri
+NOTE: Change sequence name 'Caldicellulosiruptor kronotskyensis' -> Caldicellulosiruptor_kronotskyensis
+NOTE: Change sequence name 'Citrobacter koseri' -> Citrobacter_koseri
+NOTE: Change sequence name 'Corynebacterium kutscheri' -> Corynebacterium_kutscheri
+NOTE: Change sequence name 'Clostridium BNL' -> Clostridium_BNL
+NOTE: Change sequence name 'Caldicellulosiruptor lactoaceticus' -> Caldicellulosiruptor_lactoaceticus
+NOTE: Change sequence name 'Clostridium sporogenes' -> Clostridium_sporogenes
+NOTE: Change sequence name 'Campylobacter lari' -> Campylobacter_lari
+NOTE: Change sequence name 'Clostridium SY' -> Clostridium_SY
+NOTE: Change sequence name 'Clostridium bornimense' -> Clostridium_bornimense
+NOTE: Change sequence name 'Campylobacter lanienae' -> Campylobacter_lanienae
+NOTE: Change sequence name 'Cronobacter malonaticus' -> Cronobacter_malonaticus
+NOTE: Change sequence name 'Corynebacterium mustelae' -> Corynebacterium_mustelae
+NOTE: Change sequence name 'Cronobacter muytjensii' -> Cronobacter_muytjensii
+NOTE: Change sequence name 'Clostridium novyi' -> Clostridium_novyi
+NOTE: Change sequence name 'Corynebacterium ATCC' -> Corynebacterium_ATCC
+NOTE: Change sequence name 'Caldicellulosiruptor obsidiansis' -> Caldicellulosiruptor_obsidiansis
+NOTE: Change sequence name 'Capnocytophaga ochracea' -> Capnocytophaga_ochracea
+NOTE: Change sequence name 'Corynebacterium pseudotuberculosis' -> Corynebacterium_pseudotuberculosis
+NOTE: Change sequence name 'Capnocytophaga oral' -> Capnocytophaga_oral
+NOTE: Change sequence name 'Caldicellulosiruptor owensensis' -> Caldicellulosiruptor_owensensis
+NOTE: Change sequence name 'Clostridium pasteurianum' -> Clostridium_pasteurianum
+NOTE: Change sequence name 'Corynebacterium pelargi' -> Corynebacterium_pelargi
+NOTE: Change sequence name 'Campylobacter peloridis' -> Campylobacter_peloridis
+NOTE: Change sequence name 'Corynebacterium phocae' -> Corynebacterium_phocae
+NOTE: Change sequence name 'Clostridium perfringens' -> Clostridium_perfringens
+NOTE: Change sequence name 'Candidatus Cyclonatronum' -> Candidatus_Cyclonatronum
+NOTE: Change sequence name 'Corynebacterium resistens' -> Corynebacterium_resistens
+NOTE: Change sequence name 'Citrobacter rodentium' -> Citrobacter_rodentium
+NOTE: Change sequence name 'Clostridium saccharobutylicum' -> Clostridium_saccharobutylicum
+NOTE: Change sequence name 'Caldicellulosiruptor saccharolyticus' -> Caldicellulosiruptor_saccharolyticus
+NOTE: Change sequence name 'Clostridium septicum' -> Clostridium_septicum
+NOTE: Change sequence name 'Cronobacter sakazakii' -> Cronobacter_sakazakii
+NOTE: Change sequence name 'Campylobacter antarcticus' -> Campylobacter_antarcticus
+NOTE: Change sequence name 'Corynebacterium simulans' -> Corynebacterium_simulans
+NOTE: Change sequence name 'Campylobacter sputorum' -> Campylobacter_sputorum
+NOTE: Change sequence name 'Clostridium scatologenes' -> Clostridium_scatologenes
+NOTE: Change sequence name 'Clostridium saccharoperbutylacetonicum' -> Clostridium_saccharoperbutylacetonicum
+NOTE: Change sequence name 'Capnocytophaga stomatis' -> Capnocytophaga_stomatis
+NOTE: Change sequence name 'Corynebacterium striatum' -> Corynebacterium_striatum
+NOTE: Change sequence name 'Candidatus Caldiarchaeum' -> Candidatus_Caldiarchaeum
+NOTE: Change sequence name 'Corynebacterium singulare' -> Corynebacterium_singulare
+NOTE: Change sequence name 'Clostridium tetani' -> Clostridium_tetani
+NOTE: Change sequence name 'Corynebacterium terpenotabidum' -> Corynebacterium_terpenotabidum
+NOTE: Change sequence name 'Cronobacter turicensis' -> Cronobacter_turicensis
+NOTE: Change sequence name 'Corynebacterium urealyticum' -> Corynebacterium_urealyticum
+NOTE: Change sequence name 'Corynebacterium ulcerans' -> Corynebacterium_ulcerans
+NOTE: Change sequence name 'Corynebacterium ureicelerivorans' -> Corynebacterium_ureicelerivorans
+NOTE: Change sequence name 'Corynebacterium variabile' -> Corynebacterium_variabile
+NOTE: Change sequence name 'Corynebacterium vitaeruminis' -> Corynebacterium_vitaeruminis
+NOTE: Change sequence name 'Citrobacter youngae' -> Citrobacter_youngae
+NOTE: Change sequence name 'Dickeya aquatica' -> Dickeya_aquatica
+NOTE: Change sequence name 'Candidatus Desulforudis' -> Candidatus_Desulforudis
+NOTE: Change sequence name 'Dickeya paradisiaca' -> Dickeya_paradisiaca
+NOTE: Change sequence name 'Dickeya zeae' -> Dickeya_zeae
+NOTE: Change sequence name 'Dickeya dadantii' -> Dickeya_dadantii
+NOTE: Change sequence name 'Dickeya dianthicola' -> Dickeya_dianthicola
+NOTE: Change sequence name 'Candidatus Doolittlea' -> Candidatus_Doolittlea
+NOTE: Change sequence name 'Dickeya chrysanthemi' -> Dickeya_chrysanthemi
+NOTE: Change sequence name 'Enterococcus avium' -> Enterococcus_avium
+NOTE: Change sequence name 'Enterobacter cancerogenus' -> Enterobacter_cancerogenus
+NOTE: Change sequence name 'Enterobacter cloacae' -> Enterobacter_cloacae
+NOTE: Change sequence name 'Enterobacter hormaechei' -> Enterobacter_hormaechei
+NOTE: Change sequence name 'Enterococcus durans' -> Enterococcus_durans
+NOTE: Change sequence name 'Eubacterium eligens' -> Eubacterium_eligens
+NOTE: Change sequence name 'Enterococcus faecalis' -> Enterococcus_faecalis
+NOTE: Change sequence name 'Enterococcus hirae' -> Enterococcus_hirae
+NOTE: Change sequence name 'Eubacterium limosum' -> Eubacterium_limosum
+NOTE: Change sequence name 'Eubacterium maltosivorans' -> Eubacterium_maltosivorans
+NOTE: Change sequence name 'Enterococcus mundtii' -> Enterococcus_mundtii
+NOTE: Change sequence name 'Enterobacter R' -> Enterobacter_R
+NOTE: Change sequence name 'Eubacterium rectale' -> Eubacterium_rectale
+NOTE: Change sequence name 'Enterobacter roggenkampii' -> Enterobacter_roggenkampii
+NOTE: Change sequence name 'Eubacterium siraeum' -> Eubacterium_siraeum
+NOTE: Change sequence name 'Enterococcus silesiacus' -> Enterococcus_silesiacus
+NOTE: Change sequence name 'Enterococcus thailandicus' -> Enterococcus_thailandicus
+NOTE: Change sequence name 'Candidatus Endomicrobium' -> Candidatus_Endomicrobium
+NOTE: Change sequence name 'Fusobacterium gonidiaformans' -> Fusobacterium_gonidiaformans
+NOTE: Change sequence name 'Fusobacterium hwasookii' -> Fusobacterium_hwasookii
+NOTE: Change sequence name 'Candidatus Filomicrobium' -> Candidatus_Filomicrobium
+NOTE: Change sequence name 'Fusobacterium mortiferum' -> Fusobacterium_mortiferum
+NOTE: Change sequence name 'Fusobacterium nucleatum' -> Fusobacterium_nucleatum
+NOTE: Change sequence name 'Fusobacterium periodonticum' -> Fusobacterium_periodonticum
+NOTE: Change sequence name 'Geobacter anodireducens' -> Geobacter_anodireducens
+NOTE: Change sequence name 'Geobacillus CT' -> Geobacillus_CT
+NOTE: Change sequence name 'Geobacillus AMOR' -> Geobacillus_AMOR
+NOTE: Change sequence name 'Geobacillus LC' -> Geobacillus_LC
+NOTE: Change sequence name 'Geobacter daltonii' -> Geobacter_daltonii
+NOTE: Change sequence name 'Geobacillus lituanicus' -> Geobacillus_lituanicus
+NOTE: Change sequence name 'Geobacter lovleyi' -> Geobacter_lovleyi
+NOTE: Change sequence name 'Geobacillus Y.MC' -> Geobacillus_Y.MC
+NOTE: Change sequence name 'Geobacter metallireducens' -> Geobacter_metallireducens
+NOTE: Change sequence name 'Geobacter pickeringii' -> Geobacter_pickeringii
+NOTE: Change sequence name 'Geobacillus stearothermophilus' -> Geobacillus_stearothermophilus
+NOTE: Change sequence name 'Geobacter sulfurreducens' -> Geobacter_sulfurreducens
+NOTE: Change sequence name 'Bacillus X()' -> Bacillus_X()
+NOTE: Change sequence name 'Geobacillus thermocatenulatus' -> Geobacillus_thermocatenulatus
+NOTE: Change sequence name 'Geobacillus thermodenitrificans' -> Geobacillus_thermodenitrificans
+NOTE: Change sequence name 'Geobacter uraniireducens' -> Geobacter_uraniireducens
+NOTE: Change sequence name 'Geobacillus WCH' -> Geobacillus_WCH
+NOTE: Change sequence name 'Geobacillus YMC' -> Geobacillus_YMC
+NOTE: Change sequence name 'Helicobacter apodemus' -> Helicobacter_apodemus
+NOTE: Change sequence name 'Halomonas GFAJ' -> Halomonas_GFAJ
+NOTE: Change sequence name 'Halomonas KO' -> Halomonas_KO
+NOTE: Change sequence name 'Halomonas alkaliphila' -> Halomonas_alkaliphila
+NOTE: Change sequence name 'Halomonas beimenensis' -> Halomonas_beimenensis
+NOTE: Change sequence name 'Helicobacter cinaedi' -> Helicobacter_cinaedi
+NOTE: Change sequence name 'Helicobacter cetorum' -> Helicobacter_cetorum
+NOTE: Change sequence name 'Candidatus Hepatoplasma' -> Candidatus_Hepatoplasma
+NOTE: Change sequence name 'Halomonas campaniensis' -> Halomonas_campaniensis
+NOTE: Change sequence name 'Halomonas elongata' -> Halomonas_elongata
+NOTE: Change sequence name 'Helicobacter MIT' -> Helicobacter_MIT
+NOTE: Change sequence name 'Helicobacter typhlonius' -> Helicobacter_typhlonius
+Alignment most likely contains protein sequences
+Alignment has 235 sequences with 1061 columns, 817 distinct patterns
+538 parsimony-informative, 225 singleton sites, 298 constant sites
+WARNING: Some sequence names are changed as follows:
+Bacillus_X() -> Bacillus_X__
+
+                                        Gap/Ambiguity  Composition  p-value
+   1  Bacillus_BSA                             64.47%    passed     39.69%
+   2  Bacillus_Pc                              64.47%    passed     33.14%
+   3  Bacillus_SDLI                            64.47%    passed     27.84%
+   4  Bifidobacterium_actinocoloniiforme       69.18%    passed     13.71%
+   5  Bacillus_YP                              64.47%    passed     35.34%
+   6  Bifidobacterium_adolescentis             67.67%    passed     22.17%
+   7  Bacillus_atrophaeus                      64.47%    passed     15.76%
+   8  Bacillus_coagulans                       94.06%    passed     32.71%
+   9  Bacillus_anthracis                       81.90%    failed      0.33%
+  10  Bacillus_cereus                          81.90%    failed      0.32%
+  11  Bacillus_LM                              64.47%    passed     30.77%
+  12  Bacillus_velezensis                      64.47%    passed     23.51%
+  13  Bacillus_amyloliquefaciens               64.47%    passed     39.99%
+  14  Bifidobacterium_angulatum                70.31%    failed      0.73%
+  15  Bifidobacterium_animalis                 50.14%    failed      0.29%
+  16  Candidatus_Bathyarchaeota                90.67%    passed     95.35%
+  17  Bifidobacterium_asteroides               69.65%    failed      0.49%
+  18  Bacillus_beveridgei                      68.90%    failed      3.54%
+  19  Bifidobacterium_bifidum                  72.10%    passed     10.03%
+  20  Bifidobacterium_breve                    67.67%    passed     12.20%
+  21  Bifidobacterium_catenulatum              67.48%    failed      0.60%
+  22  Burkholderia_cenocepacia                 69.75%    failed      0.00%
+  23  Bifidobacterium_choerinum                67.95%    passed      5.43%
+  24  Bacillus_clausii                         67.67%    passed     90.00%
+  25  Bifidobacterium_dentium                  71.25%    passed     18.77%
+  26  Bacteroides_dorei                        67.95%    passed     74.86%
+  27  Burkholderia_dolosa                      69.18%    failed      0.00%
+  28  Bacillus_filamentosus                    76.34%    failed      2.65%
+  29  Bacteroides_fragilis                     70.78%    passed     53.29%
+  30  Burkholderia_plantarii                   68.90%    failed      0.25%
+  31  Bacillus_glycinifermentans               92.27%    passed      9.19%
+  32  Bacillus_halodurans                      67.67%    passed     47.46%
+  33  Bacteroides_heparinolyticus              70.78%    passed     63.75%
+  34  Bacillus_horikoshii                      92.27%    failed      1.62%
+  35  Bacteroides_helcogenes                   67.95%    passed     72.83%
+  36  Candidatus_Bipolaricaulis                67.67%    failed      0.19%
+  37  Bacillus_intestinalis                    64.47%    passed     36.77%
+  38  Bacillus_JS                              64.47%    passed     31.76%
+  39  Bifidobacterium_kashiwanohense           67.67%    passed     22.45%
+  40  Bacillus_krulwichiae                     82.38%    failed      0.10%
+  41  Burkholderia_latens                      69.75%    failed      0.00%
+  42  Bifidobacterium_longum                   68.24%    failed      3.93%
+  43  Bacillus_paralicheniformis               92.18%    passed     12.47%
+  44  Burkholderia_metallica                   68.80%    failed      0.00%
+  45  Burkholderia_pseudomallei                82.00%    failed      0.04%
+  46  Bifidobacterium_pseudocatenulatum        67.67%    passed     21.07%
+  47  Burkholderia_pyrrocinia                  69.37%    failed      0.00%
+  48  Bacteroides_salanitronis                 80.21%    passed     23.37%
+  49  Bifidobacterium_scardovii                65.79%    failed      0.00%
+  50  Bacillus_subtilis                        64.47%    passed     39.69%
+  51  Bacillus_smithii                         69.09%    failed      0.01%
+  52  Burkholderia_stabilis                    68.43%    failed      0.00%
+  53  Bacillus_thuringiensis                   78.51%    failed      0.00%
+  54  Burkholderia_thailandensis               82.00%    failed      0.02%
+  55  Bifidobacterium_thermophilum             67.67%    failed      3.08%
+  56  Burkholderia_RPE                         72.20%    failed      0.00%
+  57  Burkholderia_PAMC                        68.90%    failed      0.03%
+  58  Bacillus_vallismortis                    64.47%    passed     23.01%
+  59  Bacillus_xiamenensis                     67.67%    passed     82.06%
+  60  Burkholderia_YI                          72.20%    failed      0.00%
+  61  Bacteroides_zoogleoformans               81.43%    passed     77.95%
+  62  Clostridium_acetobutylicum               83.51%    failed      0.00%
+  63  Clostridium_aceticum                     68.90%    failed      0.00%
+  64  Candidatus_Cloacimonas                   67.58%    failed      3.11%
+  65  Citrobacter_amalonaticus                 79.45%    passed     65.10%
+  66  Clostridium_autoethanogenum              68.52%    failed      0.00%
+  67  Campylobacter_iguaniorum                 68.80%    failed      0.01%
+  68  Campylobacter_fetus                      68.61%    failed      0.00%
+  69  Campylobacter_RM                         71.82%    failed      0.00%
+  70  Capnocytophaga_H                         72.01%    passed     42.90%
+  71  Capnocytophaga_ChDC                      72.10%    passed      6.42%
+  72  Candidatus_Paracaedimonas                85.49%    failed      0.00%
+  73  Corynebacterium_aurimucosum              70.59%    failed      3.63%
+  74  Clostridium_argentinense                 69.18%    failed      0.00%
+  75  Chryseobacterium_arthrosphaerae          72.01%    passed     20.43%
+  76  Clostridium_bolteae                      67.67%    passed     53.40%
+  77  Citrobacter_braakii                      67.77%    failed      0.05%
+  78  Clostridium_butyricum                    68.71%    failed      0.00%
+  79  Clostridium_baratii                      69.27%    failed      0.00%
+  80  Candidatus_Symbiobacter                  69.56%    failed      0.03%
+  81  Clostridium_cellulosi                    67.67%    passed     66.04%
+  82  Corynebacterium_casei                    84.64%    passed     27.83%
+  83  Caldicellulosiruptor_changbaiensis       68.80%    failed      0.02%
+  84  Clostridium_chauvoei                     68.71%    failed      0.00%
+  85  Corynebacterium_camporealensis           71.16%    passed     20.95%
+  86  Capnocytophaga_canimorsus                72.01%    passed     40.72%
+  87  Campylobacter_concisus                   68.71%    passed     35.45%
+  88  Campylobacter_cuniculorum                71.72%    failed      0.00%
+  89  Campylobacter_curvus                     68.71%    passed     58.07%
+  90  Campylobacter_coli                       72.10%    failed      0.00%
+  91  Capnocytophaga_cynodegmi                 72.01%    passed     41.69%
+  92  Corynebacterium_diphtheriae              70.69%    failed      3.32%
+  93  Cronobacter_dublinensis                  71.25%    failed      0.48%
+  94  Corynebacterium_deserti                  69.27%    passed     13.41%
+  95  Dickeya_fangzhongdai                     71.07%    failed      0.04%
+  96  Corynebacterium_epidermidicanis          49.29%    failed      0.00%
+  97  Citrobacter_farmeri                      79.45%    passed     65.88%
+  98  Corynebacterium_flavescens               49.86%    failed      0.24%
+  99  Citrobacter_freundii                     67.77%    failed      0.03%
+ 100  Corynebacterium_frankenforstense         70.41%    failed      0.00%
+ 101  Clostridium_formicaceticum               68.71%    failed      0.02%
+ 102  Corynebacterium_falsenii                 68.24%    failed      0.22%
+ 103  Capnocytophaga_gingivalis                82.38%    failed      0.00%
+ 104  Chryseobacterium_gallinarum              80.21%    failed      0.00%
+ 105  Campylobacter_gracilis                   31.10%    failed      0.00%
+ 106  Corynebacterium_glutamicum               70.88%    passed     15.75%
+ 107  Corynebacterium_glyciniphilum            42.04%    failed      0.00%
+ 108  Campylobacter_hominis                    68.80%    failed      0.00%
+ 109  Caldicellulosiruptor_hydrothermalis      69.09%    passed     46.35%
+ 110  Corynebacterium_humireducens             61.83%    failed      0.00%
+ 111  Chryseobacterium                         68.52%    passed     50.72%
+ 112  Campylobacter_hepaticus                  71.72%    failed      0.00%
+ 113  Campylobacter_hyointestinalis            72.01%    failed      0.01%
+ 114  Chryseobacterium_StRB                    72.01%    passed     24.34%
+ 115  Clostridium_isatidis                     69.09%    failed      0.01%
+ 116  Citrobacter_CRE                          67.77%    failed      0.03%
+ 117  Corynebacterium_imitans                  49.76%    failed      0.00%
+ 118  Chryseobacterium_indologenes             72.01%    passed     25.77%
+ 119  Citrobacter_CFNIH                        93.78%    failed      3.65%
+ 120  Campylobacter_jejuni                     72.10%    failed      0.00%
+ 121  Corynebacterium_jeikeium                 70.50%    failed      2.87%
+ 122  Caldicellulosiruptor_kristjanssonii      68.80%    passed     37.03%
+ 123  Clostridium_kluyveri                     68.52%    failed      0.01%
+ 124  Caldicellulosiruptor_kronotskyensis      69.09%    passed     40.85%
+ 125  Citrobacter_koseri                       73.14%    passed      8.75%
+ 126  Corynebacterium_kutscheri                75.78%    passed     53.19%
+ 127  Clostridium_BNL                          67.67%    passed     80.55%
+ 128  Caldicellulosiruptor_lactoaceticus       68.80%    passed     37.03%
+ 129  Clostridium_sporogenes                   65.41%    failed      0.00%
+ 130  Campylobacter_lari                       71.72%    failed      0.01%
+ 131  Clostridium_SY                           82.28%    passed     72.46%
+ 132  Clostridium_bornimense                   69.18%    failed      0.00%
+ 133  Campylobacter_lanienae                   70.12%    failed      0.00%
+ 134  Cronobacter_malonaticus                  71.25%    failed      2.07%
+ 135  Corynebacterium_mustelae                 70.22%    failed      3.98%
+ 136  Cronobacter_muytjensii                   69.18%    failed      4.02%
+ 137  Clostridium_novyi                        68.71%    failed      0.00%
+ 138  Corynebacterium_ATCC                     69.93%    failed      1.25%
+ 139  Caldicellulosiruptor_obsidiansis         69.27%    failed      1.87%
+ 140  Capnocytophaga_ochracea                  79.26%    passed     21.88%
+ 141  Corynebacterium_pseudotuberculosis       60.70%    failed      0.00%
+ 142  Capnocytophaga_oral                      79.26%    passed     21.88%
+ 143  Caldicellulosiruptor_owensensis          69.27%    failed      0.77%
+ 144  Clostridium_pasteurianum                 68.61%    failed      0.00%
+ 145  Corynebacterium_pelargi                  80.49%    failed      0.06%
+ 146  Campylobacter_peloridis                  71.82%    failed      0.00%
+ 147  Corynebacterium_phocae                   69.65%    passed     33.07%
+ 148  Clostridium_perfringens                  82.47%    failed      0.02%
+ 149  Candidatus_Cyclonatronum                 72.20%    passed     43.25%
+ 150  Corynebacterium_resistens                73.33%    failed      3.81%
+ 151  Citrobacter_rodentium                    79.45%    passed     54.65%
+ 152  Clostridium_saccharobutylicum            68.71%    failed      0.02%
+ 153  Caldicellulosiruptor_saccharolyticus     68.90%    failed      0.01%
+ 154  Clostridium_septicum                     69.18%    failed      0.00%
+ 155  Cronobacter_sakazakii                    71.25%    failed      1.25%
+ 156  Campylobacter_antarcticus                71.72%    failed      0.00%
+ 157  Corynebacterium_simulans                 70.78%    passed      8.00%
+ 158  Campylobacter_sputorum                   68.90%    failed      0.01%
+ 159  Clostridium_scatologenes                 68.61%    failed      0.00%
+ 160  Clostridium_saccharoperbutylacetonicum   69.18%    failed      0.01%
+ 161  Capnocytophaga_stomatis                  72.01%    passed     40.90%
+ 162  Corynebacterium_striatum                 70.78%    passed      7.50%
+ 163  Candidatus_Caldiarchaeum                 69.84%    failed      0.00%
+ 164  Corynebacterium_singulare                70.59%    failed      2.06%
+ 165  Clostridium_tetani                       68.90%    failed      0.00%
+ 166  Corynebacterium_terpenotabidum           41.85%    failed      0.00%
+ 167  Cronobacter_turicensis                   71.25%    failed      1.32%
+ 168  Corynebacterium_urealyticum              70.59%    failed      0.16%
+ 169  Corynebacterium_ulcerans                 70.12%    passed     23.45%
+ 170  Corynebacterium_ureicelerivorans         72.10%    failed      0.08%
+ 171  Corynebacterium_variabile                41.94%    failed      0.00%
+ 172  Corynebacterium_vitaeruminis             61.92%    failed      0.00%
+ 173  Citrobacter_youngae                      71.25%    failed      2.38%
+ 174  Dickeya_aquatica                         71.07%    failed      0.02%
+ 175  Candidatus_Desulforudis                  71.16%    passed     54.32%
+ 176  Dickeya_paradisiaca                      68.61%    failed      0.91%
+ 177  Dickeya_zeae                             71.07%    failed      0.02%
+ 178  Dickeya_dadantii                         89.07%    failed      0.00%
+ 179  Dickeya_dianthicola                      67.86%    failed      0.01%
+ 180  Candidatus_Doolittlea                    89.63%    passed      7.51%
+ 181  Dickeya_chrysanthemi                     68.61%    failed      0.41%
+ 182  Enterococcus_avium                       68.99%    failed      0.39%
+ 183  Enterobacter_cancerogenus                69.18%    failed      1.43%
+ 184  Enterobacter_cloacae                     86.80%    failed      4.86%
+ 185  Enterobacter_hormaechei                  86.99%    failed      4.50%
+ 186  Enterococcus_durans                      72.86%    passed      5.55%
+ 187  Eubacterium_eligens                      91.42%    failed      1.91%
+ 188  Enterococcus_faecalis                    72.86%    passed     33.63%
+ 189  Enterococcus_hirae                       72.86%    failed      3.10%
+ 190  Eubacterium_limosum                      68.71%    passed      5.59%
+ 191  Eubacterium_maltosivorans                68.71%    passed     20.26%
+ 192  Enterococcus_mundtii                     72.86%    failed      4.37%
+ 193  Enterobacter_R                           79.45%    passed     47.92%
+ 194  Eubacterium_rectale                      73.42%    passed     73.77%
+ 195  Enterobacter_roggenkampii                69.18%    failed      1.78%
+ 196  Eubacterium_siraeum                      71.07%    passed     23.11%
+ 197  Enterococcus_silesiacus                  67.77%    passed     75.04%
+ 198  Enterococcus_thailandicus                72.86%    passed      5.89%
+ 199  Candidatus_Endomicrobium                 67.58%    passed     36.40%
+ 200  Fusobacterium_gonidiaformans             68.90%    failed      0.00%
+ 201  Fusobacterium_hwasookii                  68.43%    failed      1.03%
+ 202  Candidatus_Filomicrobium                 69.84%    failed      0.03%
+ 203  Fusobacterium_mortiferum                 68.90%    failed      0.00%
+ 204  Fusobacterium_nucleatum                  72.48%    failed      0.02%
+ 205  Fusobacterium_periodonticum              72.48%    failed      0.02%
+ 206  Geobacter_anodireducens                  71.16%    failed      0.25%
+ 207  Geobacillus_CT                           69.09%    failed      1.63%
+ 208  Geobacillus_AMOR                         67.67%    passed     13.40%
+ 209  Geobacillus_LC                           67.67%    passed     34.63%
+ 210  Geobacter_daltonii                       67.58%    passed     32.26%
+ 211  Geobacillus_lituanicus                   68.80%    failed      4.63%
+ 212  Geobacter_lovleyi                        71.07%    failed      0.14%
+ 213  Geobacillus_Y.MC                         69.18%    passed      6.27%
+ 214  Geobacter_metallireducens                67.58%    failed      1.59%
+ 215  Geobacter_pickeringii                    71.44%    failed      0.28%
+ 216  Geobacillus_stearothermophilus           68.61%    failed      1.05%
+ 217  Geobacter_sulfurreducens                 50.14%    failed      0.00%
+ 218  Bacillus_X__                             67.67%    passed     53.43%
+ 219  Geobacillus_thermocatenulatus            60.32%    failed      0.00%
+ 220  Geobacillus_thermodenitrificans          69.75%    failed      0.06%
+ 221  Geobacter_uraniireducens                 71.07%    failed      0.04%
+ 222  Geobacillus_WCH                          68.61%    failed      3.04%
+ 223  Geobacillus_YMC                          68.61%    failed      1.05%
+ 224  Helicobacter_apodemus                    84.07%    failed      0.12%
+ 225  Halomonas_GFAJ                           88.97%    failed      4.33%
+ 226  Halomonas_KO                             71.16%    failed      0.02%
+ 227  Halomonas_alkaliphila                    71.16%    failed      0.02%
+ 228  Halomonas_beimenensis                    71.16%    failed      0.05%
+ 229  Helicobacter_cinaedi                     71.91%    failed      0.97%
+ 230  Helicobacter_cetorum                     70.03%    failed      0.00%
+ 231  Candidatus_Hepatoplasma                  69.93%    failed      0.00%
+ 232  Halomonas_campaniensis                   69.18%    failed      4.88%
+ 233  Halomonas_elongata                       69.37%    failed      1.14%
+ 234  Helicobacter_MIT                         70.97%    passed     48.23%
+ 235  Helicobacter_typhlonius                  69.75%    failed      3.52%
+WARNING: 228 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                    70.67%  149 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Bacillus_subtilis is identical to Bacillus_BSA but kept for subsequent analysis
+NOTE: Citrobacter_CRE is identical to Citrobacter_freundii but kept for subsequent analysis
+NOTE: Capnocytophaga_oral is identical to Capnocytophaga_ochracea but kept for subsequent analysis
+NOTE: Geobacillus_YMC is identical to Geobacillus_stearothermophilus but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.340 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 103416)...
+
+NOTE: 124 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -106360.080
+2. Current log-likelihood: -102773.122
+3. Current log-likelihood: -102420.243
+4. Current log-likelihood: -102394.947
+5. Current log-likelihood: -102393.917
+6. Current log-likelihood: -102393.815
+Optimal log-likelihood: -102393.723
+Gamma shape alpha: 2.624
+Parameters optimization took 6 rounds (37.683 sec)
+Computing ML distances based on estimated model parameters... 27.192 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.144 seconds
+Log-likelihood of BIONJ tree: -102622.456
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 26.984 second
+Computing log-likelihood of 98 initial trees ... 235.815 seconds
+Current best score: -102393.723
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -102257.313
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -102244.269
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -102240.999
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -102236.673
+Iteration 10 / LogL: -102239.861 / Time: 0h:16m:3s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 16: -102225.124
+Iteration 20 / LogL: -102274.411 / Time: 0h:26m:6s
+Finish initializing candidate tree set (20)
+Current best tree score: -102225.124 / CPU time: 1453.615
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -102220.581
+Iteration 30 / LogL: -102326.732 / Time: 0h:36m:54s (1h:57m:5s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 37: -102213.655
+Iteration 40 / LogL: -102245.727 / Time: 0h:47m:49s (1h:58m:55s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 50: -102211.410
+Iteration 50 / LogL: -102211.410 / Time: 0h:55m:54s (1h:54m:5s left)
+Log-likelihood cutoff on original alignment: -102292.321
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 58: -102204.571
+Iteration 60 / LogL: -102238.383 / Time: 1h:4m:9s (1h:46m:33s left)
+Iteration 70 / LogL: -102355.721 / Time: 1h:13m:0s (1h:33m:6s left)
+Iteration 80 / LogL: -102219.904 / Time: 1h:20m:53s (1h:19m:51s left)
+Iteration 90 / LogL: -102220.426 / Time: 1h:29m:26s (1h:8m:19s left)
+Iteration 100 / LogL: -102213.013 / Time: 1h:38m:29s (0h:57m:41s left)
+Log-likelihood cutoff on original alignment: -102292.321
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.988
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 107: -102204.264
+Iteration 110 / LogL: -102244.077 / Time: 1h:47m:43s (1h:35m:51s left)
+Iteration 120 / LogL: -102220.638 / Time: 1h:56m:44s (1h:25m:20s left)
+Iteration 130 / LogL: -102207.567 / Time: 2h:6m:22s (1h:15m:25s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 132: -102203.455
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 137: -102201.057
+Iteration 140 / LogL: -102206.892 / Time: 2h:14m:33s (1h:33m:53s left)
+Iteration 150 / LogL: -102419.790 / Time: 2h:22m:23s (1h:23m:7s left)
+Log-likelihood cutoff on original alignment: -102280.016
+Iteration 160 / LogL: -102210.795 / Time: 2h:30m:2s (1h:12m:39s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 166: -102200.685
+Iteration 170 / LogL: -102215.731 / Time: 2h:38m:5s (1h:29m:47s left)
+Iteration 180 / LogL: -102202.010 / Time: 2h:45m:51s (1h:19m:40s left)
+Iteration 190 / LogL: -102283.792 / Time: 2h:53m:25s (1h:9m:44s left)
+Iteration 200 / LogL: -102207.255 / Time: 3h:1m:3s (1h:0m:2s left)
+Log-likelihood cutoff on original alignment: -102280.016
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.990
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 210 / LogL: -102208.897 / Time: 3h:9m:2s (1h:21m:24s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 211: -102200.664
+Iteration 220 / LogL: -102234.133 / Time: 3h:16m:21s (1h:21m:35s left)
+Iteration 230 / LogL: -102203.063 / Time: 3h:23m:42s (1h:12m:3s left)
+Iteration 240 / LogL: -102202.447 / Time: 3h:31m:19s (1h:2m:46s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 247: -102199.719
+Iteration 250 / LogL: -102206.520 / Time: 3h:39m:7s (1h:25m:21s left)
+Log-likelihood cutoff on original alignment: -102280.016
+Iteration 260 / LogL: -102200.576 / Time: 3h:47m:14s (1h:16m:19s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 265: -102198.608
+Iteration 270 / LogL: -102229.155 / Time: 3h:54m:53s (1h:22m:57s left)
+Iteration 280 / LogL: -102313.026 / Time: 4h:2m:22s (1h:13m:50s left)
+Iteration 290 / LogL: -102201.770 / Time: 4h:10m:9s (1h:4m:55s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 291: -102198.489
+Iteration 300 / LogL: -102208.488 / Time: 4h:17m:15s (1h:18m:17s left)
+Log-likelihood cutoff on original alignment: -102280.016
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 301: -102198.439
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 310: -102197.873
+Iteration 310 / LogL: -102197.873 / Time: 4h:24m:20s (1h:25m:32s left)
+Iteration 320 / LogL: -102210.350 / Time: 4h:31m:25s (1h:16m:34s left)
+Iteration 330 / LogL: -102203.741 / Time: 4h:38m:55s (1h:7m:49s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 335: -102197.338
+Iteration 340 / LogL: -102202.865 / Time: 4h:46m:28s (1h:20m:16s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 342: -102197.095
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 344: -102195.569
+Iteration 350 / LogL: -102202.938 / Time: 4h:54m:15s (1h:19m:15s left)
+Log-likelihood cutoff on original alignment: -102280.016
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 355: -102194.680
+Iteration 360 / LogL: -102245.471 / Time: 5h:1m:57s (1h:19m:54s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 362: -102194.161
+Iteration 370 / LogL: -102295.930 / Time: 5h:9m:18s (1h:17m:6s left)
+Iteration 380 / LogL: -102198.037 / Time: 5h:17m:1s (1h:8m:35s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 386: -102193.971
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 390: -102190.890
+Iteration 390 / LogL: -102190.890 / Time: 5h:24m:23s (1h:23m:23s left)
+Iteration 400 / LogL: -102231.725 / Time: 5h:31m:42s (1h:14m:49s left)
+Log-likelihood cutoff on original alignment: -102276.106
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.983
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 409: -102189.726
+Iteration 410 / LogL: -102234.056 / Time: 5h:39m:17s (1h:22m:7s left)
+Iteration 420 / LogL: -102196.695 / Time: 5h:46m:52s (1h:13m:40s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 429: -102189.309
+Iteration 430 / LogL: -102197.870 / Time: 5h:53m:39s (1h:21m:36s left)
+Iteration 440 / LogL: -102285.795 / Time: 6h:1m:7s (1h:13m:12s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 445: -102187.662
+Iteration 450 / LogL: -102267.781 / Time: 6h:9m:24s (1h:18m:9s left)
+Log-likelihood cutoff on original alignment: -102276.106
+Iteration 460 / LogL: -102204.606 / Time: 6h:16m:27s (1h:9m:42s left)
+Iteration 470 / LogL: -102189.441 / Time: 6h:23m:12s (1h:1m:16s left)
+Iteration 480 / LogL: -102233.196 / Time: 6h:30m:5s (0h:52m:56s left)
+Iteration 490 / LogL: -102220.931 / Time: 6h:37m:1s (0h:44m:39s left)
+Iteration 500 / LogL: -102224.713 / Time: 6h:43m:30s (0h:36m:23s left)
+Log-likelihood cutoff on original alignment: -102276.106
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.974
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 510 / LogL: -102221.138 / Time: 6h:50m:20s (1h:12m:33s left)
+Iteration 520 / LogL: -102236.481 / Time: 6h:57m:47s (1h:4m:23s left)
+Iteration 530 / LogL: -102224.812 / Time: 7h:4m:52s (0h:56m:13s left)
+Iteration 540 / LogL: -102237.565 / Time: 7h:12m:29s (0h:48m:8s left)
+Iteration 550 / LogL: -102391.575 / Time: 7h:19m:38s (0h:40m:2s left)
+Log-likelihood cutoff on original alignment: -102276.106
+Iteration 560 / LogL: -102216.285 / Time: 7h:26m:52s (0h:31m:58s left)
+Iteration 570 / LogL: -102193.844 / Time: 7h:34m:29s (0h:23m:57s left)
+Iteration 580 / LogL: -102227.309 / Time: 7h:40m:58s (0h:15m:55s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 587: -102187.445
+Iteration 590 / LogL: -102311.838 / Time: 7h:48m:1s (1h:17m:4s left)
+Iteration 600 / LogL: -102188.269 / Time: 7h:54m:45s (1h:8m:57s left)
+Log-likelihood cutoff on original alignment: -102276.106
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.973
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 610 / LogL: -102194.500 / Time: 8h:1m:16s (1h:11m:7s left)
+Iteration 620 / LogL: -102212.717 / Time: 8h:8m:9s (1h:3m:5s left)
+Iteration 630 / LogL: -102193.107 / Time: 8h:14m:58s (0h:55m:4s left)
+Iteration 640 / LogL: -102218.889 / Time: 8h:21m:51s (0h:47m:7s left)
+Iteration 650 / LogL: -102228.099 / Time: 8h:28m:44s (0h:39m:11s left)
+Log-likelihood cutoff on original alignment: -102276.106
+Iteration 660 / LogL: -102187.692 / Time: 8h:35m:43s (0h:31m:18s left)
+Iteration 670 / LogL: -102192.705 / Time: 8h:42m:51s (0h:23m:26s left)
+Iteration 680 / LogL: -102198.320 / Time: 8h:49m:42s (0h:15m:36s left)
+Iteration 690 / LogL: -102189.011 / Time: 8h:57m:13s (0h:7m:47s left)
+Iteration 700 / LogL: -102220.411 / Time: 9h:3m:55s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -102276.106
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.980
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 710 / LogL: -102240.280 / Time: 9h:10m:42s (1h:9m:54s left)
+Iteration 720 / LogL: -102189.542 / Time: 9h:18m:4s (1h:2m:5s left)
+Iteration 730 / LogL: -102189.704 / Time: 9h:25m:6s (0h:54m:15s left)
+BETTER TREE FOUND at iteration 732: -102187.435
+Iteration 740 / LogL: -102195.001 / Time: 9h:33m:7s (1h:11m:20s left)
+Iteration 750 / LogL: -102201.554 / Time: 9h:40m:9s (1h:3m:30s left)
+Log-likelihood cutoff on original alignment: -102263.891
+Iteration 760 / LogL: -102196.149 / Time: 9h:47m:16s (0h:55m:42s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 769: -102186.132
+Iteration 770 / LogL: -102188.065 / Time: 9h:54m:18s (1h:16m:30s left)
+Iteration 780 / LogL: -102451.695 / Time: 10h:1m:22s (1h:8m:42s left)
+Iteration 790 / LogL: -102205.222 / Time: 10h:8m:50s (1h:0m:57s left)
+Iteration 800 / LogL: -102283.959 / Time: 10h:16m:21s (0h:53m:13s left)
+Log-likelihood cutoff on original alignment: -102263.891
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.988
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 810 / LogL: -102820.271 / Time: 10h:23m:44s (1h:9m:23s left)
+Iteration 820 / LogL: -102187.916 / Time: 10h:30m:52s (1h:1m:37s left)
+Iteration 830 / LogL: -102188.444 / Time: 10h:38m:36s (0h:53m:55s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 839: -102185.063
+Iteration 840 / LogL: -102216.602 / Time: 10h:46m:12s (1h:16m:15s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 849: -102184.575
+Iteration 850 / LogL: -102193.516 / Time: 10h:53m:22s (1h:16m:11s left)
+Log-likelihood cutoff on original alignment: -102263.891
+Iteration 860 / LogL: -102366.538 / Time: 11h:0m:53s (1h:8m:28s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 861: -102180.715
+Iteration 870 / LogL: -102193.307 / Time: 11h:8m:2s (1h:9m:57s left)
+Iteration 880 / LogL: -102188.626 / Time: 11h:15m:2s (1h:2m:12s left)
+Iteration 890 / LogL: -102188.989 / Time: 11h:22m:23s (0h:54m:29s left)
+Iteration 900 / LogL: -102188.036 / Time: 11h:29m:56s (0h:46m:48s left)
+Log-likelihood cutoff on original alignment: -102263.891
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+Iteration 910 / LogL: -102195.246 / Time: 11h:37m:13s (1h:9m:1s left)
+Iteration 920 / LogL: -102202.170 / Time: 11h:45m:0s (1h:1m:22s left)
+Iteration 930 / LogL: -102196.447 / Time: 11h:52m:19s (0h:53m:40s left)
+Iteration 940 / LogL: -102391.828 / Time: 11h:59m:55s (0h:46m:0s left)
+Iteration 950 / LogL: -102182.668 / Time: 12h:7m:33s (0h:38m:19s left)
+Log-likelihood cutoff on original alignment: -102263.891
+Iteration 960 / LogL: -102192.145 / Time: 12h:14m:42s (0h:30m:38s left)
+TREE SEARCH COMPLETED AFTER 962 ITERATIONS / Time: 12h:16m:40s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -102180.715
+Optimal log-likelihood: -102180.704
+Gamma shape alpha: 2.616
+Parameters optimization took 1 rounds (3.464 sec)
+BEST SCORE FOUND : -102180.704
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Alternative NNI shows better log-likelihood -102180.641 > -102180.704
+9.519 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file cas1_clean_aln.splits.nex
+Total tree length: 190.650
+
+Total number of iterations: 962
+CPU time used for tree search: 43992.968 sec (12h:13m:12s)
+Wall-clock time used for tree search: 44087.603 sec (12h:14m:47s)
+Total CPU time used: 44119.440 sec (12h:15m:19s)
+Total wall-clock time used: 44214.693 sec (12h:16m:54s)
+
+Computing bootstrap consensus tree...
+Reading input file cas1_clean_aln.splits.nex...
+235 taxa and 2279 splits.
+Consensus tree written to cas1_clean_aln.contree
+Reading input trees file cas1_clean_aln.contree
+Log-likelihood of consensus tree: -102187.362
+
+Analysis results written to: 
+  IQ-TREE report:                cas1_clean_aln.iqtree
+  Maximum-likelihood tree:       cas1_clean_aln.treefile
+  Likelihood distances:          cas1_clean_aln.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          cas1_clean_aln.splits.nex
+  Consensus tree:                cas1_clean_aln.contree
+  Screen log file:               cas1_clean_aln.log
+
+Date and Time: Mon Oct 28 05:13:00 2019

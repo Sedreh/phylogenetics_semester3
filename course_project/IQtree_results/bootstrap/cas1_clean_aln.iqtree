@@ -1,0 +1,1056 @@
+IQ-TREE 1.6.11 built Jun  6 2019
+
+Input file name: cas1_clean_aln
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 103416
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2017) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol Biol Evol, in press.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 235 sequences with 1061 amino-acid sites
+Number of constant sites: 298 (= 28.0867% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 298 (= 28.0867% of all sites)
+Number of parsimony informative sites: 538
+Number of distinct site patterns: 817
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: VT+F+G4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0811
+  pi(R) = 0.0629
+  pi(N) = 0.0455
+  pi(D) = 0.0538
+  pi(C) = 0.0134
+  pi(Q) = 0.0379
+  pi(E) = 0.0636
+  pi(G) = 0.0606
+  pi(H) = 0.0248
+  pi(I) = 0.0673
+  pi(L) = 0.0982
+  pi(K) = 0.0632
+  pi(M) = 0.0247
+  pi(F) = 0.0412
+  pi(P) = 0.0362
+  pi(S) = 0.0598
+  pi(T) = 0.0462
+  pi(W) = 0.0113
+  pi(Y) = 0.0392
+  pi(V) = 0.0692
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 2.6161
+
+ Category  Relative_rate  Proportion
+  1         0.3572         0.2500
+  2         0.7078         0.2500
+  3         1.0798         0.2500
+  4         1.8552         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -102180.7042 (s.e. 4170.3150)
+Unconstrained log-likelihood (without tree): -6698.2390
+Number of free parameters (#branches + #model parameters): 487
+Akaike information criterion (AIC) score: 205335.4084
+Corrected Akaike information criterion (AICc) score: 206164.9233
+Bayesian information criterion (BIC) score: 207754.3214
+
+Total tree length (sum of branch lengths): 190.6504
+Sum of internal branch lengths: 84.0864 (44.1050% of tree length)
+
+WARNING: 8 near-zero internal branches (<0.0009) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Bacillus_BSA' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++**Bacillus_BSA
+|
+|                          +--Bacillus_Pc
+|                       +**| (0/21)
+|                       |  +--Bacillus_amyloliquefaciens
+|                    +**| (0/27)
+|                    |  +--Bacillus_vallismortis
+|                 +--| (70.5/96)
+|                 |  +--Bacillus_SDLI
+|              +--| (100/100)
+|              |  +**Bacillus_velezensis
+|           +--| (97.7/99)
+|           |  +--Bacillus_atrophaeus
+|        +--| (96.4/97)
+|        |  +--Bacillus_intestinalis
+|     +**| (0/89)
+|     |  +--Bacillus_JS
+|  +--| (77.5/92)
+|  |  +**Bacillus_YP
++--| (78.2/99)
+|  |                                                          +--Bifidobacterium_actinocoloniiforme
+|  |                                                       +--| (94.6/81)
+|  |                                                       |  +--Bifidobacterium_asteroides
+|  |                                                    +--| (99.6/81)
+|  |                                                    |  |  +--Bifidobacterium_angulatum
+|  |                                                    |  +--| (97.3/100)
+|  |                                                    |     +--Bifidobacterium_catenulatum
+|  |                                                 +--| (100/100)
+|  |                                                 |  +--Bifidobacterium_choerinum
+|  |                                              +--| (63.1/97)
+|  |                                              |  |              +--Bifidobacterium_longum
+|  |                                              |  |           +--| (100/100)
+|  |                                              |  |           |  +--Bifidobacterium_scardovii
+|  |                                              |  |        +--| (94.8/73)
+|  |                                              |  |        |  |                 +--Corynebacterium_aurimucosum
+|  |                                              |  |        |  |              +--| (98.8/100)
+|  |                                              |  |        |  |              |  |  +--Corynebacterium_casei
+|  |                                              |  |        |  |              |  +--| (68.1/99)
+|  |                                              |  |        |  |              |     +--Corynebacterium_singulare
+|  |                                              |  |        |  |           +--| (92/100)
+|  |                                              |  |        |  |           |  +--Corynebacterium_resistens
+|  |                                              |  |        |  |        +--| (96.8/100)
+|  |                                              |  |        |  |        |  |  +--Corynebacterium_urealyticum
+|  |                                              |  |        |  |        |  +--| (87.7/100)
+|  |                                              |  |        |  |        |     +--Corynebacterium_ureicelerivorans
+|  |                                              |  |        |  |     +--| (98.4/96)
+|  |                                              |  |        |  |     |  +--Corynebacterium_diphtheriae
+|  |                                              |  |        |  |  +--| (88.9/73)
+|  |                                              |  |        |  |  |  +--Corynebacterium_frankenforstense
+|  |                                              |  |        |  +--| (99.6/100)
+|  |                                              |  |        |     +--Corynebacterium_jeikeium
+|  |                                              |  |     +--| (97/52)
+|  |                                              |  |     |  |  +--Corynebacterium_kutscheri
+|  |                                              |  |     |  +--| (97.6/100)
+|  |                                              |  |     |     +--Corynebacterium_phocae
+|  |                                              |  |  +--| (25.8/47)
+|  |                                              |  |  |  |  +--Corynebacterium_deserti
+|  |                                              |  |  |  +--| (99.9/100)
+|  |                                              |  |  |     +--Corynebacterium_falsenii
+|  |                                              |  +--| (94.4/96)
+|  |                                              |     +--Corynebacterium_ATCC
+|  |                                           +--| (85.3/99)
+|  |                                           |  +--Eubacterium_siraeum
+|  |                                        +--| (93.6/99)
+|  |                                        |  +--Clostridium_SY
+|  |                                     +--| (94.5/95)
+|  |                                     |  |           +--Cronobacter_dublinensis
+|  |                                     |  |        +--| (99.9/78)
+|  |                                     |  |        |  |        +--Dickeya_fangzhongdai
+|  |                                     |  |        |  |     +--| (14.9/54)
+|  |                                     |  |        |  |     |  +--Dickeya_zeae
+|  |                                     |  |        |  |  +--| (100/100)
+|  |                                     |  |        |  |  |  +**Dickeya_aquatica
+|  |                                     |  |        |  +--| (90.5/75)
+|  |                                     |  |        |     |     +--Cronobacter_malonaticus
+|  |                                     |  |        |     |  +--| (76.2/94)
+|  |                                     |  |        |     |  |  +--Cronobacter_turicensis
+|  |                                     |  |        |     +--| (89.6/96)
+|  |                                     |  |        |        +**Cronobacter_sakazakii
+|  |                                     |  |     +--| (99.3/78)
+|  |                                     |  |     |  +--Citrobacter_youngae
+|  |                                     |  |  +--| (70.9/72)
+|  |                                     |  |  |  |     +**Halomonas_KO
+|  |                                     |  |  |  |  +--| (100/100)
+|  |                                     |  |  |  |  |  +--Halomonas_alkaliphila
+|  |                                     |  |  |  +--| (78/94)
+|  |                                     |  |  |     +--Halomonas_beimenensis
+|  |                                     |  +--| (100/100)
+|  |                                     |     |     +--Geobacter_anodireducens
+|  |                                     |     |  +--| (51.9/94)
+|  |                                     |     |  |  +--Geobacter_pickeringii
+|  |                                     |     +--| (99.6/100)
+|  |                                     |        |  +--Geobacter_lovleyi
+|  |                                     |        +--| (93.7/100)
+|  |                                     |           +--Geobacter_uraniireducens
+|  |                                  +--| (92.1/92)
+|  |                                  |  |     +--Burkholderia_RPE
+|  |                                  |  |  +--| (96.9/100)
+|  |                                  |  |  |  +--Burkholderia_YI
+|  |                                  |  +--| (100/100)
+|  |                                  |     +--Candidatus_Filomicrobium
+|  |                               +--| (72/27)
+|  |                               |  |                     +--Burkholderia_plantarii
+|  |                               |  |                  +--| (100/100)
+|  |                               |  |                  |  +--Burkholderia_PAMC
+|  |                               |  |               +--| (26.5/99)
+|  |                               |  |               |  +--Halomonas_campaniensis
+|  |                               |  |            +--| (100/99)
+|  |                               |  |            |  +--Halomonas_elongata
+|  |                               |  |         +--| (99.3/88)
+|  |                               |  |         |  |  +--Cronobacter_muytjensii
+|  |                               |  |         |  +--| (95.7/100)
+|  |                               |  |         |     |  +--Enterobacter_cancerogenus
+|  |                               |  |         |     +--| (100/100)
+|  |                               |  |         |        +--Enterobacter_roggenkampii
+|  |                               |  |      +--| (99/88)
+|  |                               |  |      |  +--Dickeya_paradisiaca
+|  |                               |  +------| (100/99)
+|  |                               |         +--Dickeya_chrysanthemi
+|  |                            +--| (60.5/27)
+|  |                            |  |         +--Corynebacterium_glutamicum
+|  |                            |  |      +--| (99.5/100)
+|  |                            |  |      |  |  +**Corynebacterium_simulans
+|  |                            |  |      |  +--| (100/100)
+|  |                            |  |      |     +--Corynebacterium_striatum
+|  |                            |  |   +--| (85.1/99)
+|  |                            |  |   |  +--Corynebacterium_mustelae
+|  |                            |  +---| (99.8/98)
+|  |                            |      +--Corynebacterium_ulcerans
+|  |                         +--| (78.1/85)
+|  |                         |  +--------------------Geobacillus_thermodenitrificans
+|  |                      +--| (76.3/28)
+|  |                      |  |                                                              +--Bifidobacterium_adolescentis
+|  |                      |  |                                                           +--| (64.2/98)
+|  |                      |  |                                                           |  +**Bifidobacterium_pseudocatenulatum
+|  |                      |  |                                                        +--| (100/100)
+|  |                      |  |                                                        |  +**Bifidobacterium_kashiwanohense
+|  |                      |  |                                                     +--| (58.5/100)
+|  |                      |  |                                                     |  +--Bifidobacterium_breve
+|  |                      |  |                                                  +--| (100/100)
+|  |                      |  |                                                  |  +--Bifidobacterium_thermophilum
+|  |                      |  |                                               +--| (72.6/93)
+|  |                      |  |                                               |  |              +--Bacillus_clausii
+|  |                      |  |                                               |  |           +--| (99.6/100)
+|  |                      |  |                                               |  |           |  +--Bacillus_halodurans
+|  |                      |  |                                               |  |        +--| (89.8/100)
+|  |                      |  |                                               |  |        |  |  +--Bacillus_xiamenensis
+|  |                      |  |                                               |  |        |  +--| (98.7/100)
+|  |                      |  |                                               |  |        |     +--Bacillus_X__
+|  |                      |  |                                               |  |     +--| (99.7/100)
+|  |                      |  |                                               |  |     |  +--Enterococcus_silesiacus
+|  |                      |  |                                               |  |  +--| (92.5/100)
+|  |                      |  |                                               |  |  |  |  +--Clostridium_cellulosi
+|  |                      |  |                                               |  |  |  +--| (95.5/100)
+|  |                      |  |                                               |  |  |     +--Clostridium_BNL
+|  |                      |  |                                               |  +--| (90.5/100)
+|  |                      |  |                                               |     |  +--Clostridium_bolteae
+|  |                      |  |                                               |     +--| (99.7/100)
+|  |                      |  |                                               |        +--Eubacterium_rectale
+|  |                      |  |                                            +--| (98.5/100)
+|  |                      |  |                                            |  |     +--Bacteroides_dorei
+|  |                      |  |                                            |  |  +--| (92.6/100)
+|  |                      |  |                                            |  |  |  +--Bacteroides_helcogenes
+|  |                      |  |                                            |  +--| (98.8/100)
+|  |                      |  |                                            |     +---Bacteroides_zoogleoformans
+|  |                      |  |                                         +--| (72.7/93)
+|  |                      |  |                                         |  |  +--Candidatus_Bipolaricaulis
+|  |                      |  |                                         |  +--| (74.8/100)
+|  |                      |  |                                         |     +--Candidatus_Endomicrobium
+|  |                      |  |                                      +--| (91.1/98)
+|  |                      |  |                                      |  +--Dickeya_dianthicola
+|  |                      |  |                                   +--| (78.6/93)
+|  |                      |  |                                   |  |     +**Geobacillus_AMOR
+|  |                      |  |                                   |  |  +--| (100/100)
+|  |                      |  |                                   |  |  |  +--Geobacillus_LC
+|  |                      |  |                                   |  +--| (96.4/96)
+|  |                      |  |                                   |     |  +--Geobacter_daltonii
+|  |                      |  |                                   |     +--| (100/100)
+|  |                      |  |                                   |        +--Geobacter_metallireducens
+|  |                      |  |                                +--| (88.8/63)
+|  |                      |  |                                |  |           +----Bacillus_coagulans
+|  |                      |  |                                |  |     +-----| (86.5/86)
+|  |                      |  |                                |  |     |     +-----------------Campylobacter_hominis
+|  |                      |  |                                |  |  +--| (0/53)
+|  |                      |  |                                |  |  |  +---------------Citrobacter_koseri
+|  |                      |  |                                |  +--| (91.6/61)
+|  |                      |  |                                |     |          +--Bacteroides_salanitronis
+|  |                      |  |                                |     |  +-------| (99.1/100)
+|  |                      |  |                                |     |  |       +--Chryseobacterium_gallinarum
+|  |                      |  |                                |     +--| (24.4/68)
+|  |                      |  |                                |        |   +--------Capnocytophaga_gingivalis
+|  |                      |  |                                |        +---| (80.1/98)
+|  |                      |  |                                |            +------------Helicobacter_apodemus
+|  |                      |  |                             +--| (91.5/48)
+|  |                      |  |                             |  |    +--Bifidobacterium_animalis
+|  |                      |  |                             |  +----| (100/100)
+|  |                      |  |                             |       |  +--Corynebacterium_flavescens
+|  |                      |  |                             |       +--| (99.1/100)
+|  |                      |  |                             |          +--Corynebacterium_imitans
+|  |                      |  |                          +--| (76/36)
+|  |                      |  |                          |  |  +----Candidatus_Cloacimonas
+|  |                      |  |                          |  +--| (66/56)
+|  |                      |  |                          |     +----Geobacillus_lituanicus
+|  |                      |  |                       +--| (97.3/56)
+|  |                      |  |                       |  |                    +--Bacillus_smithii
+|  |                      |  |                       |  |                 +--| (95.1/100)
+|  |                      |  |                       |  |                 |  |  +--Geobacillus_CT
+|  |                      |  |                       |  |                 |  +--| (100/100)
+|  |                      |  |                       |  |                 |     +--Geobacillus_Y.MC
+|  |                      |  |                       |  |              +--| (95.8/100)
+|  |                      |  |                       |  |              |  |  +--Clostridium_argentinense
+|  |                      |  |                       |  |              |  +--| (94.3/100)
+|  |                      |  |                       |  |              |     |     +--Clostridium_baratii
+|  |                      |  |                       |  |              |     |  +--| (98/100)
+|  |                      |  |                       |  |              |     |  |  |     +--Clostridium_bornimense
+|  |                      |  |                       |  |              |     |  |  |  +--| (66.4/76)
+|  |                      |  |                       |  |              |     |  |  |  |  +--Clostridium_perfringens
+|  |                      |  |                       |  |              |     |  |  +--| (0/45)
+|  |                      |  |                       |  |              |     |  |     +--Clostridium_saccharoperbutylacetonicum
+|  |                      |  |                       |  |              |     +--| (75.4/100)
+|  |                      |  |                       |  |              |        +--Clostridium_septicum
+|  |                      |  |                       |  |           +--| (99.8/100)
+|  |                      |  |                       |  |           |  |  +--Caldicellulosiruptor_obsidiansis
+|  |                      |  |                       |  |           |  +--| (100/100)
+|  |                      |  |                       |  |           |     +--Caldicellulosiruptor_owensensis
+|  |                      |  |                       |  |        +--| (65.6/88)
+|  |                      |  |                       |  |        |  |     +--Clostridium_tetani
+|  |                      |  |                       |  |        |  |  +--| (99.9/100)
+|  |                      |  |                       |  |        |  |  |  +--Fusobacterium_gonidiaformans
+|  |                      |  |                       |  |        |  +--| (99/100)
+|  |                      |  |                       |  |        |     +--Enterococcus_avium
+|  |                      |  |                       |  |     +--| (96.9/98)
+|  |                      |  |                       |  |     |  |        +--Clostridium_aceticum
+|  |                      |  |                       |  |     |  |     +--| (35.6/82)
+|  |                      |  |                       |  |     |  |     |  +--Caldicellulosiruptor_saccharolyticus
+|  |                      |  |                       |  |     |  |  +--| (100/100)
+|  |                      |  |                       |  |     |  |  |  |  +--Caldicellulosiruptor_changbaiensis
+|  |                      |  |                       |  |     |  |  |  +--| (85.5/99)
+|  |                      |  |                       |  |     |  |  |     |     +**Geobacillus_stearothermophilus
+|  |                      |  |                       |  |     |  |  |     |  +--| (100/100)
+|  |                      |  |                       |  |     |  |  |     |  |  +**Geobacillus_YMC
+|  |                      |  |                       |  |     |  |  |     +--| (100/100)
+|  |                      |  |                       |  |     |  |  |        +--Geobacillus_WCH
+|  |                      |  |                       |  |     |  +--| (25/48)
+|  |                      |  |                       |  |     |     |                    +--Clostridium_autoethanogenum
+|  |                      |  |                       |  |     |     |                 +--| (99.7/100)
+|  |                      |  |                       |  |     |     |                 |  +--Clostridium_kluyveri
+|  |                      |  |                       |  |     |     |              +--| (98.4/99)
+|  |                      |  |                       |  |     |     |              |  |  +--Clostridium_pasteurianum
+|  |                      |  |                       |  |     |     |              |  +--| (99.9/100)
+|  |                      |  |                       |  |     |     |              |     +--Clostridium_scatologenes
+|  |                      |  |                       |  |     |     |           +--| (90.2/45)
+|  |                      |  |                       |  |     |     |           |  +--Clostridium_novyi
+|  |                      |  |                       |  |     |     |        +--| (89/45)
+|  |                      |  |                       |  |     |     |        |  |  +--Eubacterium_limosum
+|  |                      |  |                       |  |     |     |        |  +--| (100/100)
+|  |                      |  |                       |  |     |     |        |     +--Eubacterium_maltosivorans
+|  |                      |  |                       |  |     |     |     +--| (97/92)
+|  |                      |  |                       |  |     |     |     |  |     +--Clostridium_chauvoei
+|  |                      |  |                       |  |     |     |     |  |  +--| (94.8/100)
+|  |                      |  |                       |  |     |     |     |  |  |  +--Clostridium_saccharobutylicum
+|  |                      |  |                       |  |     |     |     |  +--| (95.6/99)
+|  |                      |  |                       |  |     |     |     |     +--Clostridium_formicaceticum
+|  |                      |  |                       |  |     |     |  +--| (100/100)
+|  |                      |  |                       |  |     |     |  |  +--Campylobacter_fetus
+|  |                      |  |                       |  |     |     +--| (56.4/92)
+|  |                      |  |                       |  |     |        +--Chryseobacterium
+|  |                      |  |                       |  |  +--| (99.9/88)
+|  |                      |  |                       |  |  |  |                            +--Citrobacter_amalonaticus
+|  |                      |  |                       |  |  |  |                         +--| (42.9/74)
+|  |                      |  |                       |  |  |  |                         |  +--Citrobacter_farmeri
+|  |                      |  |                       |  |  |  |                      +--| (77.3/75)
+|  |                      |  |                       |  |  |  |                      |  +--Citrobacter_rodentium
+|  |                      |  |                       |  |  |  |  +-------------------| (100/100)
+|  |                      |  |                       |  |  |  |  |                   +--Enterobacter_R
+|  |                      |  |                       |  |  |  +--| (0/64)
+|  |                      |  |                       |  |  |     |   +--Campylobacter_iguaniorum
+|  |                      |  |                       |  |  |     +---| (94.7/92)
+|  |                      |  |                       |  |  |         |     +--Campylobacter_concisus
+|  |                      |  |                       |  |  |         |  +--| (99.2/100)
+|  |                      |  |                       |  |  |         |  |  +--Campylobacter_curvus
+|  |                      |  |                       |  |  |         +--| (78.7/90)
+|  |                      |  |                       |  |  |            +--Campylobacter_sputorum
+|  |                      |  |                       |  +--| (85.8/53)
+|  |                      |  |                       |     |                    +--Corynebacterium_humireducens
+|  |                      |  |                       |     |  +-----------------| (100/100)
+|  |                      |  |                       |     |  |                 |  +--Corynebacterium_pseudotuberculosis
+|  |                      |  |                       |     |  |                 +--| (88.7/94)
+|  |                      |  |                       |     |  |                    +--Corynebacterium_vitaeruminis
+|  |                      |  |                       |     +--| (77.5/71)
+|  |                      |  |                       |        +--Fusobacterium_hwasookii
+|  |                      |  |                    +--| (80.9/37)
+|  |                      |  |                    |  |                  +---------Candidatus_Bathyarchaeota
+|  |                      |  |                    |  |              +---| (93.7/97)
+|  |                      |  |                    |  |              |   +-----------Bacillus_thuringiensis
+|  |                      |  |                    |  |           +--| (38.5/44)
+|  |                      |  |                    |  |           |  +--Campylobacter_lanienae
+|  |                      |  |                    |  |        +--| (4.5/77)
+|  |                      |  |                    |  |        |  |                     +--Caldicellulosiruptor_hydrothermalis
+|  |                      |  |                    |  |        |  +---------------------| (100/100)
+|  |                      |  |                    |  |        |                        |  +**Caldicellulosiruptor_kristjanssonii
+|  |                      |  |                    |  |        |                        +--| (59/34)
+|  |                      |  |                    |  |        |                           |  +--Caldicellulosiruptor_kronotskyensis
+|  |                      |  |                    |  |        |                           +--| (100/47)
+|  |                      |  |                    |  |        |                              +**Caldicellulosiruptor_lactoaceticus
+|  |                      |  |                    |  |     +--| (77.3/77)
+|  |                      |  |                    |  |     |  |  +--Campylobacter_gracilis
+|  |                      |  |                    |  |     |  +--| (95.6/97)
+|  |                      |  |                    |  |     |     +----Helicobacter_cetorum
+|  |                      |  |                    |  |  +**| (0/38)
+|  |                      |  |                    |  |  |  |  +------Candidatus_Caldiarchaeum
+|  |                      |  |                    |  |  |  +--| (90.4/89)
+|  |                      |  |                    |  |  |     +--Candidatus_Desulforudis
+|  |                      |  |                    |  +--| (39.3/51)
+|  |                      |  |                    |     +------------------Corynebacterium_pelargi
+|  |                      |  |                 +--| (59/60)
+|  |                      |  |                 |  |                 +-----Bifidobacterium_bifidum
+|  |                      |  |                 |  |              +--| (93.7/100)
+|  |                      |  |                 |  |              |  |           +--Enterococcus_durans
+|  |                      |  |                 |  |              |  |        +--| (98.4/86)
+|  |                      |  |                 |  |              |  |        |  +--Enterococcus_hirae
+|  |                      |  |                 |  |              |  |     +--| (88.6/86)
+|  |                      |  |                 |  |              |  |     |  +--Enterococcus_mundtii
+|  |                      |  |                 |  |              |  |  +--| (100/100)
+|  |                      |  |                 |  |              |  |  |  |  +--Enterococcus_faecalis
+|  |                      |  |                 |  |              |  |  |  +--| (73.2/97)
+|  |                      |  |                 |  |              |  |  |     +--Enterococcus_thailandicus
+|  |                      |  |                 |  |              |  +--| (86.3/100)
+|  |                      |  |                 |  |              |     |  +--Fusobacterium_nucleatum
+|  |                      |  |                 |  |              |     +--| (100/100)
+|  |                      |  |                 |  |              |        +--Fusobacterium_periodonticum
+|  |                      |  |                 |  |           +--| (89.4/68)
+|  |                      |  |                 |  |           |  |         +---Bifidobacterium_dentium
+|  |                      |  |                 |  |           |  |     +---| (99.9/100)
+|  |                      |  |                 |  |           |  |     |   +--Corynebacterium_camporealensis
+|  |                      |  |                 |  |           |  |  +--| (89.4/100)
+|  |                      |  |                 |  |           |  |  |  |        +--Bacteroides_fragilis
+|  |                      |  |                 |  |           |  |  |  |     +--| (100/100)
+|  |                      |  |                 |  |           |  |  |  |     |  +--Bacteroides_heparinolyticus
+|  |                      |  |                 |  |           |  |  |  |  +--| (78.8/99)
+|  |                      |  |                 |  |           |  |  |  |  |  +--Candidatus_Cyclonatronum
+|  |                      |  |                 |  |           |  |  |  +--| (98.9/100)
+|  |                      |  |                 |  |           |  |  |     |           +**Capnocytophaga_H
+|  |                      |  |                 |  |           |  |  |     |        +**| (0/99)
+|  |                      |  |                 |  |           |  |  |     |        |  +--Capnocytophaga_stomatis
+|  |                      |  |                 |  |           |  |  |     |     +--| (99.9/100)
+|  |                      |  |                 |  |           |  |  |     |     |  |  +--Capnocytophaga_canimorsus
+|  |                      |  |                 |  |           |  |  |     |     |  +--| (96.4/100)
+|  |                      |  |                 |  |           |  |  |     |     |     +--Capnocytophaga_cynodegmi
+|  |                      |  |                 |  |           |  |  |     |  +--| (87.2/99)
+|  |                      |  |                 |  |           |  |  |     |  |  |     +--Chryseobacterium_arthrosphaerae
+|  |                      |  |                 |  |           |  |  |     |  |  |  +--| (94.2/100)
+|  |                      |  |                 |  |           |  |  |     |  |  |  |  +--Chryseobacterium_StRB
+|  |                      |  |                 |  |           |  |  |     |  |  +--| (99.8/100)
+|  |                      |  |                 |  |           |  |  |     |  |     +--Chryseobacterium_indologenes
+|  |                      |  |                 |  |           |  |  |     +--| (100/100)
+|  |                      |  |                 |  |           |  |  |        +--Capnocytophaga_ChDC
+|  |                      |  |                 |  |           |  +--| (75.8/98)
+|  |                      |  |                 |  |           |     |                    +--Campylobacter_RM
+|  |                      |  |                 |  |           |     |                 +--| (98.1/100)
+|  |                      |  |                 |  |           |     |                 |  |  +--Campylobacter_hepaticus
+|  |                      |  |                 |  |           |     |                 |  +--| (80.9/100)
+|  |                      |  |                 |  |           |     |                 |     +--Campylobacter_lari
+|  |                      |  |                 |  |           |     |              +--| (99.7/100)
+|  |                      |  |                 |  |           |     |              |  |  +--Campylobacter_peloridis
+|  |                      |  |                 |  |           |     |              |  +--| (93/100)
+|  |                      |  |                 |  |           |     |              |     +--Campylobacter_antarcticus
+|  |                      |  |                 |  |           |     |           +--| (47.2/67)
+|  |                      |  |                 |  |           |     |           |  +--Campylobacter_cuniculorum
+|  |                      |  |                 |  |           |     |        +--| (60.5/66)
+|  |                      |  |                 |  |           |     |        |  |  +--Campylobacter_coli
+|  |                      |  |                 |  |           |     |        |  +--| (99.9/100)
+|  |                      |  |                 |  |           |     |        |     +--Campylobacter_jejuni
+|  |                      |  |                 |  |           |     |     +--| (99.2/100)
+|  |                      |  |                 |  |           |     |     |  +--Helicobacter_cinaedi
+|  |                      |  |                 |  |           |     |  +--| (95.6/100)
+|  |                      |  |                 |  |           |     |  |  +--Campylobacter_hyointestinalis
+|  |                      |  |                 |  |           |     +--| (99.6/100)
+|  |                      |  |                 |  |           |        |  +--Helicobacter_MIT
+|  |                      |  |                 |  |           |        +--| (98.6/100)
+|  |                      |  |                 |  |           |           +--Helicobacter_typhlonius
+|  |                      |  |                 |  |        +--| (68.6/63)
+|  |                      |  |                 |  |        |  +-----Candidatus_Hepatoplasma
+|  |                      |  |                 |  |     +--| (87.1/93)
+|  |                      |  |                 |  |     |  +----------------------Geobacter_sulfurreducens
+|  |                      |  |                 |  |  +--| (79.4/56)
+|  |                      |  |                 |  |  |  |  +--Clostridium_isatidis
+|  |                      |  |                 |  |  |  +--| (97.6/100)
+|  |                      |  |                 |  |  |     +------Fusobacterium_mortiferum
+|  |                      |  |                 |  +--| (29.7/30)
+|  |                      |  |                 |     |     +--Candidatus_Symbiobacter
+|  |                      |  |                 |     |  +--| (89/100)
+|  |                      |  |                 |     |  |  +----Halomonas_GFAJ
+|  |                      |  |                 |     +--| (90.2/94)
+|  |                      |  |                 |        +--------Eubacterium_eligens
+|  |                      |  |              +--| (1.6/15)
+|  |                      |  |              |  |       +---------Candidatus_Paracaedimonas
+|  |                      |  |              |  +-------| (98/94)
+|  |                      |  |              |          +-----------Clostridium_sporogenes
+|  |                      |  |           +--| (79.2/16)
+|  |                      |  |           |  |                       +--Bacillus_glycinifermentans
+|  |                      |  |           |  |                    +--| (35.7/44)
+|  |                      |  |           |  |                    |  +--Bacillus_paralicheniformis
+|  |                      |  |           |  |            +-------| (95.8/97)
+|  |                      |  |           |  |            |       +--Bacillus_horikoshii
+|  |                      |  |           |  |        +---| (64.6/92)
+|  |                      |  |           |  |        |   |         +**Capnocytophaga_ochracea
+|  |                      |  |           |  |        |   +---------| (93.5/100)
+|  |                      |  |           |  |        |             +**Capnocytophaga_oral
+|  |                      |  |           |  |     +--| (39.2/76)
+|  |                      |  |           |  |     |  +-----------------Dickeya_dadantii
+|  |                      |  |           |  |  +--| (0/69)
+|  |                      |  |           |  |  |  |        +----------------Clostridium_acetobutylicum
+|  |                      |  |           |  |  |  |     +--| (0.2/83)
+|  |                      |  |           |  |  |  |     |  +------------Citrobacter_CFNIH
+|  |                      |  |           |  |  |  |  +--| (31.7/86)
+|  |                      |  |           |  |  |  |  |  +----------------Geobacillus_thermocatenulatus
+|  |                      |  |           |  |  |  +--| (40.6/73)
+|  |                      |  |           |  |  |     |                 +--Corynebacterium_glyciniphilum
+|  |                      |  |           |  |  |     |              +--| (78.4/99)
+|  |                      |  |           |  |  |     |              |  +--Corynebacterium_terpenotabidum
+|  |                      |  |           |  |  |     +--------------| (99.9/99)
+|  |                      |  |           |  |  |                    +**Corynebacterium_variabile
+|  |                      |  |           |  +--| (75/59)
+|  |                      |  |           |     +-------------------Bacillus_krulwichiae
+|  |                      |  |        +--| (76.9/15)
+|  |                      |  |        |  |   +----------Candidatus_Doolittlea
+|  |                      |  |        |  +---| (72.2/27)
+|  |                      |  |        |      |          +**Enterobacter_cloacae
+|  |                      |  |        |      +----------| (94/100)
+|  |                      |  |        |                 +--Enterobacter_hormaechei
+|  |                      |  |     +**| (0/12)
+|  |                      |  |     |  |                  +--Bacillus_anthracis
+|  |                      |  |     |  |    +-------------| (99.9/100)
+|  |                      |  |     |  |    |             +--Bacillus_cereus
+|  |                      |  |     |  +----| (70.2/30)
+|  |                      |  |     |       +------------Bacillus_filamentosus
+|  |                      |  |  +--| (30.8/18)
+|  |                      |  |  |  |                      +**Burkholderia_cenocepacia
+|  |                      |  |  |  |                   +--| (81.4/89)
+|  |                      |  |  |  |                   |  |     +--Burkholderia_dolosa
+|  |                      |  |  |  |                   |  |  +--| (0.7/92)
+|  |                      |  |  |  |                   |  |  |  |  +--Burkholderia_metallica
+|  |                      |  |  |  |                   |  |  |  +--| (89.9/98)
+|  |                      |  |  |  |                   |  |  |     +--Burkholderia_pyrrocinia
+|  |                      |  |  |  |                   |  +--| (97.9/90)
+|  |                      |  |  |  |                   |     +--Burkholderia_stabilis
+|  |                      |  |  |  |      +------------| (97.5/100)
+|  |                      |  |  |  |      |            +**Burkholderia_latens
+|  |                      |  |  |  +------| (56.6/74)
+|  |                      |  |  |         +------------------Corynebacterium_epidermidicanis
+|  |                      |  +--| (71.4/30)
+|  |                      |     |                  +**Burkholderia_pseudomallei
+|  |                      |     +------------------| (100/100)
+|  |                      |                        +--Burkholderia_thailandensis
+|  |  +-------------------| (100/100)
+|  |  |                   |      +----------Bacillus_beveridgei
+|  |  |                   |   +--| (71.7/35)
+|  |  |                   |   |  |            +--Citrobacter_braakii
+|  |  |                   |   |  +------------| (98.9/100)
+|  |  |                   |   |               |  +**Citrobacter_freundii
+|  |  |                   |   |               +**| (0/92)
+|  |  |                   |   |                  +**Citrobacter_CRE
+|  |  |                   +---| (73/30)
+|  |  |                       +---------------Clostridium_butyricum
+|  +**| (0/76)
+|     +--Bacillus_LM
+|
++**Bacillus_subtilis
+
+Tree in newick format:
+
+(Bacillus_BSA:0.0000026034,(((((((((Bacillus_Pc:0.0024715695,Bacillus_amyloliquefaciens:0.0049532235)0/21:0.0000021895,Bacillus_vallismortis:0.0024707410)0/27:0.0000022031,Bacillus_SDLI:0.0049429152)70.5/96:0.0024693757,Bacillus_velezensis:0.0000028713)100/100:0.0930080305,Bacillus_atrophaeus:0.0552285003)97.7/99:0.0336663030,Bacillus_intestinalis:0.0130712471)96.4/97:0.0171724571,Bacillus_JS:0.0098392261)0/89:0.0000024373,Bacillus_YP:0.0000029790)77.5/92:0.0024472929,((((((((((((((Bifidobacterium_actinocoloniiforme:0.0936440627,Bifidobacterium_asteroides:0.3143782295)94.6/81:0.0999318637,(Bifidobacterium_angulatum:0.0362628417,Bifidobacterium_catenulatum:0.2380848322)97.3/100:0.1035513452)99.6/81:0.2017440260,Bifidobacterium_choerinum:0.2233810845)100/100:0.2430639451,(((((Bifidobacterium_longum:0.0521410805,Bifidobacterium_scardovii:0.1264103788)100/100:0.4709404607,((((((Corynebacterium_aurimucosum:0.0153388777,(Corynebacterium_casei:0.4197152477,Corynebacterium_singulare:0.0366720180)68.1/99:0.0277448395)98.8/100:0.0793588822,Corynebacterium_resistens:0.2022363855)92/100:0.0620661720,(Corynebacterium_urealyticum:0.1813749500,Corynebacterium_ureicelerivorans:0.1751898584)87.7/100:0.0529674539)96.8/100:0.0783386807,Corynebacterium_diphtheriae:0.2240296581)98.4/96:0.1335359770,Corynebacterium_frankenforstense:0.3711868939)88.9/73:0.1081566114,Corynebacterium_jeikeium:0.3988505796)99.6/100:0.2341701738)94.8/73:0.1474660846,(Corynebacterium_kutscheri:0.3647498231,Corynebacterium_phocae:0.3165397247)97.6/100:0.1503943212)97/52:0.1199899832,(Corynebacterium_deserti:0.2279764626,Corynebacterium_falsenii:0.2651907653)99.9/100:0.2322783265)25.8/47:0.0615915452,Corynebacterium_ATCC:0.3557592839)94.4/96:0.1111556208)63.1/97:0.1128082235,Eubacterium_siraeum:0.3940332014)85.3/99:0.1470253470,Clostridium_SY:0.5351049981)93.6/99:0.2532026573,((((Cronobacter_dublinensis:0.0429750764,(((Dickeya_fangzhongdai:0.0385100532,Dickeya_zeae:0.0068832123)14.9/54:0.0033964896,Dickeya_aquatica:0.0000020651)100/100:0.1830993604,((Cronobacter_malonaticus:0.0034403645,Cronobacter_turicensis:0.0068976648)76.2/94:0.0034234150,Cronobacter_sakazakii:0.0000023540)89.6/96:0.0311041578)90.5/75:0.1043293801)99.9/78:0.1114063536,Citrobacter_youngae:0.1108829862)99.3/78:0.1083451103,((Halomonas_KO:0.0000023530,Halomonas_alkaliphila:0.0241496688)100/100:0.4520830363,Halomonas_beimenensis:0.0685593580)78/94:0.1077421544)70.9/72:0.0685161699,((Geobacter_anodireducens:0.0445806381,Geobacter_pickeringii:0.0317267379)51.9/94:0.0110167622,(Geobacter_lovleyi:0.0559184811,Geobacter_uraniireducens:0.0666497148)93.7/100:0.0588132533)99.6/100:0.2253912520)100/100:0.7032498941)94.5/95:0.3308270907,((Burkholderia_RPE:0.1195449038,Burkholderia_YI:0.1083209642)96.9/100:0.3147296010,Candidatus_Filomicrobium:0.5144400893)100/100:0.6521447754)92.1/92:0.2997154308,((((((Burkholderia_plantarii:0.1137912770,Burkholderia_PAMC:0.0978918958)100/100:0.2193407455,Halomonas_campaniensis:0.0859589247)26.5/99:0.0710733181,Halomonas_elongata:0.1642579364)100/99:0.2401010455,(Cronobacter_muytjensii:0.1280302315,(Enterobacter_cancerogenus:0.2847546234,Enterobacter_roggenkampii:0.0339650035)100/100:0.2460171115)95.7/100:0.0849000567)99.3/88:0.1527313583,Dickeya_paradisiaca:0.0378759896)99/88:0.3902342384,Dickeya_chrysanthemi:0.1364880660)100/99:1.3911193770)72/27:0.1717798499,(((Corynebacterium_glutamicum:0.2046380165,(Corynebacterium_simulans:0.0000027812,Corynebacterium_striatum:0.0160596472)100/100:0.2414400666)99.5/100:0.1461092164,Corynebacterium_mustelae:0.2199034989)85.1/99:0.1048935040,Corynebacterium_ulcerans:0.1044330207)99.8/98:0.8890022854)60.5/27:0.3115614413,Geobacillus_thermodenitrificans:4.0538269050)78.1/85:0.3913188835,(((((((((((((((((((((Bifidobacterium_adolescentis:0.0232889573,Bifidobacterium_pseudocatenulatum:0.0000027903)64.2/98:0.0057343352,Bifidobacterium_kashiwanohense:0.0000024755)100/100:0.2180205935,Bifidobacterium_breve:0.1146408725)58.5/100:0.0443725203,Bifidobacterium_thermophilum:0.2208276063)100/100:0.2960337563,(((((Bacillus_clausii:0.0362624627,Bacillus_halodurans:0.0633908821)99.6/100:0.0912849701,(Bacillus_xiamenensis:0.1963127653,Bacillus_X__:0.0959533814)98.7/100:0.0750503440)89.8/100:0.0543994900,Enterococcus_silesiacus:0.2692102677)99.7/100:0.1240416113,(Clostridium_cellulosi:0.1459632937,Clostridium_BNL:0.1432650512)95.5/100:0.0680274804)92.5/100:0.0672176649,(Clostridium_bolteae:0.1317617090,Eubacterium_rectale:0.3301864681)99.7/100:0.1537053932)90.5/100:0.0684235878)72.6/93:0.1382649948,((Bacteroides_dorei:0.0244819278,Bacteroides_helcogenes:0.0220828031)92.6/100:0.1257400841,Bacteroides_zoogleoformans:0.8188523440)98.8/100:0.2656656389)98.5/100:0.1591203190,(Candidatus_Bipolaricaulis:0.4800063071,Candidatus_Endomicrobium:0.4560385120)74.8/100:0.0917241810)72.7/93:0.0709294162,Dickeya_dianthicola:0.5711519187)91.1/98:0.0821919443,((Geobacillus_AMOR:0.0000028494,Geobacillus_LC:0.0198714976)100/100:0.3274910491,(Geobacter_daltonii:0.1257909498,Geobacter_metallireducens:0.1550303016)100/100:0.3139156906)96.4/96:0.1291100733)78.6/93:0.1703715494,(((Bacillus_coagulans:1.0117079292,Campylobacter_hominis:3.3682484021)86.5/86:1.2006865500,Citrobacter_koseri:3.0106110975)0/53:0.0891502511,((Bacteroides_salanitronis:0.4309794833,Chryseobacterium_gallinarum:0.2054022462)99.1/100:1.5470851240,(Capnocytophaga_gingivalis:1.8118449791,Helicobacter_apodemus:2.5171525346)80.1/98:0.8049816386)24.4/68:0.3582896382)91.6/61:0.4781700778)88.8/63:0.2205260206,(Bifidobacterium_animalis:0.5255321313,(Corynebacterium_flavescens:0.1985245844,Corynebacterium_imitans:0.2502248198)99.1/100:0.4035716679)100/100:0.9992743405)91.5/48:0.2011161762,(Candidatus_Cloacimonas:0.9292197962,Geobacillus_lituanicus:1.1061720883)66/56:0.1150991531)76/36:0.0930287178,(((((((Bacillus_smithii:0.2821317951,(Geobacillus_CT:0.0593118446,Geobacillus_Y.MC:0.0897235875)100/100:0.2075483324)95.1/100:0.0772281532,(Clostridium_argentinense:0.2731912173,((Clostridium_baratii:0.3215775900,((Clostridium_bornimense:0.1038176488,Clostridium_perfringens:0.3038920018)66.4/76:0.0549403383,Clostridium_saccharoperbutylacetonicum:0.1549662163)0/45:0.0354306641)98/100:0.0940680808,Clostridium_septicum:0.2908692566)75.4/100:0.0409410769)94.3/100:0.0677558820)95.8/100:0.1114815363,(Caldicellulosiruptor_obsidiansis:0.0136221582,Caldicellulosiruptor_owensensis:0.0333096623)100/100:0.3015561543)99.8/100:0.1781816065,((Clostridium_tetani:0.2196562264,Fusobacterium_gonidiaformans:0.1554774440)99.9/100:0.1937048742,Enterococcus_avium:0.3473056459)99/100:0.1352012831)65.6/88:0.0482601156,(((Clostridium_aceticum:0.2964122399,Caldicellulosiruptor_saccharolyticus:0.3680571648)35.6/82:0.0556204335,(Caldicellulosiruptor_changbaiensis:0.3648562581,((Geobacillus_stearothermophilus:0.0000028398,Geobacillus_YMC:0.0000028398)100/100:0.1942635048,Geobacillus_WCH:0.0581431970)100/100:0.2377250130)85.5/99:0.0576804575)100/100:0.2173452598,(((((((Clostridium_autoethanogenum:0.0638575459,Clostridium_kluyveri:0.1619440508)99.7/100:0.1461372980,(Clostridium_pasteurianum:0.0964545544,Clostridium_scatologenes:0.0933057025)99.9/100:0.1549655065)98.4/99:0.1099359665,Clostridium_novyi:0.1544815180)90.2/45:0.0448767131,(Eubacterium_limosum:0.0145480585,Eubacterium_maltosivorans:0.0886939833)100/100:0.1852028837)89/45:0.0411653447,((Clostridium_chauvoei:0.1340098902,Clostridium_saccharobutylicum:0.0895423294)94.8/100:0.0534734366,Clostridium_formicaceticum:0.1248565978)95.6/99:0.0657471063)97/92:0.1358572812,Campylobacter_fetus:0.2927107604)100/100:0.5007368854,Chryseobacterium:0.4998220937)56.4/92:0.0991522195)25/48:0.0511764063)96.9/98:0.2326922515,((((Citrobacter_amalonaticus:0.0044157661,Citrobacter_farmeri:0.0043220873)42.9/74:0.0088021502,Citrobacter_rodentium:0.0054463589)77.3/75:0.0433738326,Enterobacter_R:0.0182975741)100/100:3.8376146080,(Campylobacter_iguaniorum:0.1637456271,((Campylobacter_concisus:0.1111321654,Campylobacter_curvus:0.1471977486)99.2/100:0.1156820607,Campylobacter_sputorum:0.3199796866)78.7/90:0.0644923651)94.7/92:0.8263419894)0/64:0.0615143884)99.9/88:0.4801779968,((Corynebacterium_humireducens:0.1121781785,(Corynebacterium_pseudotuberculosis:0.0782574505,Corynebacterium_vitaeruminis:0.0430595986)88.7/94:0.1430182778)100/100:3.3882548450,Fusobacterium_hwasookii:0.5053598713)77.5/71:0.3039176720)85.8/53:0.1251424490)97.3/56:0.2680603619,((((((Candidatus_Bathyarchaeota:2.0175931977,Bacillus_thuringiensis:2.3146341009)93.7/97:0.8074715342,Campylobacter_lanienae:0.7137863014)38.5/44:0.2722202717,(Caldicellulosiruptor_hydrothermalis:0.0658614038,(Caldicellulosiruptor_kristjanssonii:0.0000020638,(Caldicellulosiruptor_kronotskyensis:0.1446113430,Caldicellulosiruptor_lactoaceticus:0.0000020469)100/47:0.2949757636)59/34:0.0794587619)100/100:4.2518274240)4.5/77:0.2047662385,(Campylobacter_gracilis:0.6456197698,Helicobacter_cetorum:0.9486376893)95.6/97:0.3805509485)77.3/77:0.3195612685,(Candidatus_Caldiarchaeum:1.3550292385,Candidatus_Desulforudis:0.6921265690)90.4/89:0.2857941531)0/38:0.0000028025,Corynebacterium_pelargi:3.5494443218)39.3/51:0.2126600921)80.9/37:0.1378273271,((((((Bifidobacterium_bifidum:1.1363018233,((((Enterococcus_durans:0.1305955607,Enterococcus_hirae:0.1938267063)98.4/86:0.1113722407,Enterococcus_mundtii:0.0999753578)88.6/86:0.0919529493,(Enterococcus_faecalis:0.1889849872,Enterococcus_thailandicus:0.1899293253)73.2/97:0.0471507898)100/100:0.5813099618,(Fusobacterium_nucleatum:0.0333502065,Fusobacterium_periodonticum:0.0659207095)100/100:0.7044862641)86.3/100:0.1408534879)93.7/100:0.2117753020,(((Bifidobacterium_dentium:0.9214778270,Corynebacterium_camporealensis:0.6927850561)99.9/100:0.7475363750,(((Bacteroides_fragilis:0.1402276146,Bacteroides_heparinolyticus:0.0870888138)100/100:0.4143373899,Candidatus_Cyclonatronum:0.5730358860)78.8/99:0.1362243444,((((Capnocytophaga_H:0.0000025547,Capnocytophaga_stomatis:0.1141857190)0/99:0.0009004249,(Capnocytophaga_canimorsus:0.0066256299,Capnocytophaga_cynodegmi:0.0067195294)96.4/100:0.0272975880)99.9/100:0.1224124796,((Chryseobacterium_arthrosphaerae:0.0443534191,Chryseobacterium_StRB:0.0128414945)94.2/100:0.0426764073,Chryseobacterium_indologenes:0.0793624175)99.8/100:0.1708228957)87.2/99:0.0679923149,Capnocytophaga_ChDC:0.1763631721)100/100:0.3753296185)98.9/100:0.3401083290)89.4/100:0.1563646495,(((((((Campylobacter_RM:0.0701402957,(Campylobacter_hepaticus:0.0399622216,Campylobacter_lari:0.0099146509)80.9/100:0.0071191354)98.1/100:0.0717253858,(Campylobacter_peloridis:0.0708518425,Campylobacter_antarcticus:0.0255715656)93/100:0.0424542195)99.7/100:0.1799151637,Campylobacter_cuniculorum:0.2373512071)47.2/67:0.0511211821,(Campylobacter_coli:0.0197104175,Campylobacter_jejuni:0.0038113970)99.9/100:0.2224451968)60.5/66:0.0684474886,Helicobacter_cinaedi:0.3325183407)99.2/100:0.2439527048,Campylobacter_hyointestinalis:0.6477762424)95.6/100:0.1828603327,(Helicobacter_MIT:0.4477851126,Helicobacter_typhlonius:0.3709154655)98.6/100:0.2907992045)99.6/100:0.3709955462)75.8/98:0.1981786086)89.4/68:0.2437240120,Candidatus_Hepatoplasma:1.2064674958)68.6/63:0.3470556238,Geobacter_sulfurreducens:4.3114135457)87.1/93:0.2730565602,(Clostridium_isatidis:0.6504789596,Fusobacterium_mortiferum:1.3411350041)97.6/100:0.3597824368)79.4/56:0.1245317310,((Candidatus_Symbiobacter:0.3659354131,Halomonas_GFAJ:1.0553698289)89/100:0.5578027048,Eubacterium_eligens:1.7309821003)90.2/94:0.7202758139)29.7/30:0.0424787773)59/60:0.2181502993,(Candidatus_Paracaedimonas:1.9640002239,Clostridium_sporogenes:2.2516009157)98/94:1.5041087760)1.6/15:0.0419893224,((((((Bacillus_glycinifermentans:0.0259950067,Bacillus_paralicheniformis:0.0221477523)35.7/44:0.1136457115,Bacillus_horikoshii:0.2561768665)95.8/97:1.6037265560,(Capnocytophaga_ochracea:0.0000028398,Capnocytophaga_oral:0.0000028398)93.5/100:1.8903885320)64.6/92:0.8965859291,Dickeya_dadantii:3.4789860762)39.2/76:0.4231124979,(((Clostridium_acetobutylicum:3.1964836029,Citrobacter_CFNIH:2.4632909931)0.2/83:0.1644444153,Geobacillus_thermocatenulatus:3.2191740520)31.7/86:0.3588632956,((Corynebacterium_glyciniphilum:0.1326075685,Corynebacterium_terpenotabidum:0.0341101625)78.4/99:0.0048031600,Corynebacterium_variabile:0.0000029355)99.9/99:2.8524538030)40.6/73:0.5106416663)0/69:0.0826480753,Bacillus_krulwichiae:3.8034804894)75/59:0.4641637151)79.2/16:0.2311520787,(Candidatus_Doolittlea:2.0898478758,(Enterobacter_cloacae:0.0000022140,Enterobacter_hormaechei:0.0210539521)94/100:2.1646622220)72.2/27:0.7926069334)76.9/15:0.1789113356,((Bacillus_anthracis:0.0670575854,Bacillus_cereus:0.1040761352)99.9/100:2.7704803090,Bacillus_filamentosus:2.5202478481)70.2/30:0.9681246896)0/12:0.0000022899,(((Burkholderia_cenocepacia:0.0000029719,((Burkholderia_dolosa:0.0596893052,(Burkholderia_metallica:0.0334392581,Burkholderia_pyrrocinia:0.1033000246)89.9/98:0.0299767762)0.7/92:0.0153950603,Burkholderia_stabilis:0.0219801487)97.9/90:0.0349232343)81.4/89:0.0029842296,Burkholderia_latens:0.0000025092)97.5/100:2.5696823020,Corynebacterium_epidermidicanis:3.6090132770)56.6/74:1.3133513620)30.8/18:0.0665787886,(Burkholderia_pseudomallei:0.0000024593,Burkholderia_thailandensis:0.0571530323)100/100:3.6205634660)71.4/30:0.0996749751)76.3/28:0.5142514691,((Bacillus_beveridgei:2.0832881176,(Citrobacter_braakii:0.0408582792,(Citrobacter_freundii:0.0000028398,Citrobacter_CRE:0.0000028398)0/92:0.0000020737)98.9/100:2.4470354710)71.7/35:0.7253473163,Clostridium_butyricum:3.0778859077)73/30:0.7723058968)100/100:3.7346645930,Bacillus_LM:0.0024474286)0/76:0.0000021840)78.2/99:0.0024453816,Bacillus_subtilis:0.0000026993);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000bootstrap trees
+Log-likelihood of consensus tree: -102187.362345
+Robinson-Foulds distance between ML tree and consensus tree: 42
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Bacillus_BSA
+|
+|                          +--Bacillus_Pc
+|                       +--| (50)
+|                       |  +--Bacillus_SDLI
+|                    +--| (50)
+|                    |  +--Bacillus_vallismortis
+|                 +--| (96)
+|                 |  +--Bacillus_amyloliquefaciens
+|              +--| (100)
+|              |  +--Bacillus_velezensis
+|           +--| (99)
+|           |  +--Bacillus_atrophaeus
+|        +--| (97)
+|        |  +--Bacillus_intestinalis
+|     +--| (89)
+|     |  +--Bacillus_JS
+|  +--| (92)
+|  |  +--Bacillus_YP
++--| (99)
+|  |                                                                  +--Bifidobacterium_actinocoloniiforme
+|  |                                                               +--| (81)
+|  |                                                               |  +--Bifidobacterium_asteroides
+|  |                                                            +--| (81)
+|  |                                                            |  |  +--Bifidobacterium_angulatum
+|  |                                                            |  +--| (100)
+|  |                                                            |     +--Bifidobacterium_catenulatum
+|  |                                                         +--| (100)
+|  |                                                         |  +--Bifidobacterium_choerinum
+|  |                                                      +--| (97)
+|  |                                                      |  |              +--Bifidobacterium_longum
+|  |                                                      |  |           +--| (100)
+|  |                                                      |  |           |  +--Bifidobacterium_scardovii
+|  |                                                      |  |        +--| (73)
+|  |                                                      |  |        |  |                 +--Corynebacterium_aurimucosum
+|  |                                                      |  |        |  |              +--| (100)
+|  |                                                      |  |        |  |              |  |  +--Corynebacterium_casei
+|  |                                                      |  |        |  |              |  +--| (99)
+|  |                                                      |  |        |  |              |     +--Corynebacterium_singulare
+|  |                                                      |  |        |  |           +--| (100)
+|  |                                                      |  |        |  |           |  +--Corynebacterium_resistens
+|  |                                                      |  |        |  |        +--| (100)
+|  |                                                      |  |        |  |        |  |  +--Corynebacterium_urealyticum
+|  |                                                      |  |        |  |        |  +--| (100)
+|  |                                                      |  |        |  |        |     +--Corynebacterium_ureicelerivorans
+|  |                                                      |  |        |  |     +--| (96)
+|  |                                                      |  |        |  |     |  +--Corynebacterium_diphtheriae
+|  |                                                      |  |        |  |  +--| (73)
+|  |                                                      |  |        |  |  |  +--Corynebacterium_frankenforstense
+|  |                                                      |  |        |  +--| (100)
+|  |                                                      |  |        |     +--Corynebacterium_jeikeium
+|  |                                                      |  |     +--| (52)
+|  |                                                      |  |     |  |  +--Corynebacterium_kutscheri
+|  |                                                      |  |     |  +--| (100)
+|  |                                                      |  |     |     +--Corynebacterium_phocae
+|  |                                                      |  |  +--| (47)
+|  |                                                      |  |  |  |  +--Corynebacterium_deserti
+|  |                                                      |  |  |  +--| (100)
+|  |                                                      |  |  |     +--Corynebacterium_falsenii
+|  |                                                      |  +--| (96)
+|  |                                                      |     +--Corynebacterium_ATCC
+|  |                                                   +--| (99)
+|  |                                                   |  +--Eubacterium_siraeum
+|  |                                                +--| (99)
+|  |                                                |  +--Clostridium_SY
+|  |                                             +--| (95)
+|  |                                             |  |           +--Cronobacter_dublinensis
+|  |                                             |  |        +--| (78)
+|  |                                             |  |        |  |        +--Dickeya_fangzhongdai
+|  |                                             |  |        |  |     +--| (54)
+|  |                                             |  |        |  |     |  +--Dickeya_zeae
+|  |                                             |  |        |  |  +--| (100)
+|  |                                             |  |        |  |  |  +--Dickeya_aquatica
+|  |                                             |  |        |  +--| (75)
+|  |                                             |  |        |     |     +--Cronobacter_malonaticus
+|  |                                             |  |        |     |  +--| (94)
+|  |                                             |  |        |     |  |  +--Cronobacter_turicensis
+|  |                                             |  |        |     +--| (96)
+|  |                                             |  |        |        +--Cronobacter_sakazakii
+|  |                                             |  |     +--| (78)
+|  |                                             |  |     |  +--Citrobacter_youngae
+|  |                                             |  |  +--| (72)
+|  |                                             |  |  |  |     +--Halomonas_KO
+|  |                                             |  |  |  |  +--| (100)
+|  |                                             |  |  |  |  |  +--Halomonas_alkaliphila
+|  |                                             |  |  |  +--| (94)
+|  |                                             |  |  |     +--Halomonas_beimenensis
+|  |                                             |  +--| (100)
+|  |                                             |     |     +--Geobacter_anodireducens
+|  |                                             |     |  +--| (94)
+|  |                                             |     |  |  +--Geobacter_pickeringii
+|  |                                             |     +--| (100)
+|  |                                             |        |  +--Geobacter_lovleyi
+|  |                                             |        +--| (100)
+|  |                                             |           +--Geobacter_uraniireducens
+|  |                                          +--| (92)
+|  |                                          |  |     +--Burkholderia_RPE
+|  |                                          |  |  +--| (100)
+|  |                                          |  |  |  +--Burkholderia_YI
+|  |                                          |  +--| (100)
+|  |                                          |     +--Candidatus_Filomicrobium
+|  |                                       +--| (37)
+|  |                                       |  |          +--Corynebacterium_glutamicum
+|  |                                       |  |       +--| (100)
+|  |                                       |  |       |  |  +--Corynebacterium_simulans
+|  |                                       |  |       |  +--| (100)
+|  |                                       |  |       |     +--Corynebacterium_striatum
+|  |                                       |  |    +--| (99)
+|  |                                       |  |    |  +--Corynebacterium_mustelae
+|  |                                       |  +----| (98)
+|  |                                       |       +--Corynebacterium_ulcerans
+|  |                                    +--| (85)
+|  |                                    |  |                      +--Burkholderia_plantarii
+|  |                                    |  |                   +--| (100)
+|  |                                    |  |                   |  +--Burkholderia_PAMC
+|  |                                    |  |                +--| (99)
+|  |                                    |  |                |  +--Halomonas_campaniensis
+|  |                                    |  |             +--| (99)
+|  |                                    |  |             |  +--Halomonas_elongata
+|  |                                    |  |          +--| (88)
+|  |                                    |  |          |  |  +--Cronobacter_muytjensii
+|  |                                    |  |          |  +--| (100)
+|  |                                    |  |          |     |  +--Enterobacter_cancerogenus
+|  |                                    |  |          |     +--| (100)
+|  |                                    |  |          |        +--Enterobacter_roggenkampii
+|  |                                    |  |       +--| (88)
+|  |                                    |  |       |  +--Dickeya_paradisiaca
+|  |                                    |  |  +----| (99)
+|  |                                    |  |  |    +--Dickeya_chrysanthemi
+|  |                                    |  +--| (69)
+|  |                                    |     +---------------------Geobacillus_thermodenitrificans
+|  |                                 +--| (25)
+|  |                                 |  |                        +--Burkholderia_cenocepacia
+|  |                                 |  |                     +--| (89)
+|  |                                 |  |                     |  |     +--Burkholderia_dolosa
+|  |                                 |  |                     |  |  +--| (92)
+|  |                                 |  |                     |  |  |  |  +--Burkholderia_metallica
+|  |                                 |  |                     |  |  |  +--| (98)
+|  |                                 |  |                     |  |  |     +--Burkholderia_pyrrocinia
+|  |                                 |  |                     |  +--| (90)
+|  |                                 |  |                     |     +--Burkholderia_stabilis
+|  |                                 |  |        +------------| (100)
+|  |                                 |  |        |            +--Burkholderia_latens
+|  |                                 |  |  +-----| (74)
+|  |                                 |  |  |     +-------------------Corynebacterium_epidermidicanis
+|  |                                 |  +--| (28)
+|  |                                 |     |                  +--Burkholderia_pseudomallei
+|  |                                 |     |  +---------------| (100)
+|  |                                 |     |  |               +--Burkholderia_thailandensis
+|  |                                 |     +--| (35)
+|  |                                 |        |                  +--Citrobacter_braakii
+|  |                                 |        +------------------| (100)
+|  |                                 |                           |  +--Citrobacter_freundii
+|  |                                 |                           +--| (92)
+|  |                                 |                              +--Citrobacter_CRE
+|  |                              +--| (33)
+|  |                              |  +-----------------Bacillus_filamentosus
+|  |                           +--| (32)
+|  |                           |  |                                               +--Bifidobacterium_adolescentis
+|  |                           |  |                                            +--| (98)
+|  |                           |  |                                            |  +--Bifidobacterium_pseudocatenulatum
+|  |                           |  |                                         +--| (100)
+|  |                           |  |                                         |  +--Bifidobacterium_kashiwanohense
+|  |                           |  |                                      +--| (100)
+|  |                           |  |                                      |  +--Bifidobacterium_breve
+|  |                           |  |                                   +--| (100)
+|  |                           |  |                                   |  +--Bifidobacterium_thermophilum
+|  |                           |  |                                +--| (93)
+|  |                           |  |                                |  |              +--Bacillus_clausii
+|  |                           |  |                                |  |           +--| (100)
+|  |                           |  |                                |  |           |  +--Bacillus_halodurans
+|  |                           |  |                                |  |        +--| (100)
+|  |                           |  |                                |  |        |  |  +--Bacillus_xiamenensis
+|  |                           |  |                                |  |        |  +--| (100)
+|  |                           |  |                                |  |        |     +--Bacillus_X__
+|  |                           |  |                                |  |     +--| (100)
+|  |                           |  |                                |  |     |  +--Enterococcus_silesiacus
+|  |                           |  |                                |  |  +--| (100)
+|  |                           |  |                                |  |  |  |  +--Clostridium_cellulosi
+|  |                           |  |                                |  |  |  +--| (100)
+|  |                           |  |                                |  |  |     +--Clostridium_BNL
+|  |                           |  |                                |  +--| (100)
+|  |                           |  |                                |     |  +--Clostridium_bolteae
+|  |                           |  |                                |     +--| (100)
+|  |                           |  |                                |        +--Eubacterium_rectale
+|  |                           |  |                             +--| (100)
+|  |                           |  |                             |  |     +--Bacteroides_dorei
+|  |                           |  |                             |  |  +--| (100)
+|  |                           |  |                             |  |  |  +--Bacteroides_helcogenes
+|  |                           |  |                             |  +--| (100)
+|  |                           |  |                             |     +---Bacteroides_zoogleoformans
+|  |                           |  |                          +--| (93)
+|  |                           |  |                          |  |  +--Candidatus_Bipolaricaulis
+|  |                           |  |                          |  +--| (100)
+|  |                           |  |                          |     +--Candidatus_Endomicrobium
+|  |                           |  |                       +--| (98)
+|  |                           |  |                       |  +--Dickeya_dianthicola
+|  |                           |  |                    +--| (93)
+|  |                           |  |                    |  |     +--Geobacillus_AMOR
+|  |                           |  |                    |  |  +--| (100)
+|  |                           |  |                    |  |  |  +--Geobacillus_LC
+|  |                           |  |                    |  +--| (96)
+|  |                           |  |                    |     |  +--Geobacter_daltonii
+|  |                           |  |                    |     +--| (100)
+|  |                           |  |                    |        +--Geobacter_metallireducens
+|  |                           |  |                 +--| (63)
+|  |                           |  |                 |  |           +----Bacillus_coagulans
+|  |                           |  |                 |  |     +-----| (86)
+|  |                           |  |                 |  |     |     +-----------------Campylobacter_hominis
+|  |                           |  |                 |  |  +--| (53)
+|  |                           |  |                 |  |  |  +---------------Citrobacter_koseri
+|  |                           |  |                 |  +--| (61)
+|  |                           |  |                 |     |          +--Bacteroides_salanitronis
+|  |                           |  |                 |     |  +-------| (100)
+|  |                           |  |                 |     |  |       +--Chryseobacterium_gallinarum
+|  |                           |  |                 |     +--| (68)
+|  |                           |  |                 |        |   +---------Capnocytophaga_gingivalis
+|  |                           |  |                 |        +---| (98)
+|  |                           |  |                 |            +------------Helicobacter_apodemus
+|  |                           |  |              +--| (48)
+|  |                           |  |              |  |    +--Bifidobacterium_animalis
+|  |                           |  |              |  +----| (100)
+|  |                           |  |              |       |  +--Corynebacterium_flavescens
+|  |                           |  |              |       +--| (100)
+|  |                           |  |              |          +--Corynebacterium_imitans
+|  |                           |  |           +--| (36)
+|  |                           |  |           |  |  +----Candidatus_Cloacimonas
+|  |                           |  |           |  +--| (56)
+|  |                           |  |           |     +-----Geobacillus_lituanicus
+|  |                           |  |        +--| (56)
+|  |                           |  |        |  |                    +--Bacillus_smithii
+|  |                           |  |        |  |                 +--| (100)
+|  |                           |  |        |  |                 |  |  +--Geobacillus_CT
+|  |                           |  |        |  |                 |  +--| (100)
+|  |                           |  |        |  |                 |     +--Geobacillus_Y.MC
+|  |                           |  |        |  |              +--| (100)
+|  |                           |  |        |  |              |  |  +--Clostridium_argentinense
+|  |                           |  |        |  |              |  +--| (100)
+|  |                           |  |        |  |              |     |     +--Clostridium_baratii
+|  |                           |  |        |  |              |     |  +--| (100)
+|  |                           |  |        |  |              |     |  |  |     +--Clostridium_bornimense
+|  |                           |  |        |  |              |     |  |  |  +--| (76)
+|  |                           |  |        |  |              |     |  |  |  |  +--Clostridium_perfringens
+|  |                           |  |        |  |              |     |  |  +--| (45)
+|  |                           |  |        |  |              |     |  |     +--Clostridium_saccharoperbutylacetonicum
+|  |                           |  |        |  |              |     +--| (100)
+|  |                           |  |        |  |              |        +--Clostridium_septicum
+|  |                           |  |        |  |           +--| (100)
+|  |                           |  |        |  |           |  |  +--Caldicellulosiruptor_obsidiansis
+|  |                           |  |        |  |           |  +--| (100)
+|  |                           |  |        |  |           |     +--Caldicellulosiruptor_owensensis
+|  |                           |  |        |  |        +--| (88)
+|  |                           |  |        |  |        |  |     +--Clostridium_tetani
+|  |                           |  |        |  |        |  |  +--| (100)
+|  |                           |  |        |  |        |  |  |  +--Fusobacterium_gonidiaformans
+|  |                           |  |        |  |        |  +--| (100)
+|  |                           |  |        |  |        |     +--Enterococcus_avium
+|  |                           |  |        |  |     +--| (98)
+|  |                           |  |        |  |     |  |        +--Clostridium_aceticum
+|  |                           |  |        |  |     |  |     +--| (82)
+|  |                           |  |        |  |     |  |     |  +--Caldicellulosiruptor_saccharolyticus
+|  |                           |  |        |  |     |  |  +--| (100)
+|  |                           |  |        |  |     |  |  |  |  +--Caldicellulosiruptor_changbaiensis
+|  |                           |  |        |  |     |  |  |  +--| (99)
+|  |                           |  |        |  |     |  |  |     |     +--Geobacillus_stearothermophilus
+|  |                           |  |        |  |     |  |  |     |  +--| (100)
+|  |                           |  |        |  |     |  |  |     |  |  +--Geobacillus_YMC
+|  |                           |  |        |  |     |  |  |     +--| (100)
+|  |                           |  |        |  |     |  |  |        +--Geobacillus_WCH
+|  |                           |  |        |  |     |  +--| (48)
+|  |                           |  |        |  |     |     |              +--Clostridium_autoethanogenum
+|  |                           |  |        |  |     |     |           +--| (100)
+|  |                           |  |        |  |     |     |           |  +--Clostridium_kluyveri
+|  |                           |  |        |  |     |     |        +--| (99)
+|  |                           |  |        |  |     |     |        |  |  +--Clostridium_pasteurianum
+|  |                           |  |        |  |     |     |        |  +--| (100)
+|  |                           |  |        |  |     |     |        |     +--Clostridium_scatologenes
+|  |                           |  |        |  |     |     |     +--| (92)
+|  |                           |  |        |  |     |     |     |  |        +--Clostridium_chauvoei
+|  |                           |  |        |  |     |     |     |  |     +--| (100)
+|  |                           |  |        |  |     |     |     |  |     |  +--Clostridium_saccharobutylicum
+|  |                           |  |        |  |     |     |     |  |  +--| (99)
+|  |                           |  |        |  |     |     |     |  |  |  +--Clostridium_formicaceticum
+|  |                           |  |        |  |     |     |     |  +--| (47)
+|  |                           |  |        |  |     |     |     |     |  +--Clostridium_novyi
+|  |                           |  |        |  |     |     |     |     +--| (46)
+|  |                           |  |        |  |     |     |     |        |  +--Eubacterium_limosum
+|  |                           |  |        |  |     |     |     |        +--| (100)
+|  |                           |  |        |  |     |     |     |           +--Eubacterium_maltosivorans
+|  |                           |  |        |  |     |     |  +--| (100)
+|  |                           |  |        |  |     |     |  |  +--Campylobacter_fetus
+|  |                           |  |        |  |     |     +--| (92)
+|  |                           |  |        |  |     |        +--Chryseobacterium
+|  |                           |  |        |  |  +--| (88)
+|  |                           |  |        |  |  |  |                             +--Citrobacter_amalonaticus
+|  |                           |  |        |  |  |  |                          +--| (74)
+|  |                           |  |        |  |  |  |                          |  +--Citrobacter_farmeri
+|  |                           |  |        |  |  |  |                       +--| (75)
+|  |                           |  |        |  |  |  |                       |  +--Citrobacter_rodentium
+|  |                           |  |        |  |  |  |  +--------------------| (100)
+|  |                           |  |        |  |  |  |  |                    +--Enterobacter_R
+|  |                           |  |        |  |  |  +--| (64)
+|  |                           |  |        |  |  |     |   +--Campylobacter_iguaniorum
+|  |                           |  |        |  |  |     +---| (92)
+|  |                           |  |        |  |  |         |     +--Campylobacter_concisus
+|  |                           |  |        |  |  |         |  +--| (100)
+|  |                           |  |        |  |  |         |  |  +--Campylobacter_curvus
+|  |                           |  |        |  |  |         +--| (90)
+|  |                           |  |        |  |  |            +--Campylobacter_sputorum
+|  |                           |  |        |  +--| (53)
+|  |                           |  |        |     |                    +--Corynebacterium_humireducens
+|  |                           |  |        |     |  +-----------------| (100)
+|  |                           |  |        |     |  |                 |  +--Corynebacterium_pseudotuberculosis
+|  |                           |  |        |     |  |                 +--| (94)
+|  |                           |  |        |     |  |                    +--Corynebacterium_vitaeruminis
+|  |                           |  |        |     +--| (71)
+|  |                           |  |        |        +--Fusobacterium_hwasookii
+|  |                           |  |     +--| (37)
+|  |                           |  |     |  |                 +----------Candidatus_Bathyarchaeota
+|  |                           |  |     |  |              +--| (97)
+|  |                           |  |     |  |              |  +-----------Bacillus_thuringiensis
+|  |                           |  |     |  |           +--| (51)
+|  |                           |  |     |  |           |  |                          +--Caldicellulosiruptor_hydrothermalis
+|  |                           |  |     |  |           |  |                       +--| (66)
+|  |                           |  |     |  |           |  |                       |  +--Caldicellulosiruptor_kristjanssonii
+|  |                           |  |     |  |           |  |                    +--| (53)
+|  |                           |  |     |  |           |  |                    |  +--Caldicellulosiruptor_lactoaceticus
+|  |                           |  |     |  |           |  +--------------------| (100)
+|  |                           |  |     |  |           |                       +--Caldicellulosiruptor_kronotskyensis
+|  |                           |  |     |  |        +--| (77)
+|  |                           |  |     |  |        |  +---Campylobacter_lanienae
+|  |                           |  |     |  |     +--| (77)
+|  |                           |  |     |  |     |  |  +--Campylobacter_gracilis
+|  |                           |  |     |  |     |  +--| (97)
+|  |                           |  |     |  |     |     +----Helicobacter_cetorum
+|  |                           |  |     |  |  +--| (38)
+|  |                           |  |     |  |  |  |  +------Candidatus_Caldiarchaeum
+|  |                           |  |     |  |  |  +--| (89)
+|  |                           |  |     |  |  |     +--Candidatus_Desulforudis
+|  |                           |  |     |  +--| (51)
+|  |                           |  |     |     +------------------Corynebacterium_pelargi
+|  |                           |  |  +--| (60)
+|  |                           |  |  |  |                 +-----Bifidobacterium_bifidum
+|  |                           |  |  |  |              +--| (100)
+|  |                           |  |  |  |              |  |           +--Enterococcus_durans
+|  |                           |  |  |  |              |  |        +--| (86)
+|  |                           |  |  |  |              |  |        |  +--Enterococcus_hirae
+|  |                           |  |  |  |              |  |     +--| (86)
+|  |                           |  |  |  |              |  |     |  +--Enterococcus_mundtii
+|  |                           |  |  |  |              |  |  +--| (100)
+|  |                           |  |  |  |              |  |  |  |  +--Enterococcus_faecalis
+|  |                           |  |  |  |              |  |  |  +--| (97)
+|  |                           |  |  |  |              |  |  |     +--Enterococcus_thailandicus
+|  |                           |  |  |  |              |  +--| (100)
+|  |                           |  |  |  |              |     |  +--Fusobacterium_nucleatum
+|  |                           |  |  |  |              |     +--| (100)
+|  |                           |  |  |  |              |        +--Fusobacterium_periodonticum
+|  |                           |  |  |  |           +--| (68)
+|  |                           |  |  |  |           |  |         +----Bifidobacterium_dentium
+|  |                           |  |  |  |           |  |     +---| (100)
+|  |                           |  |  |  |           |  |     |   +--Corynebacterium_camporealensis
+|  |                           |  |  |  |           |  |  +--| (100)
+|  |                           |  |  |  |           |  |  |  |        +--Bacteroides_fragilis
+|  |                           |  |  |  |           |  |  |  |     +--| (100)
+|  |                           |  |  |  |           |  |  |  |     |  +--Bacteroides_heparinolyticus
+|  |                           |  |  |  |           |  |  |  |  +--| (99)
+|  |                           |  |  |  |           |  |  |  |  |  +--Candidatus_Cyclonatronum
+|  |                           |  |  |  |           |  |  |  +--| (100)
+|  |                           |  |  |  |           |  |  |     |           +--Capnocytophaga_H
+|  |                           |  |  |  |           |  |  |     |        +--| (99)
+|  |                           |  |  |  |           |  |  |     |        |  +--Capnocytophaga_stomatis
+|  |                           |  |  |  |           |  |  |     |     +--| (100)
+|  |                           |  |  |  |           |  |  |     |     |  |  +--Capnocytophaga_canimorsus
+|  |                           |  |  |  |           |  |  |     |     |  +--| (100)
+|  |                           |  |  |  |           |  |  |     |     |     +--Capnocytophaga_cynodegmi
+|  |                           |  |  |  |           |  |  |     |  +--| (99)
+|  |                           |  |  |  |           |  |  |     |  |  |     +--Chryseobacterium_arthrosphaerae
+|  |                           |  |  |  |           |  |  |     |  |  |  +--| (100)
+|  |                           |  |  |  |           |  |  |     |  |  |  |  +--Chryseobacterium_StRB
+|  |                           |  |  |  |           |  |  |     |  |  +--| (100)
+|  |                           |  |  |  |           |  |  |     |  |     +--Chryseobacterium_indologenes
+|  |                           |  |  |  |           |  |  |     +--| (100)
+|  |                           |  |  |  |           |  |  |        +--Capnocytophaga_ChDC
+|  |                           |  |  |  |           |  +--| (98)
+|  |                           |  |  |  |           |     |                    +--Campylobacter_RM
+|  |                           |  |  |  |           |     |                 +--| (100)
+|  |                           |  |  |  |           |     |                 |  |  +--Campylobacter_hepaticus
+|  |                           |  |  |  |           |     |                 |  +--| (100)
+|  |                           |  |  |  |           |     |                 |     +--Campylobacter_lari
+|  |                           |  |  |  |           |     |              +--| (100)
+|  |                           |  |  |  |           |     |              |  |  +--Campylobacter_peloridis
+|  |                           |  |  |  |           |     |              |  +--| (100)
+|  |                           |  |  |  |           |     |              |     +--Campylobacter_antarcticus
+|  |                           |  |  |  |           |     |           +--| (67)
+|  |                           |  |  |  |           |     |           |  +--Campylobacter_cuniculorum
+|  |                           |  |  |  |           |     |        +--| (66)
+|  |                           |  |  |  |           |     |        |  |  +--Campylobacter_coli
+|  |                           |  |  |  |           |     |        |  +--| (100)
+|  |                           |  |  |  |           |     |        |     +--Campylobacter_jejuni
+|  |                           |  |  |  |           |     |     +--| (100)
+|  |                           |  |  |  |           |     |     |  +--Helicobacter_cinaedi
+|  |                           |  |  |  |           |     |  +--| (100)
+|  |                           |  |  |  |           |     |  |  +--Campylobacter_hyointestinalis
+|  |                           |  |  |  |           |     +--| (100)
+|  |                           |  |  |  |           |        |  +--Helicobacter_MIT
+|  |                           |  |  |  |           |        +--| (100)
+|  |                           |  |  |  |           |           +--Helicobacter_typhlonius
+|  |                           |  |  |  |        +--| (63)
+|  |                           |  |  |  |        |  +-----Candidatus_Hepatoplasma
+|  |                           |  |  |  |     +--| (93)
+|  |                           |  |  |  |     |  +----------------------Geobacter_sulfurreducens
+|  |                           |  |  |  |  +--| (56)
+|  |                           |  |  |  |  |  |  +--Clostridium_isatidis
+|  |                           |  |  |  |  |  +--| (100)
+|  |                           |  |  |  |  |     +------Fusobacterium_mortiferum
+|  |                           |  |  |  +--| (30)
+|  |                           |  |  |     |      +--Candidatus_Symbiobacter
+|  |                           |  |  |     |   +--| (100)
+|  |                           |  |  |     |   |  +----Halomonas_GFAJ
+|  |                           |  |  |     +---| (94)
+|  |                           |  |  |         +--------Eubacterium_eligens
+|  |                           |  +--| (42)
+|  |                           |     |                          +--Bacillus_glycinifermentans
+|  |                           |     |                       +--| (50)
+|  |                           |     |                       |  +--Bacillus_horikoshii
+|  |                           |     |             +---------| (97)
+|  |                           |     |             |         +--Bacillus_paralicheniformis
+|  |                           |     |        +----| (92)
+|  |                           |     |        |    |         +--Capnocytophaga_ochracea
+|  |                           |     |        |    +---------| (100)
+|  |                           |     |        |              +--Capnocytophaga_oral
+|  |                           |     |     +--| (76)
+|  |                           |     |     |  +-----------------Dickeya_dadantii
+|  |                           |     |  +--| (69)
+|  |                           |     |  |  |        +----------------Clostridium_acetobutylicum
+|  |                           |     |  |  |     +--| (83)
+|  |                           |     |  |  |     |  +------------Citrobacter_CFNIH
+|  |                           |     |  |  |  +--| (86)
+|  |                           |     |  |  |  |  +----------------Geobacillus_thermocatenulatus
+|  |                           |     |  |  +--| (73)
+|  |                           |     |  |     |                 +--Corynebacterium_glyciniphilum
+|  |                           |     |  |     |              +--| (99)
+|  |                           |     |  |     |              |  +--Corynebacterium_terpenotabidum
+|  |                           |     |  |     +--------------| (99)
+|  |                           |     |  |                    +--Corynebacterium_variabile
+|  |                           |     +--| (59)
+|  |                           |        +-------------------Bacillus_krulwichiae
+|  |                        +--| (38)
+|  |                        |  +--------------Candidatus_Doolittlea
+|  |                     +--| (35)
+|  |                     |  |           +--Enterobacter_cloacae
+|  |                     |  +-----------| (100)
+|  |                     |              +--Enterobacter_hormaechei
+|  |  +------------------| (100)
+|  |  |                  |                    +--Bacillus_anthracis
+|  |  |                  |     +--------------| (100)
+|  |  |                  |     |              +--Bacillus_cereus
+|  |  |                  |  +--| (30)
+|  |  |                  |  |  |  +-------Candidatus_Paracaedimonas
+|  |  |                  |  |  +--| (94)
+|  |  |                  |  |     +--------------Clostridium_sporogenes
+|  |  |                  +--| (35)
+|  |  |                     |    +----------Bacillus_beveridgei
+|  |  |                     +----| (61)
+|  |  |                          +---------------Clostridium_butyricum
+|  +--| (76)
+|     +--Bacillus_LM
+|
++--Bacillus_subtilis
+
+
+Consensus tree in newick format: 
+
+(Bacillus_BSA:0.0000028398,(((((((((Bacillus_Pc:0.0024492926,Bacillus_SDLI:0.0048990544)50:0.0000028398,Bacillus_vallismortis:0.0024484914)50:0.0000028398,Bacillus_amyloliquefaciens:0.0049092019)96:0.0024474798,Bacillus_velezensis:0.0000024072)100:0.0921393181,Bacillus_atrophaeus:0.0547222269)99:0.0333432329,Bacillus_intestinalis:0.0129501021)97:0.0170170277,Bacillus_JS:0.0097490584)89:0.0000028398,Bacillus_YP:0.0000028398)92:0.0024254074,(((((((((((((((((Bifidobacterium_actinocoloniiforme:0.0927497741,Bifidobacterium_asteroides:0.3104080971)81:0.0987689011,(Bifidobacterium_angulatum:0.0362313003,Bifidobacterium_catenulatum:0.2350013872)100:0.1022312207)81:0.1998093482,Bifidobacterium_choerinum:0.2204726331)100:0.2398082087,(((((Bifidobacterium_longum:0.0514977393,Bifidobacterium_scardovii:0.1252107355)100:0.4649560781,((((((Corynebacterium_aurimucosum:0.0152216544,(Corynebacterium_casei:0.4149698418,Corynebacterium_singulare:0.0362062162)99:0.0274911987)100:0.0782960407,Corynebacterium_resistens:0.2000285103)100:0.0614195311,(Corynebacterium_urealyticum:0.1793020999,Corynebacterium_ureicelerivorans:0.1733426845)100:0.0524380876)100:0.0775880992,Corynebacterium_diphtheriae:0.2215200877)96:0.1318241457,Corynebacterium_frankenforstense:0.3672573393)73:0.1072417699,Corynebacterium_jeikeium:0.3934217997)100:0.2314798439)73:0.1456918736,(Corynebacterium_kutscheri:0.3598671037,Corynebacterium_phocae:0.3129938305)100:0.1486137145)52:0.1183842797,(Corynebacterium_deserti:0.2250607721,Corynebacterium_falsenii:0.2621970678)100:0.2302358784)47:0.0607393899,Corynebacterium_ATCC:0.3507765036)96:0.1105490244)97:0.1099894433,Eubacterium_siraeum:0.3904766761)99:0.1416158855,Clostridium_SY:0.5318741605)99:0.2395667930,((((Cronobacter_dublinensis:0.0425482619,(((Dickeya_fangzhongdai:0.0380795330,Dickeya_zeae:0.0068073650)54:0.0033588753,Dickeya_aquatica:0.0000028417)100:0.1810042608,((Cronobacter_malonaticus:0.0034026194,Cronobacter_turicensis:0.0068216513)94:0.0033860676,Cronobacter_sakazakii:0.0000028398)96:0.0307365910)75:0.1030698637)78:0.1100945485,Citrobacter_youngae:0.1096020103)78:0.1071952517,((Halomonas_KO:0.0000027575,Halomonas_alkaliphila:0.0238768307)100:0.4471461799,Halomonas_beimenensis:0.0676401885)94:0.1065404579)72:0.0676953515,((Geobacter_anodireducens:0.0441186528,Geobacter_pickeringii:0.0313400317)94:0.0108606208,(Geobacter_lovleyi:0.0552717366,Geobacter_uraniireducens:0.0659384710)100:0.0581964501)100:0.2228294679)100:0.7052293833)95:0.3244109685,((Burkholderia_RPE:0.1183458924,Burkholderia_YI:0.1064576044)100:0.3069838982,Candidatus_Filomicrobium:0.5112967660)100:0.6534824776)92:0.3359938474,(((Corynebacterium_glutamicum:0.2019489225,(Corynebacterium_simulans:0.0000021881,Corynebacterium_striatum:0.0158821725)100:0.2390299546)100:0.1436291661,Corynebacterium_mustelae:0.2179286020)99:0.0913192743,Corynebacterium_ulcerans:0.1159527488)98:0.9441849030)37:0.0921759749,(((((((Burkholderia_plantarii:0.1126826258,Burkholderia_PAMC:0.0968400512)100:0.2167441173,Halomonas_campaniensis:0.0851937054)99:0.0702879078,Halomonas_elongata:0.1624378383)99:0.2374426384,(Cronobacter_muytjensii:0.1268691675,(Enterobacter_cancerogenus:0.2818048590,Enterobacter_roggenkampii:0.0336109143)100:0.2432431012)100:0.0836467411)88:0.1507476092,Dickeya_paradisiaca:0.0382419321)88:0.3780010995,Dickeya_chrysanthemi:0.1424412723)99:1.0031077304,Geobacillus_thermodenitrificans:3.9945224417)69:0.3559349215)85:0.6612032255,((((Burkholderia_cenocepacia:0.0000023822,((Burkholderia_dolosa:0.0591192686,(Burkholderia_metallica:0.0331310736,Burkholderia_pyrrocinia:0.1022565362)98:0.0297079839)92:0.0152506911,Burkholderia_stabilis:0.0217707019)90:0.0345724691)89:0.0029557896,Burkholderia_latens:0.0000023822)100:2.4630860776,Corynebacterium_epidermidicanis:3.5936244002)74:1.0756805384,((Burkholderia_pseudomallei:0.0000029473,Burkholderia_thailandensis:0.0564876950)100:2.8686175960,(Citrobacter_braakii:0.0404519658,(Citrobacter_freundii:0.0000028398,Citrobacter_CRE:0.0000028398)92:0.0000027248)100:3.5198409192)35:0.3572820200)28:0.2149347070)25:0.1100445231,Bacillus_filamentosus:3.3231345795)33:0.3211501356,((((((((((((((((Bifidobacterium_adolescentis:0.0230552418,Bifidobacterium_pseudocatenulatum:0.0000028398)98:0.0056767112,Bifidobacterium_kashiwanohense:0.0000029123)100:0.2157410228,Bifidobacterium_breve:0.1134978686)100:0.0440165287,Bifidobacterium_thermophilum:0.2185780882)100:0.2929574255,(((((Bacillus_clausii:0.0359424427,Bacillus_halodurans:0.0627167861)100:0.0903790083,(Bacillus_xiamenensis:0.1943872107,Bacillus_X__:0.0950228303)100:0.0742379051)100:0.0536702826,Enterococcus_silesiacus:0.2665048825)100:0.1228873945,(Clostridium_cellulosi:0.1444604845,Clostridium_BNL:0.1417523076)100:0.0672378414)100:0.0667204546,(Clostridium_bolteae:0.1306351486,Eubacterium_rectale:0.3264404075)100:0.1518025321)100:0.0673236199)93:0.1375686995,((Bacteroides_dorei:0.0242635008,Bacteroides_helcogenes:0.0218306685)100:0.1250984376,Bacteroides_zoogleoformans:0.8085938349)100:0.2613776331)100:0.1570442941,(Candidatus_Bipolaricaulis:0.4743152332,Candidatus_Endomicrobium:0.4509723514)100:0.0904820408)93:0.0704901391,Dickeya_dianthicola:0.5643777033)98:0.0814529633,((Geobacillus_AMOR:0.0000025306,Geobacillus_LC:0.0196783769)100:0.3238864519,(Geobacter_daltonii:0.1244656698,Geobacter_metallireducens:0.1535009985)100:0.3101596297)96:0.1274291133)93:0.1722794121,(((Bacillus_coagulans:0.9732023608,Campylobacter_hominis:3.3011160447)86:1.1908759673,Citrobacter_koseri:2.9606845305)53:0.0885662892,((Bacteroides_salanitronis:0.4291468233,Chryseobacterium_gallinarum:0.2011119511)100:1.5199888797,(Capnocytophaga_gingivalis:1.7956741886,Helicobacter_apodemus:2.4764058982)98:0.7883894061)68:0.3559316345)61:0.4662285604)63:0.2130548032,(Bifidobacterium_animalis:0.5255947416,(Corynebacterium_flavescens:0.1970484217,Corynebacterium_imitans:0.2482406723)100:0.3947211277)100:0.9860917470)48:0.2028244719,(Candidatus_Cloacimonas:0.9146961976,Geobacillus_lituanicus:1.0906604609)56:0.1144044546)36:0.0950829135,(((((((Bacillus_smithii:0.2789203368,(Geobacillus_CT:0.0586956721,Geobacillus_Y.MC:0.0888136614)100:0.2056138629)100:0.0762788418,(Clostridium_argentinense:0.2701241305,((Clostridium_baratii:0.3177345858,((Clostridium_bornimense:0.1025304213,Clostridium_perfringens:0.3007812730)76:0.0542051174,Clostridium_saccharoperbutylacetonicum:0.1536578353)45:0.0352560366)100:0.0931393088,Clostridium_septicum:0.2879064841)100:0.0403777624)100:0.0673637762)100:0.1103033992,(Caldicellulosiruptor_obsidiansis:0.0134224786,Caldicellulosiruptor_owensensis:0.0330341273)100:0.2977859519)100:0.1765750286,((Clostridium_tetani:0.2176377351,Fusobacterium_gonidiaformans:0.1535733476)100:0.1918211790,Enterococcus_avium:0.3438568457)100:0.1350092735)88:0.0413884878,(((Clostridium_aceticum:0.2926059296,Caldicellulosiruptor_saccharolyticus:0.3645177604)82:0.0542470267,(Caldicellulosiruptor_changbaiensis:0.3591373927,((Geobacillus_stearothermophilus:0.0000028398,Geobacillus_YMC:0.0000028398)100:0.1924479095,Geobacillus_WCH:0.0571331079)100:0.2355729151)99:0.0591193396)100:0.2174067564,(((((Clostridium_autoethanogenum:0.0576581231,Clostridium_kluyveri:0.1630077905)100:0.1685478760,(Clostridium_pasteurianum:0.0935909067,Clostridium_scatologenes:0.0954640844)100:0.1345687349)99:0.0883687772,(((Clostridium_chauvoei:0.1304791921,Clostridium_saccharobutylicum:0.0898156221)100:0.0506542280,Clostridium_formicaceticum:0.1271066878)99:0.0844843319,(Clostridium_novyi:0.1824481088,(Eubacterium_limosum:0.0139208523,Eubacterium_maltosivorans:0.0880436492)100:0.1833638242)46:0.0273479403)47:0.0530208988)92:0.1161224097,Campylobacter_fetus:0.2833061760)100:0.4908563008,Chryseobacterium:0.4845124780)92:0.1062349653)48:0.0501694787)98:0.2329229576,((((Citrobacter_amalonaticus:0.0043845056,Citrobacter_farmeri:0.0042586253)74:0.0087057696,Citrobacter_rodentium:0.0053992104)75:0.0420261342,Enterobacter_R:0.0189694093)100:3.7531996844,(Campylobacter_iguaniorum:0.1626484311,((Campylobacter_concisus:0.1102162289,Campylobacter_curvus:0.1454433423)100:0.1150863925,Campylobacter_sputorum:0.3160379547)90:0.0631396308)92:0.7626787296)64:0.1187058558)88:0.4727032225,((Corynebacterium_humireducens:0.1155006688,(Corynebacterium_pseudotuberculosis:0.0774834195,Corynebacterium_vitaeruminis:0.0427309660)94:0.1374800605)100:3.3441736945,Fusobacterium_hwasookii:0.4840137393)71:0.3125966741)53:0.1228749576)56:0.2570171946,((((((Candidatus_Bathyarchaeota:1.9663791803,Bacillus_thuringiensis:2.2720843676)97:0.6282325688,(((Caldicellulosiruptor_hydrothermalis:0.1434712108,Caldicellulosiruptor_kristjanssonii:0.0000029301)66:0.2923874817,Caldicellulosiruptor_lactoaceticus:0.0000027634)53:0.0647157327,Caldicellulosiruptor_kronotskyensis:0.0784950545)100:3.9127602530)51:0.1485550469,Campylobacter_lanienae:0.8158792108)77:0.3621714608,(Campylobacter_gracilis:0.6334883524,Helicobacter_cetorum:0.9368325491)97:0.3861621466)77:0.3066715348,(Candidatus_Caldiarchaeum:1.3395582191,Candidatus_Desulforudis:0.6768252017)89:0.2731565795)38:0.0000021694,Corynebacterium_pelargi:3.5328775612)51:0.2233515750)37:0.1227451610,((((((Bifidobacterium_bifidum:1.1168685961,((((Enterococcus_durans:0.1292688758,Enterococcus_hirae:0.1917377133)86:0.1101330042,Enterococcus_mundtii:0.0990450186)86:0.0909725705,(Enterococcus_faecalis:0.1869342922,Enterococcus_thailandicus:0.1879810583)97:0.0466011606)100:0.5763988951,(Fusobacterium_nucleatum:0.0332879551,Fusobacterium_periodonticum:0.0649666323)100:0.6953107616)100:0.1397627817)100:0.2078477153,(((Bifidobacterium_dentium:0.9081228755,Corynebacterium_camporealensis:0.6855685251)100:0.7363640211,(((Bacteroides_fragilis:0.1390216367,Bacteroides_heparinolyticus:0.0858734702)100:0.4098695755,Candidatus_Cyclonatronum:0.5664221952)99:0.1312235703,((((Capnocytophaga_H:0.0000028440,Capnocytophaga_stomatis:0.1129567597)99:0.0009160469,(Capnocytophaga_canimorsus:0.0065587133,Capnocytophaga_cynodegmi:0.0066523140)100:0.0269902137)100:0.1210956405,((Chryseobacterium_arthrosphaerae:0.0438930197,Chryseobacterium_StRB:0.0127154371)100:0.0421761537,Chryseobacterium_indologenes:0.0785277869)100:0.1690115611)99:0.0675923215,Capnocytophaga_ChDC:0.1740067293)100:0.3735054570)100:0.3343839216)100:0.1524403428,(((((((Campylobacter_RM:0.0693800092,(Campylobacter_hepaticus:0.0395468433,Campylobacter_lari:0.0098129232)100:0.0070552350)100:0.0708125435,(Campylobacter_peloridis:0.0700650796,Campylobacter_antarcticus:0.0252939394)100:0.0421612412)100:0.1776663879,Campylobacter_cuniculorum:0.2346873765)67:0.0505773180,(Campylobacter_coli:0.0195350482,Campylobacter_jejuni:0.0037515131)100:0.2201478979)66:0.0683231374,Helicobacter_cinaedi:0.3280029173)100:0.2408138884,Campylobacter_hyointestinalis:0.6406302311)100:0.1819771459,(Helicobacter_MIT:0.4436066651,Helicobacter_typhlonius:0.3659203459)100:0.2860197503)100:0.3705618775)98:0.1959248862)68:0.2355921537,Candidatus_Hepatoplasma:1.1967410754)63:0.3337603785,Geobacter_sulfurreducens:4.2667141115)93:0.2874492447,(Clostridium_isatidis:0.6454502405,Fusobacterium_mortiferum:1.3211238121)100:0.3462872136)56:0.1198817545,((Candidatus_Symbiobacter:0.3644139210,Halomonas_GFAJ:1.0366641380)100:0.5269696345,Eubacterium_eligens:1.7263068154)94:0.7431680938)30:0.0539117041)60:0.2244532678,((((((Bacillus_glycinifermentans:0.0175846836,Bacillus_horikoshii:0.3658600164)50:0.0300909762,Bacillus_paralicheniformis:0.0000025758)97:1.9021658926,(Capnocytophaga_ochracea:0.0000028398,Capnocytophaga_oral:0.0000028398)100:1.8099402071)92:0.9670187476,Dickeya_dadantii:3.3366228108)76:0.3961527604,(((Clostridium_acetobutylicum:3.1674479251,Citrobacter_CFNIH:2.3781076070)83:0.1786667261,Geobacillus_thermocatenulatus:3.1277452562)86:0.3714877245,((Corynebacterium_glyciniphilum:0.1317025780,Corynebacterium_terpenotabidum:0.0338650653)99:0.0047789634,Corynebacterium_variabile:0.0000022156)99:2.8315432579)73:0.4954042118)69:0.1027560461,Bacillus_krulwichiae:3.6955401839)59:0.4809377696)42:0.1904730188)32:0.1509259314,Candidatus_Doolittlea:2.6955157952)38:0.3928248037,(Enterobacter_cloacae:0.0000024955,Enterobacter_hormaechei:0.0208250654)100:2.2890377879)35:0.2496432916,(((Bacillus_anthracis:0.1216097360,Bacillus_cereus:0.0471874386)100:2.8112068476,(Candidatus_Paracaedimonas:1.5800238079,Clostridium_sporogenes:2.6733979337)94:0.4383711062)30:0.1224463808,(Bacillus_beveridgei:2.0553890107,Clostridium_butyricum:2.8886666441)61:0.9096411712)35:0.0921023417)100:3.5258988784,Bacillus_LM:0.0013174194)76:0.0011125045)99:0.0024234710,Bacillus_subtilis:0.0000028398);
+
+TIME STAMP
+----------
+
+Date and time: Mon Oct 28 05:12:59 2019
+Total CPU time used: 44119.44 seconds (12h:15m:19s)
+Total wall-clock time used: 44246.25858 seconds (12h:17m:26s)
+
