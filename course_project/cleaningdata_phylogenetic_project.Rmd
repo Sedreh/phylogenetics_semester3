@@ -1,0 +1,225 @@
+---
+title: "phylo_project"
+output:
+  html_document:
+    df_print: paged
+---
+```{r}
+setwd('/home/sedreh/Desktop/phyloproject_cas1')
+
+```
+```{r,  include=FALSE}
+library("Biostrings")
+library("dplyr")
+library(DECIPHER)
+library(alignfigR)
+library(msa)
+library(seqinr)
+library(ggtree)
+library(taxize)
+library(ape)
+library(treeio)
+library(tidytree)
+library(phangorn)
+```
+
+```{r setup, include=FALSE}
+
+fastaFile <- readAAStringSet("/home/sedreh/Desktop/phyloproject_cas1/cas1_pfam_modified.fasta")
+
+organism = names(fastaFile)
+
+sequence = paste(fastaFile)
+df <- data.frame(organism, sequence)
+#1413 organisms
+df <- df %>% distinct(organism, .keep_all = T)
+#915 organisms
+
+
+#Split one column to two
+df$genus <- sapply(strsplit(as.character(df$organism),' '), "[", 1)
+df$species <- sapply(strsplit(as.character(df$organism),' '), "[", 2)
+df <- subset(df, select = -organism )
+
+#915 organisms
+df <- df %>% distinct(species, .keep_all = T)
+#629 organisms
+ df
+#View(cas1_data)
+
+```
+```{r}
+#collapse duplicates
+cas1_data_clean <- df %>% group_by(genus) %>% arrange(genus) %>%  dplyr::count(genus, sort = TRUE)  %>% filter(n >= 3)
+
+#47 genera 
+#View(cas1_data_clean)
+
+filters <- c(cas1_data_clean$genus)
+
+cas1_data_clean<- subset(cas1_data, genus %in% filters)
+
+#View(cas1_data_clean)
+
+#320 entries, 3 total columns
+```
+```{r}
+#Writing clean data on fasta file
+cas_clean_fasta <- paste0(">",cas1_data_clean$genus," ", cas1_data_clean$species,"\n",
+                          cas1_data_clean$sequence)
+
+fileConn<-file("/home/sedreh/Desktop/phyloproject_cas1/cas_clean.fasta")
+
+#writeLines(cas_clean_fasta, fileConn)
+#View (cas_clean.fasta)
+```
+
+
+```{r}
+#After doing alignment using UGENE(Muscle alignment) we need to build neigbure joinning tree(NJ)
+
+# specify the path to the FASTA file (in quotes)
+mySequences <- "/home/sedreh/Desktop/phyloproject_cas1/cas_clean.fasta"
+
+# load the sequences from the file
+seqs <- readAAStringSet(mySequences)
+
+# perform the alignment via the translations
+# change NA to 1, 2 or 3 if the readingFrame is known
+
+#View(aligned)
+
+aligned <- msa(seqs , type = "protein", gapOpening = -10)
+
+# aligned <- read.fasta ("/home/sedreh/Desktop/phyloproject_cas1/cas1_clean_aln")
+
+# msaPrettyPrint(aligned, output="tex", showNames="none",
+# showLogo="none", askForOverwrite=FALSE, verbose=FALSE)
+```
+
+```{r}
+#############################################
+#Draw tree based on NJ, IQTREE 
+#############################################
+
+#NJ tree
+
+d <- dist.alignment(aligned, "identity")
+d_mat <- as.matrix(d)
+muscleTree <- njs(d)
+View(muscleTree)
+#plot(muscleTree, main="tree_aln_details_NX_2x7")
+#Time scaled layout
+```
+
+```{r}
+#colour tree using genera
+f_name <- '/home/sedreh/Desktop/phyloproject_cas1/coloured_tree.jpeg'
+groupInfo <- split(muscleTree$tip.label, gsub("(>\\w+)", "", muscleTree$tip.label))
+cas<- groupOTU(muscleTree, groupInfo)
+
+jpeg(f_name, units="in", width=7, height=7, res=1000)
+ggtree(cas, aes(color=group), layout='circular', branch.length="none") + geom_tiplab(size=1, aes(angle=angle)) 
+dev.off()
+
+```
+```{r}
+#Based on last tree we can find Hymenobacter is the outgroup and i will root the tree by it.
+
+rooted_tree <- root(muscleTree, outgroup = 'Hymenobacter DGA')
+groupInfo <- split(rooted_tree$tip.label, gsub("(>\\w+)", "", rooted_tree$tip.label))
+cas1 <- groupOTU(rooted_tree, groupInfo)
+
+tree_plot <- ggtree(cas1, aes(color=group), layout='rectangular') + geom_tiplab(size=1, align=TRUE, linesize=0.2) + theme_tree2()
+
+name <- '/home/sedreh/Desktop/phyloproject_cas1/coloured_dendro_tree.jpeg'
+jpeg(name, units="in", width=5, height=7, res=500)
+
+tree_plot
+dev.off()
+```
+```{r}
+################## ML tree######################
+#plot ML tree constructed by IQtree with best model selection (Best-fit model according to BIC: VT+F+G4) CIRCULAR MODE (without bootstrap)
+
+
+tree_name <- '/home/sedreh/Desktop/phyloproject_cas1/IQtree_resulta/coloured_IQtree.jpeg'
+jpeg(tree_name, units="in", width=5, height=7, res=500)
+
+IQtree <- read.tree('/home/sedreh/Desktop/phyloproject_cas1/IQtree_resulta/cas1_clean_aln.treefile')
+
+groupInfo <- split(IQtree$tip.label, gsub("(>\\w+)", "", IQtree$tip.label))
+cas_IQ<- groupOTU(IQtree, groupInfo)  
+
+ggtree(cas_IQ, aes(color=group), layout='circular', branch.length="none") + geom_tiplab(size=1, aes(angle=angle)) 
+dev.off()
+```
+
+```{r}
+#plot ml tree constracted by best model and bootstrapping
+
+tree_name <- '/home/sedreh/Desktop/phyloproject_cas1/IQtree_resulta/bootstrap/coloured_bootstrap_IQtree.jpeg'
+jpeg(tree_name, units="in", width=5, height=7, res=500)
+
+IQtree_bootstrap <- read.tree('/home/sedreh/Desktop/phyloproject_cas1/IQtree_resulta/bootstrap/cas1_clean_aln.contree')
+
+groupInfo <- split(IQtree_bootstrap$tip.label, gsub("(>\\w+)", "", IQtree_bootstrap$tip.label))
+cas_IQ<- groupOTU(IQtree_bootstrap, groupInfo)  
+
+ggtree(cas_IQ, aes(color=group), layout='circular', branch.length="none") + geom_tiplab(size=1, aes(angle=angle))
+#+geom_nodelab()
+dev.off()
+```
+
+```{r}
+#root ml tree and collapse bootstrap values if node in >=70 bootstrap 
+
+name <- '/home/sedreh/Desktop/phyloproject_cas1/IQtree_resulta/bootstrap/coloured_dendro_finalIQtree.jpeg'
+jpeg(name, units="in", width=5, height=7, res=500)
+
+rooted_tree <- root(IQtree_bootstrap, outgroup = 'Bacillus_BSA')
+groupInfo <- split(rooted_tree$tip.label, gsub("(>\\w+)", "", rooted_tree$tip.label))
+cas1 <- groupOTU(rooted_tree, groupInfo)
+tree_plot <- ggtree(cas1, aes(color=group), layout='rectangular') + geom_tiplab(size=1, align=TRUE, linesize=0.2) + theme_tree2()+ geom_nodelab()
+
+tree_plot
+dev.off()
+```
+
+
+```{r}
+name <- '/home/sedreh/Desktop/phyloproject_cas1/IQtree_resulta/bootstrap/collapse_finalIQtree.jpeg'
+jpeg(name, units="in", width=5, height=7, res=500) 
+
+treeBS <- plotBS(
+    IQtree_bootstrap,
+    p = 70, # Plot bootstrap values if node in >=70 bootstrap trees
+    type="phylogram") # Type of phylogenetic tree shape to plot
+  treeBS 
+  
+
+  dev.off()
+
+```
+
+
+```{r}
+
+name <- '/home/sedreh/Desktop/phyloproject_cas1/IQtree_resulta/bootstrap/collapse_finalIQtree.jpeg'
+jpeg(name, units="in", width=5, height=7, res=500)
+
+
+tree_plot <- ggtree(treeBS, aes(color=group), layout='rectangular') + geom_tiplab(size=1, align=TRUE, linesize=0.2) + theme_tree2()+ geom_nodelab()
+
+tree_plot
+dev.off()
+```
+
+
+```{r}
+#plot some of the bootstrap trees
+# btrees <- read.tree(system.file("IQtree_bootstrap", package="treeio"))
+# ggtree(btrees) + facet_wrap(~.id, ncol=3)
+```
+
+
