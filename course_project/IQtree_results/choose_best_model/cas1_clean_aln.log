@@ -1,0 +1,706 @@
+IQ-TREE multicore version 1.6.11 for Linux 64-bit built Jun  6 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    rabi (SSE4.2, 15 GB RAM)
+Command: ../../iqtree -s cas1_clean_aln -m TESTONLY
+Seed:    298205 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Oct 27 12:45:21 2019
+Kernel:  SSE2 - 1 threads (24 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 24 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file cas1_clean_aln ... Fasta format detected
+NOTE: Change sequence name 'Bacillus BSA' -> Bacillus_BSA
+NOTE: Change sequence name 'Bacillus Pc' -> Bacillus_Pc
+NOTE: Change sequence name 'Bacillus SDLI' -> Bacillus_SDLI
+NOTE: Change sequence name 'Bifidobacterium actinocoloniiforme' -> Bifidobacterium_actinocoloniiforme
+NOTE: Change sequence name 'Bacillus YP' -> Bacillus_YP
+NOTE: Change sequence name 'Bifidobacterium adolescentis' -> Bifidobacterium_adolescentis
+NOTE: Change sequence name 'Bacillus atrophaeus' -> Bacillus_atrophaeus
+NOTE: Change sequence name 'Bacillus coagulans' -> Bacillus_coagulans
+NOTE: Change sequence name 'Bacillus anthracis' -> Bacillus_anthracis
+NOTE: Change sequence name 'Bacillus cereus' -> Bacillus_cereus
+NOTE: Change sequence name 'Bacillus LM' -> Bacillus_LM
+NOTE: Change sequence name 'Bacillus velezensis' -> Bacillus_velezensis
+NOTE: Change sequence name 'Bacillus amyloliquefaciens' -> Bacillus_amyloliquefaciens
+NOTE: Change sequence name 'Bifidobacterium angulatum' -> Bifidobacterium_angulatum
+NOTE: Change sequence name 'Bifidobacterium animalis' -> Bifidobacterium_animalis
+NOTE: Change sequence name 'Candidatus Bathyarchaeota' -> Candidatus_Bathyarchaeota
+NOTE: Change sequence name 'Bifidobacterium asteroides' -> Bifidobacterium_asteroides
+NOTE: Change sequence name 'Bacillus beveridgei' -> Bacillus_beveridgei
+NOTE: Change sequence name 'Bifidobacterium bifidum' -> Bifidobacterium_bifidum
+NOTE: Change sequence name 'Bifidobacterium breve' -> Bifidobacterium_breve
+NOTE: Change sequence name 'Bifidobacterium catenulatum' -> Bifidobacterium_catenulatum
+NOTE: Change sequence name 'Burkholderia cenocepacia' -> Burkholderia_cenocepacia
+NOTE: Change sequence name 'Bifidobacterium choerinum' -> Bifidobacterium_choerinum
+NOTE: Change sequence name 'Bacillus clausii' -> Bacillus_clausii
+NOTE: Change sequence name 'Bifidobacterium dentium' -> Bifidobacterium_dentium
+NOTE: Change sequence name 'Bacteroides dorei' -> Bacteroides_dorei
+NOTE: Change sequence name 'Burkholderia dolosa' -> Burkholderia_dolosa
+NOTE: Change sequence name 'Bacillus filamentosus' -> Bacillus_filamentosus
+NOTE: Change sequence name 'Bacteroides fragilis' -> Bacteroides_fragilis
+NOTE: Change sequence name 'Burkholderia plantarii' -> Burkholderia_plantarii
+NOTE: Change sequence name 'Bacillus glycinifermentans' -> Bacillus_glycinifermentans
+NOTE: Change sequence name 'Bacillus halodurans' -> Bacillus_halodurans
+NOTE: Change sequence name 'Bacteroides heparinolyticus' -> Bacteroides_heparinolyticus
+NOTE: Change sequence name 'Bacillus horikoshii' -> Bacillus_horikoshii
+NOTE: Change sequence name 'Bacteroides helcogenes' -> Bacteroides_helcogenes
+NOTE: Change sequence name 'Candidatus Bipolaricaulis' -> Candidatus_Bipolaricaulis
+NOTE: Change sequence name 'Bacillus intestinalis' -> Bacillus_intestinalis
+NOTE: Change sequence name 'Bacillus JS' -> Bacillus_JS
+NOTE: Change sequence name 'Bifidobacterium kashiwanohense' -> Bifidobacterium_kashiwanohense
+NOTE: Change sequence name 'Bacillus krulwichiae' -> Bacillus_krulwichiae
+NOTE: Change sequence name 'Burkholderia latens' -> Burkholderia_latens
+NOTE: Change sequence name 'Bifidobacterium longum' -> Bifidobacterium_longum
+NOTE: Change sequence name 'Bacillus paralicheniformis' -> Bacillus_paralicheniformis
+NOTE: Change sequence name 'Burkholderia metallica' -> Burkholderia_metallica
+NOTE: Change sequence name 'Burkholderia pseudomallei' -> Burkholderia_pseudomallei
+NOTE: Change sequence name 'Bifidobacterium pseudocatenulatum' -> Bifidobacterium_pseudocatenulatum
+NOTE: Change sequence name 'Burkholderia pyrrocinia' -> Burkholderia_pyrrocinia
+NOTE: Change sequence name 'Bacteroides salanitronis' -> Bacteroides_salanitronis
+NOTE: Change sequence name 'Bifidobacterium scardovii' -> Bifidobacterium_scardovii
+NOTE: Change sequence name 'Bacillus subtilis' -> Bacillus_subtilis
+NOTE: Change sequence name 'Bacillus smithii' -> Bacillus_smithii
+NOTE: Change sequence name 'Burkholderia stabilis' -> Burkholderia_stabilis
+NOTE: Change sequence name 'Bacillus thuringiensis' -> Bacillus_thuringiensis
+NOTE: Change sequence name 'Burkholderia thailandensis' -> Burkholderia_thailandensis
+NOTE: Change sequence name 'Bifidobacterium thermophilum' -> Bifidobacterium_thermophilum
+NOTE: Change sequence name 'Burkholderia RPE' -> Burkholderia_RPE
+NOTE: Change sequence name 'Burkholderia PAMC' -> Burkholderia_PAMC
+NOTE: Change sequence name 'Bacillus vallismortis' -> Bacillus_vallismortis
+NOTE: Change sequence name 'Bacillus xiamenensis' -> Bacillus_xiamenensis
+NOTE: Change sequence name 'Burkholderia YI' -> Burkholderia_YI
+NOTE: Change sequence name 'Bacteroides zoogleoformans' -> Bacteroides_zoogleoformans
+NOTE: Change sequence name 'Clostridium acetobutylicum' -> Clostridium_acetobutylicum
+NOTE: Change sequence name 'Clostridium aceticum' -> Clostridium_aceticum
+NOTE: Change sequence name 'Candidatus Cloacimonas' -> Candidatus_Cloacimonas
+NOTE: Change sequence name 'Citrobacter amalonaticus' -> Citrobacter_amalonaticus
+NOTE: Change sequence name 'Clostridium autoethanogenum' -> Clostridium_autoethanogenum
+NOTE: Change sequence name 'Campylobacter iguaniorum' -> Campylobacter_iguaniorum
+NOTE: Change sequence name 'Campylobacter fetus' -> Campylobacter_fetus
+NOTE: Change sequence name 'Campylobacter RM' -> Campylobacter_RM
+NOTE: Change sequence name 'Capnocytophaga H' -> Capnocytophaga_H
+NOTE: Change sequence name 'Capnocytophaga ChDC' -> Capnocytophaga_ChDC
+NOTE: Change sequence name 'Candidatus Paracaedimonas' -> Candidatus_Paracaedimonas
+NOTE: Change sequence name 'Corynebacterium aurimucosum' -> Corynebacterium_aurimucosum
+NOTE: Change sequence name 'Clostridium argentinense' -> Clostridium_argentinense
+NOTE: Change sequence name 'Chryseobacterium arthrosphaerae' -> Chryseobacterium_arthrosphaerae
+NOTE: Change sequence name 'Clostridium bolteae' -> Clostridium_bolteae
+NOTE: Change sequence name 'Citrobacter braakii' -> Citrobacter_braakii
+NOTE: Change sequence name 'Clostridium butyricum' -> Clostridium_butyricum
+NOTE: Change sequence name 'Clostridium baratii' -> Clostridium_baratii
+NOTE: Change sequence name 'Candidatus Symbiobacter' -> Candidatus_Symbiobacter
+NOTE: Change sequence name 'Clostridium cellulosi' -> Clostridium_cellulosi
+NOTE: Change sequence name 'Corynebacterium casei' -> Corynebacterium_casei
+NOTE: Change sequence name 'Caldicellulosiruptor changbaiensis' -> Caldicellulosiruptor_changbaiensis
+NOTE: Change sequence name 'Clostridium chauvoei' -> Clostridium_chauvoei
+NOTE: Change sequence name 'Corynebacterium camporealensis' -> Corynebacterium_camporealensis
+NOTE: Change sequence name 'Capnocytophaga canimorsus' -> Capnocytophaga_canimorsus
+NOTE: Change sequence name 'Campylobacter concisus' -> Campylobacter_concisus
+NOTE: Change sequence name 'Campylobacter cuniculorum' -> Campylobacter_cuniculorum
+NOTE: Change sequence name 'Campylobacter curvus' -> Campylobacter_curvus
+NOTE: Change sequence name 'Campylobacter coli' -> Campylobacter_coli
+NOTE: Change sequence name 'Capnocytophaga cynodegmi' -> Capnocytophaga_cynodegmi
+NOTE: Change sequence name 'Corynebacterium diphtheriae' -> Corynebacterium_diphtheriae
+NOTE: Change sequence name 'Cronobacter dublinensis' -> Cronobacter_dublinensis
+NOTE: Change sequence name 'Corynebacterium deserti' -> Corynebacterium_deserti
+NOTE: Change sequence name 'Dickeya fangzhongdai' -> Dickeya_fangzhongdai
+NOTE: Change sequence name 'Corynebacterium epidermidicanis' -> Corynebacterium_epidermidicanis
+NOTE: Change sequence name 'Citrobacter farmeri' -> Citrobacter_farmeri
+NOTE: Change sequence name 'Corynebacterium flavescens' -> Corynebacterium_flavescens
+NOTE: Change sequence name 'Citrobacter freundii' -> Citrobacter_freundii
+NOTE: Change sequence name 'Corynebacterium frankenforstense' -> Corynebacterium_frankenforstense
+NOTE: Change sequence name 'Clostridium formicaceticum' -> Clostridium_formicaceticum
+NOTE: Change sequence name 'Corynebacterium falsenii' -> Corynebacterium_falsenii
+NOTE: Change sequence name 'Capnocytophaga gingivalis' -> Capnocytophaga_gingivalis
+NOTE: Change sequence name 'Chryseobacterium gallinarum' -> Chryseobacterium_gallinarum
+NOTE: Change sequence name 'Campylobacter gracilis' -> Campylobacter_gracilis
+NOTE: Change sequence name 'Corynebacterium glutamicum' -> Corynebacterium_glutamicum
+NOTE: Change sequence name 'Corynebacterium glyciniphilum' -> Corynebacterium_glyciniphilum
+NOTE: Change sequence name 'Campylobacter hominis' -> Campylobacter_hominis
+NOTE: Change sequence name 'Caldicellulosiruptor hydrothermalis' -> Caldicellulosiruptor_hydrothermalis
+NOTE: Change sequence name 'Corynebacterium humireducens' -> Corynebacterium_humireducens
+NOTE: Change sequence name 'Campylobacter hepaticus' -> Campylobacter_hepaticus
+NOTE: Change sequence name 'Campylobacter hyointestinalis' -> Campylobacter_hyointestinalis
+NOTE: Change sequence name 'Chryseobacterium StRB' -> Chryseobacterium_StRB
+NOTE: Change sequence name 'Clostridium isatidis' -> Clostridium_isatidis
+NOTE: Change sequence name 'Citrobacter CRE' -> Citrobacter_CRE
+NOTE: Change sequence name 'Corynebacterium imitans' -> Corynebacterium_imitans
+NOTE: Change sequence name 'Chryseobacterium indologenes' -> Chryseobacterium_indologenes
+NOTE: Change sequence name 'Citrobacter CFNIH' -> Citrobacter_CFNIH
+NOTE: Change sequence name 'Campylobacter jejuni' -> Campylobacter_jejuni
+NOTE: Change sequence name 'Corynebacterium jeikeium' -> Corynebacterium_jeikeium
+NOTE: Change sequence name 'Caldicellulosiruptor kristjanssonii' -> Caldicellulosiruptor_kristjanssonii
+NOTE: Change sequence name 'Clostridium kluyveri' -> Clostridium_kluyveri
+NOTE: Change sequence name 'Caldicellulosiruptor kronotskyensis' -> Caldicellulosiruptor_kronotskyensis
+NOTE: Change sequence name 'Citrobacter koseri' -> Citrobacter_koseri
+NOTE: Change sequence name 'Corynebacterium kutscheri' -> Corynebacterium_kutscheri
+NOTE: Change sequence name 'Clostridium BNL' -> Clostridium_BNL
+NOTE: Change sequence name 'Caldicellulosiruptor lactoaceticus' -> Caldicellulosiruptor_lactoaceticus
+NOTE: Change sequence name 'Clostridium sporogenes' -> Clostridium_sporogenes
+NOTE: Change sequence name 'Campylobacter lari' -> Campylobacter_lari
+NOTE: Change sequence name 'Clostridium SY' -> Clostridium_SY
+NOTE: Change sequence name 'Clostridium bornimense' -> Clostridium_bornimense
+NOTE: Change sequence name 'Campylobacter lanienae' -> Campylobacter_lanienae
+NOTE: Change sequence name 'Cronobacter malonaticus' -> Cronobacter_malonaticus
+NOTE: Change sequence name 'Corynebacterium mustelae' -> Corynebacterium_mustelae
+NOTE: Change sequence name 'Cronobacter muytjensii' -> Cronobacter_muytjensii
+NOTE: Change sequence name 'Clostridium novyi' -> Clostridium_novyi
+NOTE: Change sequence name 'Corynebacterium ATCC' -> Corynebacterium_ATCC
+NOTE: Change sequence name 'Caldicellulosiruptor obsidiansis' -> Caldicellulosiruptor_obsidiansis
+NOTE: Change sequence name 'Capnocytophaga ochracea' -> Capnocytophaga_ochracea
+NOTE: Change sequence name 'Corynebacterium pseudotuberculosis' -> Corynebacterium_pseudotuberculosis
+NOTE: Change sequence name 'Capnocytophaga oral' -> Capnocytophaga_oral
+NOTE: Change sequence name 'Caldicellulosiruptor owensensis' -> Caldicellulosiruptor_owensensis
+NOTE: Change sequence name 'Clostridium pasteurianum' -> Clostridium_pasteurianum
+NOTE: Change sequence name 'Corynebacterium pelargi' -> Corynebacterium_pelargi
+NOTE: Change sequence name 'Campylobacter peloridis' -> Campylobacter_peloridis
+NOTE: Change sequence name 'Corynebacterium phocae' -> Corynebacterium_phocae
+NOTE: Change sequence name 'Clostridium perfringens' -> Clostridium_perfringens
+NOTE: Change sequence name 'Candidatus Cyclonatronum' -> Candidatus_Cyclonatronum
+NOTE: Change sequence name 'Corynebacterium resistens' -> Corynebacterium_resistens
+NOTE: Change sequence name 'Citrobacter rodentium' -> Citrobacter_rodentium
+NOTE: Change sequence name 'Clostridium saccharobutylicum' -> Clostridium_saccharobutylicum
+NOTE: Change sequence name 'Caldicellulosiruptor saccharolyticus' -> Caldicellulosiruptor_saccharolyticus
+NOTE: Change sequence name 'Clostridium septicum' -> Clostridium_septicum
+NOTE: Change sequence name 'Cronobacter sakazakii' -> Cronobacter_sakazakii
+NOTE: Change sequence name 'Campylobacter antarcticus' -> Campylobacter_antarcticus
+NOTE: Change sequence name 'Corynebacterium simulans' -> Corynebacterium_simulans
+NOTE: Change sequence name 'Campylobacter sputorum' -> Campylobacter_sputorum
+NOTE: Change sequence name 'Clostridium scatologenes' -> Clostridium_scatologenes
+NOTE: Change sequence name 'Clostridium saccharoperbutylacetonicum' -> Clostridium_saccharoperbutylacetonicum
+NOTE: Change sequence name 'Capnocytophaga stomatis' -> Capnocytophaga_stomatis
+NOTE: Change sequence name 'Corynebacterium striatum' -> Corynebacterium_striatum
+NOTE: Change sequence name 'Candidatus Caldiarchaeum' -> Candidatus_Caldiarchaeum
+NOTE: Change sequence name 'Corynebacterium singulare' -> Corynebacterium_singulare
+NOTE: Change sequence name 'Clostridium tetani' -> Clostridium_tetani
+NOTE: Change sequence name 'Corynebacterium terpenotabidum' -> Corynebacterium_terpenotabidum
+NOTE: Change sequence name 'Cronobacter turicensis' -> Cronobacter_turicensis
+NOTE: Change sequence name 'Corynebacterium urealyticum' -> Corynebacterium_urealyticum
+NOTE: Change sequence name 'Corynebacterium ulcerans' -> Corynebacterium_ulcerans
+NOTE: Change sequence name 'Corynebacterium ureicelerivorans' -> Corynebacterium_ureicelerivorans
+NOTE: Change sequence name 'Corynebacterium variabile' -> Corynebacterium_variabile
+NOTE: Change sequence name 'Corynebacterium vitaeruminis' -> Corynebacterium_vitaeruminis
+NOTE: Change sequence name 'Citrobacter youngae' -> Citrobacter_youngae
+NOTE: Change sequence name 'Dickeya aquatica' -> Dickeya_aquatica
+NOTE: Change sequence name 'Candidatus Desulforudis' -> Candidatus_Desulforudis
+NOTE: Change sequence name 'Dickeya paradisiaca' -> Dickeya_paradisiaca
+NOTE: Change sequence name 'Dickeya zeae' -> Dickeya_zeae
+NOTE: Change sequence name 'Dickeya dadantii' -> Dickeya_dadantii
+NOTE: Change sequence name 'Dickeya dianthicola' -> Dickeya_dianthicola
+NOTE: Change sequence name 'Candidatus Doolittlea' -> Candidatus_Doolittlea
+NOTE: Change sequence name 'Dickeya chrysanthemi' -> Dickeya_chrysanthemi
+NOTE: Change sequence name 'Enterococcus avium' -> Enterococcus_avium
+NOTE: Change sequence name 'Enterobacter cancerogenus' -> Enterobacter_cancerogenus
+NOTE: Change sequence name 'Enterobacter cloacae' -> Enterobacter_cloacae
+NOTE: Change sequence name 'Enterobacter hormaechei' -> Enterobacter_hormaechei
+NOTE: Change sequence name 'Enterococcus durans' -> Enterococcus_durans
+NOTE: Change sequence name 'Eubacterium eligens' -> Eubacterium_eligens
+NOTE: Change sequence name 'Enterococcus faecalis' -> Enterococcus_faecalis
+NOTE: Change sequence name 'Enterococcus hirae' -> Enterococcus_hirae
+NOTE: Change sequence name 'Eubacterium limosum' -> Eubacterium_limosum
+NOTE: Change sequence name 'Eubacterium maltosivorans' -> Eubacterium_maltosivorans
+NOTE: Change sequence name 'Enterococcus mundtii' -> Enterococcus_mundtii
+NOTE: Change sequence name 'Enterobacter R' -> Enterobacter_R
+NOTE: Change sequence name 'Eubacterium rectale' -> Eubacterium_rectale
+NOTE: Change sequence name 'Enterobacter roggenkampii' -> Enterobacter_roggenkampii
+NOTE: Change sequence name 'Eubacterium siraeum' -> Eubacterium_siraeum
+NOTE: Change sequence name 'Enterococcus silesiacus' -> Enterococcus_silesiacus
+NOTE: Change sequence name 'Enterococcus thailandicus' -> Enterococcus_thailandicus
+NOTE: Change sequence name 'Candidatus Endomicrobium' -> Candidatus_Endomicrobium
+NOTE: Change sequence name 'Fusobacterium gonidiaformans' -> Fusobacterium_gonidiaformans
+NOTE: Change sequence name 'Fusobacterium hwasookii' -> Fusobacterium_hwasookii
+NOTE: Change sequence name 'Candidatus Filomicrobium' -> Candidatus_Filomicrobium
+NOTE: Change sequence name 'Fusobacterium mortiferum' -> Fusobacterium_mortiferum
+NOTE: Change sequence name 'Fusobacterium nucleatum' -> Fusobacterium_nucleatum
+NOTE: Change sequence name 'Fusobacterium periodonticum' -> Fusobacterium_periodonticum
+NOTE: Change sequence name 'Geobacter anodireducens' -> Geobacter_anodireducens
+NOTE: Change sequence name 'Geobacillus CT' -> Geobacillus_CT
+NOTE: Change sequence name 'Geobacillus AMOR' -> Geobacillus_AMOR
+NOTE: Change sequence name 'Geobacillus LC' -> Geobacillus_LC
+NOTE: Change sequence name 'Geobacter daltonii' -> Geobacter_daltonii
+NOTE: Change sequence name 'Geobacillus lituanicus' -> Geobacillus_lituanicus
+NOTE: Change sequence name 'Geobacter lovleyi' -> Geobacter_lovleyi
+NOTE: Change sequence name 'Geobacillus Y.MC' -> Geobacillus_Y.MC
+NOTE: Change sequence name 'Geobacter metallireducens' -> Geobacter_metallireducens
+NOTE: Change sequence name 'Geobacter pickeringii' -> Geobacter_pickeringii
+NOTE: Change sequence name 'Geobacillus stearothermophilus' -> Geobacillus_stearothermophilus
+NOTE: Change sequence name 'Geobacter sulfurreducens' -> Geobacter_sulfurreducens
+NOTE: Change sequence name 'Bacillus X()' -> Bacillus_X()
+NOTE: Change sequence name 'Geobacillus thermocatenulatus' -> Geobacillus_thermocatenulatus
+NOTE: Change sequence name 'Geobacillus thermodenitrificans' -> Geobacillus_thermodenitrificans
+NOTE: Change sequence name 'Geobacter uraniireducens' -> Geobacter_uraniireducens
+NOTE: Change sequence name 'Geobacillus WCH' -> Geobacillus_WCH
+NOTE: Change sequence name 'Geobacillus YMC' -> Geobacillus_YMC
+NOTE: Change sequence name 'Helicobacter apodemus' -> Helicobacter_apodemus
+NOTE: Change sequence name 'Halomonas GFAJ' -> Halomonas_GFAJ
+NOTE: Change sequence name 'Halomonas KO' -> Halomonas_KO
+NOTE: Change sequence name 'Halomonas alkaliphila' -> Halomonas_alkaliphila
+NOTE: Change sequence name 'Halomonas beimenensis' -> Halomonas_beimenensis
+NOTE: Change sequence name 'Helicobacter cinaedi' -> Helicobacter_cinaedi
+NOTE: Change sequence name 'Helicobacter cetorum' -> Helicobacter_cetorum
+NOTE: Change sequence name 'Candidatus Hepatoplasma' -> Candidatus_Hepatoplasma
+NOTE: Change sequence name 'Halomonas campaniensis' -> Halomonas_campaniensis
+NOTE: Change sequence name 'Halomonas elongata' -> Halomonas_elongata
+NOTE: Change sequence name 'Helicobacter MIT' -> Helicobacter_MIT
+NOTE: Change sequence name 'Helicobacter typhlonius' -> Helicobacter_typhlonius
+Alignment most likely contains protein sequences
+Alignment has 235 sequences with 1061 columns, 817 distinct patterns
+538 parsimony-informative, 225 singleton sites, 298 constant sites
+WARNING: Some sequence names are changed as follows:
+Bacillus_X() -> Bacillus_X__
+
+                                        Gap/Ambiguity  Composition  p-value
+   1  Bacillus_BSA                             64.47%    passed     39.69%
+   2  Bacillus_Pc                              64.47%    passed     33.14%
+   3  Bacillus_SDLI                            64.47%    passed     27.84%
+   4  Bifidobacterium_actinocoloniiforme       69.18%    passed     13.71%
+   5  Bacillus_YP                              64.47%    passed     35.34%
+   6  Bifidobacterium_adolescentis             67.67%    passed     22.17%
+   7  Bacillus_atrophaeus                      64.47%    passed     15.76%
+   8  Bacillus_coagulans                       94.06%    passed     32.71%
+   9  Bacillus_anthracis                       81.90%    failed      0.33%
+  10  Bacillus_cereus                          81.90%    failed      0.32%
+  11  Bacillus_LM                              64.47%    passed     30.77%
+  12  Bacillus_velezensis                      64.47%    passed     23.51%
+  13  Bacillus_amyloliquefaciens               64.47%    passed     39.99%
+  14  Bifidobacterium_angulatum                70.31%    failed      0.73%
+  15  Bifidobacterium_animalis                 50.14%    failed      0.29%
+  16  Candidatus_Bathyarchaeota                90.67%    passed     95.35%
+  17  Bifidobacterium_asteroides               69.65%    failed      0.49%
+  18  Bacillus_beveridgei                      68.90%    failed      3.54%
+  19  Bifidobacterium_bifidum                  72.10%    passed     10.03%
+  20  Bifidobacterium_breve                    67.67%    passed     12.20%
+  21  Bifidobacterium_catenulatum              67.48%    failed      0.60%
+  22  Burkholderia_cenocepacia                 69.75%    failed      0.00%
+  23  Bifidobacterium_choerinum                67.95%    passed      5.43%
+  24  Bacillus_clausii                         67.67%    passed     90.00%
+  25  Bifidobacterium_dentium                  71.25%    passed     18.77%
+  26  Bacteroides_dorei                        67.95%    passed     74.86%
+  27  Burkholderia_dolosa                      69.18%    failed      0.00%
+  28  Bacillus_filamentosus                    76.34%    failed      2.65%
+  29  Bacteroides_fragilis                     70.78%    passed     53.29%
+  30  Burkholderia_plantarii                   68.90%    failed      0.25%
+  31  Bacillus_glycinifermentans               92.27%    passed      9.19%
+  32  Bacillus_halodurans                      67.67%    passed     47.46%
+  33  Bacteroides_heparinolyticus              70.78%    passed     63.75%
+  34  Bacillus_horikoshii                      92.27%    failed      1.62%
+  35  Bacteroides_helcogenes                   67.95%    passed     72.83%
+  36  Candidatus_Bipolaricaulis                67.67%    failed      0.19%
+  37  Bacillus_intestinalis                    64.47%    passed     36.77%
+  38  Bacillus_JS                              64.47%    passed     31.76%
+  39  Bifidobacterium_kashiwanohense           67.67%    passed     22.45%
+  40  Bacillus_krulwichiae                     82.38%    failed      0.10%
+  41  Burkholderia_latens                      69.75%    failed      0.00%
+  42  Bifidobacterium_longum                   68.24%    failed      3.93%
+  43  Bacillus_paralicheniformis               92.18%    passed     12.47%
+  44  Burkholderia_metallica                   68.80%    failed      0.00%
+  45  Burkholderia_pseudomallei                82.00%    failed      0.04%
+  46  Bifidobacterium_pseudocatenulatum        67.67%    passed     21.07%
+  47  Burkholderia_pyrrocinia                  69.37%    failed      0.00%
+  48  Bacteroides_salanitronis                 80.21%    passed     23.37%
+  49  Bifidobacterium_scardovii                65.79%    failed      0.00%
+  50  Bacillus_subtilis                        64.47%    passed     39.69%
+  51  Bacillus_smithii                         69.09%    failed      0.01%
+  52  Burkholderia_stabilis                    68.43%    failed      0.00%
+  53  Bacillus_thuringiensis                   78.51%    failed      0.00%
+  54  Burkholderia_thailandensis               82.00%    failed      0.02%
+  55  Bifidobacterium_thermophilum             67.67%    failed      3.08%
+  56  Burkholderia_RPE                         72.20%    failed      0.00%
+  57  Burkholderia_PAMC                        68.90%    failed      0.03%
+  58  Bacillus_vallismortis                    64.47%    passed     23.01%
+  59  Bacillus_xiamenensis                     67.67%    passed     82.06%
+  60  Burkholderia_YI                          72.20%    failed      0.00%
+  61  Bacteroides_zoogleoformans               81.43%    passed     77.95%
+  62  Clostridium_acetobutylicum               83.51%    failed      0.00%
+  63  Clostridium_aceticum                     68.90%    failed      0.00%
+  64  Candidatus_Cloacimonas                   67.58%    failed      3.11%
+  65  Citrobacter_amalonaticus                 79.45%    passed     65.10%
+  66  Clostridium_autoethanogenum              68.52%    failed      0.00%
+  67  Campylobacter_iguaniorum                 68.80%    failed      0.01%
+  68  Campylobacter_fetus                      68.61%    failed      0.00%
+  69  Campylobacter_RM                         71.82%    failed      0.00%
+  70  Capnocytophaga_H                         72.01%    passed     42.90%
+  71  Capnocytophaga_ChDC                      72.10%    passed      6.42%
+  72  Candidatus_Paracaedimonas                85.49%    failed      0.00%
+  73  Corynebacterium_aurimucosum              70.59%    failed      3.63%
+  74  Clostridium_argentinense                 69.18%    failed      0.00%
+  75  Chryseobacterium_arthrosphaerae          72.01%    passed     20.43%
+  76  Clostridium_bolteae                      67.67%    passed     53.40%
+  77  Citrobacter_braakii                      67.77%    failed      0.05%
+  78  Clostridium_butyricum                    68.71%    failed      0.00%
+  79  Clostridium_baratii                      69.27%    failed      0.00%
+  80  Candidatus_Symbiobacter                  69.56%    failed      0.03%
+  81  Clostridium_cellulosi                    67.67%    passed     66.04%
+  82  Corynebacterium_casei                    84.64%    passed     27.83%
+  83  Caldicellulosiruptor_changbaiensis       68.80%    failed      0.02%
+  84  Clostridium_chauvoei                     68.71%    failed      0.00%
+  85  Corynebacterium_camporealensis           71.16%    passed     20.95%
+  86  Capnocytophaga_canimorsus                72.01%    passed     40.72%
+  87  Campylobacter_concisus                   68.71%    passed     35.45%
+  88  Campylobacter_cuniculorum                71.72%    failed      0.00%
+  89  Campylobacter_curvus                     68.71%    passed     58.07%
+  90  Campylobacter_coli                       72.10%    failed      0.00%
+  91  Capnocytophaga_cynodegmi                 72.01%    passed     41.69%
+  92  Corynebacterium_diphtheriae              70.69%    failed      3.32%
+  93  Cronobacter_dublinensis                  71.25%    failed      0.48%
+  94  Corynebacterium_deserti                  69.27%    passed     13.41%
+  95  Dickeya_fangzhongdai                     71.07%    failed      0.04%
+  96  Corynebacterium_epidermidicanis          49.29%    failed      0.00%
+  97  Citrobacter_farmeri                      79.45%    passed     65.88%
+  98  Corynebacterium_flavescens               49.86%    failed      0.24%
+  99  Citrobacter_freundii                     67.77%    failed      0.03%
+ 100  Corynebacterium_frankenforstense         70.41%    failed      0.00%
+ 101  Clostridium_formicaceticum               68.71%    failed      0.02%
+ 102  Corynebacterium_falsenii                 68.24%    failed      0.22%
+ 103  Capnocytophaga_gingivalis                82.38%    failed      0.00%
+ 104  Chryseobacterium_gallinarum              80.21%    failed      0.00%
+ 105  Campylobacter_gracilis                   31.10%    failed      0.00%
+ 106  Corynebacterium_glutamicum               70.88%    passed     15.75%
+ 107  Corynebacterium_glyciniphilum            42.04%    failed      0.00%
+ 108  Campylobacter_hominis                    68.80%    failed      0.00%
+ 109  Caldicellulosiruptor_hydrothermalis      69.09%    passed     46.35%
+ 110  Corynebacterium_humireducens             61.83%    failed      0.00%
+ 111  Chryseobacterium                         68.52%    passed     50.72%
+ 112  Campylobacter_hepaticus                  71.72%    failed      0.00%
+ 113  Campylobacter_hyointestinalis            72.01%    failed      0.01%
+ 114  Chryseobacterium_StRB                    72.01%    passed     24.34%
+ 115  Clostridium_isatidis                     69.09%    failed      0.01%
+ 116  Citrobacter_CRE                          67.77%    failed      0.03%
+ 117  Corynebacterium_imitans                  49.76%    failed      0.00%
+ 118  Chryseobacterium_indologenes             72.01%    passed     25.77%
+ 119  Citrobacter_CFNIH                        93.78%    failed      3.65%
+ 120  Campylobacter_jejuni                     72.10%    failed      0.00%
+ 121  Corynebacterium_jeikeium                 70.50%    failed      2.87%
+ 122  Caldicellulosiruptor_kristjanssonii      68.80%    passed     37.03%
+ 123  Clostridium_kluyveri                     68.52%    failed      0.01%
+ 124  Caldicellulosiruptor_kronotskyensis      69.09%    passed     40.85%
+ 125  Citrobacter_koseri                       73.14%    passed      8.75%
+ 126  Corynebacterium_kutscheri                75.78%    passed     53.19%
+ 127  Clostridium_BNL                          67.67%    passed     80.55%
+ 128  Caldicellulosiruptor_lactoaceticus       68.80%    passed     37.03%
+ 129  Clostridium_sporogenes                   65.41%    failed      0.00%
+ 130  Campylobacter_lari                       71.72%    failed      0.01%
+ 131  Clostridium_SY                           82.28%    passed     72.46%
+ 132  Clostridium_bornimense                   69.18%    failed      0.00%
+ 133  Campylobacter_lanienae                   70.12%    failed      0.00%
+ 134  Cronobacter_malonaticus                  71.25%    failed      2.07%
+ 135  Corynebacterium_mustelae                 70.22%    failed      3.98%
+ 136  Cronobacter_muytjensii                   69.18%    failed      4.02%
+ 137  Clostridium_novyi                        68.71%    failed      0.00%
+ 138  Corynebacterium_ATCC                     69.93%    failed      1.25%
+ 139  Caldicellulosiruptor_obsidiansis         69.27%    failed      1.87%
+ 140  Capnocytophaga_ochracea                  79.26%    passed     21.88%
+ 141  Corynebacterium_pseudotuberculosis       60.70%    failed      0.00%
+ 142  Capnocytophaga_oral                      79.26%    passed     21.88%
+ 143  Caldicellulosiruptor_owensensis          69.27%    failed      0.77%
+ 144  Clostridium_pasteurianum                 68.61%    failed      0.00%
+ 145  Corynebacterium_pelargi                  80.49%    failed      0.06%
+ 146  Campylobacter_peloridis                  71.82%    failed      0.00%
+ 147  Corynebacterium_phocae                   69.65%    passed     33.07%
+ 148  Clostridium_perfringens                  82.47%    failed      0.02%
+ 149  Candidatus_Cyclonatronum                 72.20%    passed     43.25%
+ 150  Corynebacterium_resistens                73.33%    failed      3.81%
+ 151  Citrobacter_rodentium                    79.45%    passed     54.65%
+ 152  Clostridium_saccharobutylicum            68.71%    failed      0.02%
+ 153  Caldicellulosiruptor_saccharolyticus     68.90%    failed      0.01%
+ 154  Clostridium_septicum                     69.18%    failed      0.00%
+ 155  Cronobacter_sakazakii                    71.25%    failed      1.25%
+ 156  Campylobacter_antarcticus                71.72%    failed      0.00%
+ 157  Corynebacterium_simulans                 70.78%    passed      8.00%
+ 158  Campylobacter_sputorum                   68.90%    failed      0.01%
+ 159  Clostridium_scatologenes                 68.61%    failed      0.00%
+ 160  Clostridium_saccharoperbutylacetonicum   69.18%    failed      0.01%
+ 161  Capnocytophaga_stomatis                  72.01%    passed     40.90%
+ 162  Corynebacterium_striatum                 70.78%    passed      7.50%
+ 163  Candidatus_Caldiarchaeum                 69.84%    failed      0.00%
+ 164  Corynebacterium_singulare                70.59%    failed      2.06%
+ 165  Clostridium_tetani                       68.90%    failed      0.00%
+ 166  Corynebacterium_terpenotabidum           41.85%    failed      0.00%
+ 167  Cronobacter_turicensis                   71.25%    failed      1.32%
+ 168  Corynebacterium_urealyticum              70.59%    failed      0.16%
+ 169  Corynebacterium_ulcerans                 70.12%    passed     23.45%
+ 170  Corynebacterium_ureicelerivorans         72.10%    failed      0.08%
+ 171  Corynebacterium_variabile                41.94%    failed      0.00%
+ 172  Corynebacterium_vitaeruminis             61.92%    failed      0.00%
+ 173  Citrobacter_youngae                      71.25%    failed      2.38%
+ 174  Dickeya_aquatica                         71.07%    failed      0.02%
+ 175  Candidatus_Desulforudis                  71.16%    passed     54.32%
+ 176  Dickeya_paradisiaca                      68.61%    failed      0.91%
+ 177  Dickeya_zeae                             71.07%    failed      0.02%
+ 178  Dickeya_dadantii                         89.07%    failed      0.00%
+ 179  Dickeya_dianthicola                      67.86%    failed      0.01%
+ 180  Candidatus_Doolittlea                    89.63%    passed      7.51%
+ 181  Dickeya_chrysanthemi                     68.61%    failed      0.41%
+ 182  Enterococcus_avium                       68.99%    failed      0.39%
+ 183  Enterobacter_cancerogenus                69.18%    failed      1.43%
+ 184  Enterobacter_cloacae                     86.80%    failed      4.86%
+ 185  Enterobacter_hormaechei                  86.99%    failed      4.50%
+ 186  Enterococcus_durans                      72.86%    passed      5.55%
+ 187  Eubacterium_eligens                      91.42%    failed      1.91%
+ 188  Enterococcus_faecalis                    72.86%    passed     33.63%
+ 189  Enterococcus_hirae                       72.86%    failed      3.10%
+ 190  Eubacterium_limosum                      68.71%    passed      5.59%
+ 191  Eubacterium_maltosivorans                68.71%    passed     20.26%
+ 192  Enterococcus_mundtii                     72.86%    failed      4.37%
+ 193  Enterobacter_R                           79.45%    passed     47.92%
+ 194  Eubacterium_rectale                      73.42%    passed     73.77%
+ 195  Enterobacter_roggenkampii                69.18%    failed      1.78%
+ 196  Eubacterium_siraeum                      71.07%    passed     23.11%
+ 197  Enterococcus_silesiacus                  67.77%    passed     75.04%
+ 198  Enterococcus_thailandicus                72.86%    passed      5.89%
+ 199  Candidatus_Endomicrobium                 67.58%    passed     36.40%
+ 200  Fusobacterium_gonidiaformans             68.90%    failed      0.00%
+ 201  Fusobacterium_hwasookii                  68.43%    failed      1.03%
+ 202  Candidatus_Filomicrobium                 69.84%    failed      0.03%
+ 203  Fusobacterium_mortiferum                 68.90%    failed      0.00%
+ 204  Fusobacterium_nucleatum                  72.48%    failed      0.02%
+ 205  Fusobacterium_periodonticum              72.48%    failed      0.02%
+ 206  Geobacter_anodireducens                  71.16%    failed      0.25%
+ 207  Geobacillus_CT                           69.09%    failed      1.63%
+ 208  Geobacillus_AMOR                         67.67%    passed     13.40%
+ 209  Geobacillus_LC                           67.67%    passed     34.63%
+ 210  Geobacter_daltonii                       67.58%    passed     32.26%
+ 211  Geobacillus_lituanicus                   68.80%    failed      4.63%
+ 212  Geobacter_lovleyi                        71.07%    failed      0.14%
+ 213  Geobacillus_Y.MC                         69.18%    passed      6.27%
+ 214  Geobacter_metallireducens                67.58%    failed      1.59%
+ 215  Geobacter_pickeringii                    71.44%    failed      0.28%
+ 216  Geobacillus_stearothermophilus           68.61%    failed      1.05%
+ 217  Geobacter_sulfurreducens                 50.14%    failed      0.00%
+ 218  Bacillus_X__                             67.67%    passed     53.43%
+ 219  Geobacillus_thermocatenulatus            60.32%    failed      0.00%
+ 220  Geobacillus_thermodenitrificans          69.75%    failed      0.06%
+ 221  Geobacter_uraniireducens                 71.07%    failed      0.04%
+ 222  Geobacillus_WCH                          68.61%    failed      3.04%
+ 223  Geobacillus_YMC                          68.61%    failed      1.05%
+ 224  Helicobacter_apodemus                    84.07%    failed      0.12%
+ 225  Halomonas_GFAJ                           88.97%    failed      4.33%
+ 226  Halomonas_KO                             71.16%    failed      0.02%
+ 227  Halomonas_alkaliphila                    71.16%    failed      0.02%
+ 228  Halomonas_beimenensis                    71.16%    failed      0.05%
+ 229  Helicobacter_cinaedi                     71.91%    failed      0.97%
+ 230  Helicobacter_cetorum                     70.03%    failed      0.00%
+ 231  Candidatus_Hepatoplasma                  69.93%    failed      0.00%
+ 232  Halomonas_campaniensis                   69.18%    failed      4.88%
+ 233  Halomonas_elongata                       69.37%    failed      1.14%
+ 234  Helicobacter_MIT                         70.97%    passed     48.23%
+ 235  Helicobacter_typhlonius                  69.75%    failed      3.52%
+WARNING: 228 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                    70.67%  149 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Bacillus_subtilis is identical to Bacillus_BSA but kept for subsequent analysis
+NOTE: Citrobacter_CRE is identical to Citrobacter_freundii but kept for subsequent analysis
+NOTE: Capnocytophaga_oral is identical to Capnocytophaga_ochracea but kept for subsequent analysis
+NOTE: Geobacillus_YMC is identical to Geobacillus_stearothermophilus but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.437 seconds
+NOTE: ModelFinder requires 121 MB RAM!
+ModelFinder will test 168 protein models (sample size: 1061) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  Dayhoff       106088.426   467 213110.852   213847.972   215430.426
+  2  Dayhoff+I     106088.274   468 213112.547   213854.074   215437.088
+  3  Dayhoff+G4    104163.751   468 209263.503   210005.030   211588.044
+  4  Dayhoff+I+G4  104163.601   469 209265.202   210011.158   211594.710
+  5  Dayhoff+F     105335.336   486 211642.672   212467.348   214056.618
+  6  Dayhoff+F+I   105335.259   487 211644.519   212474.033   214063.432
+  7  Dayhoff+F+G4  103385.809   487 207745.619   208575.133   210164.532
+  8  Dayhoff+F+I+G4 103385.751   488 207747.501   208581.879   210171.381
+  9  mtMAM         115040.705   467 231015.411   231752.531   233334.985
+ 10  mtMAM+I       115040.644   468 231017.289   231758.816   233341.829
+ 11  mtMAM+G4      111566.004   468 224068.007   224809.534   226392.548
+ 12  mtMAM+I+G4    111565.929   469 224069.859   224815.815   226399.366
+ 13  mtMAM+F       110023.265   486 221018.530   221843.206   223432.476
+ 14  mtMAM+F+I     110023.192   487 221020.384   221849.899   223439.297
+ 15  mtMAM+F+G4    106808.786   487 214591.572   215421.087   217010.485
+ 16  mtMAM+F+I+G4  106808.786   488 214593.572   215427.949   217017.452
+ 17  JTT           105199.801   467 211333.603   212070.722   213653.176
+ 18  JTT+I         105199.697   468 211335.393   212076.920   213659.934
+ 19  JTT+G4        103301.230   468 207538.461   208279.988   209863.002
+ 20  JTT+I+G4      103300.978   469 207539.957   208285.913   209869.464
+ 21  JTT+F         104954.644   486 210881.288   211705.964   213295.234
+ 22  JTT+F+I       104954.553   487 210883.106   211712.620   213302.019
+ 23  JTT+F+G4      103051.859   487 207077.718   207907.232   209496.631
+ 24  JTT+F+I+G4    103051.817   488 207079.634   207914.011   209503.514
+ 25  WAG           104310.235   467 209554.471   210291.590   211874.044
+ 26  WAG+I         104310.155   468 209556.309   210297.837   211880.850
+ 27  WAG+G4        102748.720   468 206433.439   207174.966   208757.980
+ 28  WAG+I+G4      102748.607   469 206435.213   207181.169   208764.721
+ 29  WAG+F         104159.492   486 209290.984   210115.660   211704.930
+ 30  WAG+F+I       104159.383   487 209292.765   210122.280   211711.678
+ 31  WAG+F+G4      102554.199   487 206082.397   206911.912   208501.310
+ 32  WAG+F+I+G4    102554.153   488 206084.306   206918.684   208508.186
+ 33  cpREV         104762.347   467 210458.694   211195.814   212778.268
+ 34  cpREV+I       104762.225   468 210460.450   211201.977   212784.991
+ 35  cpREV+G4      103217.388   468 207370.775   208112.302   209695.316
+ 36  cpREV+I+G4    103217.332   469 207372.665   208118.621   209702.173
+ 37  cpREV+F       104715.411   486 210402.822   211227.498   212816.768
+ 38  cpREV+F+I     104715.342   487 210404.685   211234.200   212823.598
+ 39  cpREV+F+G4    103069.267   487 207112.534   207942.049   209531.447
+ 40  cpREV+F+I+G4  103069.182   488 207114.365   207948.742   209538.245
+ 41  mtREV         111162.038   467 223258.076   223995.196   225577.650
+ 42  mtREV+I       111161.960   468 223259.920   224001.447   225584.460
+ 43  mtREV+G4      108836.251   468 218608.501   219350.028   220933.042
+ 44  mtREV+I+G4    108836.149   469 218610.298   219356.254   220939.805
+ 45  mtREV+F       106593.114   486 214158.227   214982.903   216572.174
+ 46  mtREV+F+I     106593.073   487 214160.146   214989.661   216579.059
+ 47  mtREV+F+G4    104330.406   487 209634.811   210464.326   212053.724
+ 48  mtREV+F+I+G4  104330.252   488 209636.504   210470.881   212060.384
+ 49  rtREV         105470.557   467 211875.113   212612.233   214194.687
+ 50  rtREV+I       105470.480   468 211876.960   212618.487   214201.501
+ 51  rtREV+G4      103602.152   468 208140.305   208881.832   210464.845
+ 52  rtREV+I+G4    103601.953   469 208141.905   208887.861   210471.413
+ 53  rtREV+F       104792.393   486 210556.785   211381.461   212970.731
+ 54  rtREV+F+I     104792.302   487 210558.605   211388.119   212977.518
+ 55  rtREV+F+G4    102862.943   487 206699.887   207529.402   209118.800
+ 56  rtREV+F+I+G4  102862.860   488 206701.720   207536.098   209125.600
+ 57  mtART         113574.566   467 228083.131   228820.251   230402.705
+ 58  mtART+I       113574.446   468 228084.892   228826.419   230409.433
+ 59  mtART+G4      110438.965   468 221813.929   222555.456   224138.470
+ 60  mtART+I+G4    110438.928   469 221815.856   222561.812   224145.364
+ 61  mtART+F       108524.247   486 218020.493   218845.169   220434.439
+ 62  mtART+F+I     108524.189   487 218022.378   218851.893   220441.291
+ 63  mtART+F+G4    105519.605   487 212013.211   212842.725   214432.124
+ 64  mtART+F+I+G4  105519.498   488 212014.997   212849.374   214438.876
+ 65  mtZOA         110665.921   467 222265.843   223002.962   224585.416
+ 66  mtZOA+I       110665.817   468 222267.633   223009.160   224592.174
+ 67  mtZOA+G4      107917.189   468 216770.378   217511.905   219094.919
+ 68  mtZOA+I+G4    107917.189   469 216772.377   217518.333   219101.885
+ 69  mtZOA+F       107041.829   486 215055.658   215880.334   217469.604
+ 70  mtZOA+F+I     107041.711   487 215057.422   215886.937   217476.335
+ 71  mtZOA+F+G4    104375.495   487 209724.990   210554.505   212143.903
+ 72  mtZOA+F+I+G4  104375.263   488 209726.525   210560.903   212150.405
+ 73  VT            104028.963   467 208991.926   209729.046   211311.500
+ 74  VT+I          104028.870   468 208993.739   209735.266   211318.280
+ 75  VT+G4         102505.240   468 205946.479   206688.006   208271.020
+ 76  VT+I+G4       102505.101   469 205948.202   206694.158   208277.710
+ 77  VT+F          103953.171   486 208878.342   209703.018   211292.288
+ 78  VT+F+I        103953.064   487 208880.128   209709.643   211299.041
+ 79  VT+F+G4       102424.796   487 205823.592   206653.107   208242.505
+ 80  VT+F+I+G4     102424.731   488 205825.461   206659.839   208249.341
+ 81  LG            104709.746   467 210353.491   211090.611   212673.065
+ 82  LG+I          104709.662   468 210355.324   211096.851   212679.864
+ 83  LG+G4         102703.088   468 206342.176   207083.703   208666.717
+ 84  LG+I+G4       102702.908   469 206343.815   207089.771   208673.323
+ 85  LG+F          104731.593   486 210435.185   211259.861   212849.131
+ 86  LG+F+I        104731.535   487 210437.071   211266.586   212855.984
+ 87  LG+F+G4       102731.694   487 206437.388   207266.903   208856.301
+ 88  LG+F+I+G4     102731.636   488 206439.272   207273.650   208863.152
+ 89  DCMut         106079.287   467 213092.574   213829.694   215412.148
+ 90  DCMut+I       106079.212   468 213094.425   213835.952   215418.966
+ 91  DCMut+G4      104159.453   468 209254.905   209996.432   211579.446
+ 92  DCMut+I+G4    104159.343   469 209256.687   210002.643   211586.194
+ 93  DCMut+F       105327.539   486 211627.077   212451.753   214041.023
+ 94  DCMut+F+I     105327.422   487 211628.845   212458.360   214047.758
+ 95  DCMut+F+G4    103382.561   487 207739.123   208568.637   210158.036
+ 96  DCMut+F+I+G4  103382.504   488 207741.009   208575.386   210164.889
+ 97  PMB           104325.217   467 209584.434   210321.554   211904.008
+ 98  PMB+I         104325.122   468 209586.244   210327.771   211910.785
+ 99  PMB+G4        102925.284   468 206786.567   207528.094   209111.108
+100  PMB+I+G4      102925.080   469 206788.160   207534.116   209117.667
+101  PMB+F         104146.301   486 209264.602   210089.278   211678.548
+102  PMB+F+I       104146.198   487 209266.397   210095.911   211685.310
+103  PMB+F+G4      102679.396   487 206332.792   207162.307   208751.705
+104  PMB+F+I+G4    102679.184   488 206334.368   207168.745   208758.248
+105  HIVb          107794.814   467 216523.628   217260.747   218843.201
+106  HIVb+I        107794.704   468 216525.409   217266.936   218849.949
+107  HIVb+G4       105586.624   468 212109.249   212850.776   214433.789
+108  HIVb+I+G4     105587.016   469 212112.033   212857.989   214441.540
+109  HIVb+F        107498.013   486 215968.026   216792.702   218381.972
+110  HIVb+F+I      107497.954   487 215969.908   216799.423   218388.821
+111  HIVb+F+G4     105158.660   487 211291.321   212120.836   213710.234
+112  HIVb+F+I+G4   105158.366   488 211292.732   212127.110   213716.612
+113  HIVw          111320.967   467 223575.935   224313.054   225895.508
+114  HIVw+I        111320.902   468 223577.804   224319.331   225902.345
+115  HIVw+G4       109093.294   468 219122.587   219864.114   221447.128
+116  HIVw+I+G4     109093.240   469 219124.480   219870.437   221453.988
+117  HIVw+F        109154.331   486 219280.661   220105.337   221694.607
+118  HIVw+F+I      109154.277   487 219282.554   220112.069   221701.467
+119  HIVw+F+G4     106884.919   487 214743.838   215573.353   217162.751
+120  HIVw+F+I+G4   106884.834   488 214745.668   215580.045   217169.547
+121  JTTDCMut      105188.691   467 211311.381   212048.501   213630.955
+122  JTTDCMut+I    105188.632   468 211313.264   212054.791   213637.805
+123  JTTDCMut+G4   103296.726   468 207529.452   208270.979   209853.992
+124  JTTDCMut+I+G4 103296.540   469 207531.080   208277.036   209860.587
+125  JTTDCMut+F    104943.569   486 210859.139   211683.815   213273.085
+126  JTTDCMut+F+I  104943.481   487 210860.962   211690.477   213279.875
+127  JTTDCMut+F+G4 103045.104   487 207064.208   207893.723   209483.121
+128  JTTDCMut+F+I+G4 103045.060   488 207066.120   207900.498   209490.000
+129  FLU           107293.924   467 215521.849   216258.968   217841.422
+130  FLU+I         107293.842   468 215523.684   216265.211   217848.224
+131  FLU+G4        105269.223   468 211474.446   212215.973   213798.986
+132  FLU+I+G4      105269.111   469 211476.223   212222.179   213805.730
+133  FLU+F         106713.678   486 214399.356   215224.032   216813.302
+134  FLU+F+I       106713.586   487 214401.172   215230.686   216820.085
+135  FLU+F+G4      104603.385   487 210180.771   211010.286   212599.684
+136  FLU+F+I+G4    104603.303   488 210182.606   211016.984   212606.486
+137  Blosum62      104211.577   467 209357.153   210094.273   211676.727
+138  Blosum62+I    104211.497   468 209358.994   210100.521   211683.535
+139  Blosum62+G4   102796.640   468 206529.280   207270.807   208853.821
+140  Blosum62+I+G4 102796.532   469 206531.064   207277.020   208860.571
+141  Blosum62+F    104123.689   486 209219.377   210044.053   211633.323
+142  Blosum62+F+I  104123.586   487 209221.172   210050.687   211640.085
+143  Blosum62+F+G4 102667.420   487 206308.840   207138.355   208727.753
+144  Blosum62+F+I+G4 102667.234   488 206310.468   207144.846   208734.348
+145  mtMet         111599.635   467 224133.270   224870.390   226452.844
+146  mtMet+I       111599.541   468 224135.083   224876.610   226459.624
+147  mtMet+G4      108977.690   468 218891.379   219632.906   221215.920
+148  mtMet+I+G4    108977.596   469 218893.191   219639.147   221222.699
+149  mtMet+F       106839.870   486 214651.739   215476.415   217065.685
+150  mtMet+F+I     106839.764   487 214653.528   215483.043   217072.441
+151  mtMet+F+G4    104343.025   487 209660.049   210489.564   212078.962
+152  mtMet+F+I+G4  104342.955   488 209661.910   210496.287   212085.790
+153  mtVer         112955.565   467 226845.129   227582.249   229164.703
+154  mtVer+I       112955.503   468 226847.007   227588.534   229171.547
+155  mtVer+G4      110125.456   468 221186.913   221928.440   223511.453
+156  mtVer+I+G4    110125.411   469 221188.822   221934.778   223518.329
+157  mtVer+F       108550.188   486 218072.376   218897.052   220486.322
+158  mtVer+F+I     108550.117   487 218074.235   218903.750   220493.148
+159  mtVer+F+G4    105732.782   487 212439.564   213269.079   214858.477
+160  mtVer+F+I+G4  105732.721   488 212441.442   213275.819   214865.321
+161  mtInv         111717.126   467 224368.252   225105.371   226687.825
+162  mtInv+I       111717.022   468 224370.044   225111.571   226694.585
+163  mtInv+G4      109330.353   468 219596.706   220338.233   221921.247
+164  mtInv+I+G4    109330.218   469 219598.436   220344.392   221927.944
+165  mtInv+F       105873.457   486 212718.915   213543.591   215132.861
+166  mtInv+F+I     105873.354   487 212720.708   213550.223   215139.621
+167  mtInv+F+G4    103612.044   487 208198.088   209027.603   210617.001
+168  mtInv+F+I+G4  103611.970   488 208199.940   209034.318   210623.820
+Akaike Information Criterion:           VT+F+G4
+Corrected Akaike Information Criterion: VT+F+G4
+Bayesian Information Criterion:         VT+F+G4
+Best-fit model: VT+F+G4 chosen according to BIC
+
+All model information printed to cas1_clean_aln.model.gz
+CPU time for ModelFinder: 3193.662 seconds (0h:53m:13s)
+Wall-clock time for ModelFinder: 3211.163 seconds (0h:53m:31s)
+
+NOTE: 121 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -102678.503
+2. Current log-likelihood: -102446.979
+3. Current log-likelihood: -102425.113
+4. Current log-likelihood: -102424.711
+5. Current log-likelihood: -102424.616
+6. Current log-likelihood: -102424.554
+7. Current log-likelihood: -102424.531
+Optimal log-likelihood: -102424.518
+Gamma shape alpha: 2.535
+Parameters optimization took 7 rounds (56.216 sec)
+BEST SCORE FOUND : -102424.518
+Total tree length: 197.138
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 56.081 sec (0h:0m:56s)
+Total wall-clock time used: 56.352 sec (0h:0m:56s)
+
+Analysis results written to: 
+  IQ-TREE report:                cas1_clean_aln.iqtree
+  Tree used for ModelFinder:     cas1_clean_aln.treefile
+  Screen log file:               cas1_clean_aln.log
+
+Date and Time: Sun Oct 27 13:39:49 2019
